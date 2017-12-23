@@ -1,0 +1,5 @@
+OnLoadName = "506th Combined Arms Center";
+OnLoadMission = "Combined Arms Center - Training (CAC-T), Altis, 1-506TH IR RU";
+forceRotorLibSimulation = 2;
+
+
