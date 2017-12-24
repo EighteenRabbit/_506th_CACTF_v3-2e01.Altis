@@ -3,15 +3,42 @@ _newObject = createVehicle ['Land_CncWall4_F', [24092.5,21073.3,-0.277664], [], 
 
 sleep 3;
 
-_newObject = createVehicle ['rhs_launcher_crate', [24098.7,21064.9,0.000816345], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24098.7,21064.9,81.3299]; _newObject setVectorDirAndUp [[0.594569,-0.803897,-0.0154061], [0.0439658,0.0133735,0.998944]]; _newObject allowdamage false; sleep 1;
+// Start of Top of hill resupply
 
-_newObject = createVehicle ['rhs_weapon_crate', [24091.6,21068.7,0.000167847], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24091.6,21068.7,81.2942]; _newObject setVectorDirAndUp [[-0.994217,-0.10738,-0.00123184], [-0.00396782,0.0252695,0.999673]]; _newObject allowdamage false; sleep 1;
+Day2CArsenal1 = createVehicle ['Box_NATO_AmmoVeh_F', [24098.7,21064.9,0.000816345], [], 0, 'CAN_COLLIDE'];
+Day2CArsenal1 setPosWorld [24098.7,21064.9,81.3299];
+Day2CArsenal1 setVectorDirAndUp [[-0.0998323,-0.0371112,0.044216], [0.0439522,0.0133702,0.994944]];
+Day2CArsenal1 allowdamage false;
+null = [Day2CArsenal1] execVM "scripts\box_virtualarsenal.sqf";
+Day2CArsenal1 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+sleep 1;
 
-_newObject = createVehicle ['rhs_spec_weapons_crate', [24099,21069.8,0.00364685], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24099,21069.8,81.1139]; _newObject setVectorDirAndUp [[0.993644,0.0745687,-0.0843318], [0.0808059,0.0491048,0.995519]]; _newObject allowdamage false; sleep 1;
+Day2CArsenal2 = createVehicle ['B_CargoNet_01_ammo_F', [24098.5,21067,0.00808716], [], 0, 'CAN_COLLIDE'];
+Day2CArsenal2 setPosWorld [24098.5,21067.5,81.6809];
+Day2CArsenal2 setVectorDirAndUp [[-0.995755,-0.0399038,-0.0829412], [0.080925,0.0497375,0.995479]];
+Day2CArsenal2 allowdamage false;
+null = [Day2CArsenal2] execVM "scripts\box_equipment.sqf";
+sleep 1;
 
-_newObject = createVehicle ['rhs_gear_crate', [24099.4,21067.2,0.00218964], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24099.4,21067.2,81.064]; _newObject setVectorDirAndUp [[-0.995298,-0.0491929,0.0834388], [0.0809913,0.0498101,0.99547]]; _newObject allowdamage false; sleep 1;
+// End of Top of hill resupply
+// Start of Bottom of hill resupply
 
-_newObject = createVehicle ['rhs_mags_crate', [24091.8,21065.9,0.00414276], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24091.8,21065.9,81.2048]; _newObject setVectorDirAndUp [[-0.997241,-0.0741542,-0.00326438], [-0.00488293,0.021656,0.999753]]; _newObject allowdamage false; sleep 1;
+Day2CArsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [24272.6,20500.9,0.0310268], [], 0, 'CAN_COLLIDE'];
+Day2CArsenal3 setPosWorld [24272.6,20500.9,24.875];
+Day2CArsenal3 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];
+Day2CArsenal3 allowdamage false;
+null = [Day2CArsenal3] execVM "scripts\box_virtualarsenal.sqf";
+Day2CArsenal3 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+sleep 1;
+
+Day2CArsenal4 = createVehicle ['B_CargoNet_01_ammo_F', [24267.3,20499.3,0.000583649], [], 0, 'CAN_COLLIDE'];
+Day2CArsenal4 setPosWorld [24267.3,20499.3,24.8738];
+Day2CArsenal4 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];
+Day2CArsenal4 allowdamage false;
+null = [Day2CArsenal4] execVM "scripts\box_equipment.sqf";
+sleep 1;
+
+// End of Bottom of hill resupply
 
 sleep 2;
 
@@ -85,11 +112,11 @@ _newObject = createVehicle ['Land_Addon_01_V1_ruins_F', [24240.6,20772.5,-0.0118
 
 _newObject = createVehicle ['Land_Mound01_8m_F', [24243.6,20797.6,0.108482], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24243.6,20797.9,32.8403]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
-_newObject = createVehicle ['Land_CncBarrierMedium4_F', [24219.3,20627.7,0.0302715], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24219.3,20627.6,30.3504]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24211.4,20626,0.00548172], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24211.4,20626,30.2275]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; 
+_newObject = createVehicle ['Land_CncBarrierMedium4_F', [24219.3,20627.7,0.0302715], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24219.3,20627.6,30.3504]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24211.4,20626,0.00548172], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24211.4,20626,30.2275]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]];
 _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24266.1,20638.3,-0.0043354], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24266.1,20638.3,28.765]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24258.3,20636.5,-0.0071125], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24258.4,20636.5,29.1132]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]];
 
 sleep 3;
- 
+
 _newObject = createVehicle ['RoadCone', [24260.8,20456.7,0.00689697], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24260.8,20456.7,23.635]; _newObject setVectorDirAndUp [[0,0.999608,0.0279894], [0.00133688,-0.0279893,0.999607]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['RoadCone', [24251.7,20507.4,0.00715828], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24251.7,20507.4,24.5575]; _newObject setVectorDirAndUp [[0,0.999679,0.0253248], [-0.00267442,-0.0253247,0.999676]]; _newObject allowdamage false; sleep .5;
