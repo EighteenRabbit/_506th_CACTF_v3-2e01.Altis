@@ -8,7 +8,7 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=15568;
+		nextID=15573;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=15733;
+		nextID=15919;
 	};
 	class Camera
 	{
-		pos[]={14231.227,32.433125,16251.797};
-		dir[]={0.8948614,-0.20769152,0.39523983};
-		up[]={0.19003257,0.97816652,0.083932847};
-		aside[]={0.40404654,5.4451084e-007,-0.91479844};
+		pos[]={16030.801,23.473679,16888.473};
+		dir[]={-0.024586486,-0.38649467,0.92201883};
+		up[]={-0.01030442,0.92226654,0.38639438};
+		aside[]={0.99969745,5.0653489e-007,0.026659843};
 	};
 };
 binarizationWanted=0;
@@ -13716,7 +13716,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16014.881,14.894556,16860.426};
+								position[]={16014.882,14.853899,16860.254};
 								angles[]={0.0079935296,1.5137155,6.2698536};
 							};
 							side="Empty";
@@ -13726,7 +13726,6 @@ class Mission
 							};
 							id=788;
 							type="Land_CampingChair_V1_F";
-							atlOffset=0.042009354;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -15874,18 +15873,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16008.775,15.45484,16853.232};
-								angles[]={0.0013372133,1.6121607,6.2685208};
+								position[]={16008.752,15.452853,16853.125};
+								angles[]={0.0013372133,1.5163049,6.2685208};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop01";
 								disableSimulation=1;
 							};
 							id=822;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024738312;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -15928,6 +15927,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -15945,7 +15963,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item51
@@ -15953,18 +15971,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16008.673,15.453969,16855.035};
-								angles[]={0.0013372133,1.5364349,6.2685208};
+								position[]={16008.672,15.453829,16855.035};
+								angles[]={0.0013439035,1.5364307,6.2685246};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop02";
 								disableSimulation=1;
 							};
 							id=823;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024719238;
+							atlOffset=0.0023174286;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16007,6 +16026,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16024,7 +16062,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item52
@@ -16032,18 +16070,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16008.479,15.451057,16857.918};
-								angles[]={0.0013372133,1.4553384,6.2685208};
+								position[]={16008.627,15.446177,16858.125};
+								angles[]={0.0013372133,1.5543594,6.2685208};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop03";
 								disableSimulation=1;
 							};
 							id=824;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024271011;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16086,6 +16124,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16103,7 +16160,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item53
@@ -16111,18 +16168,18 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16008.479,15.449378,16860.592};
-								angles[]={0.0013372133,1.8532987,6.2685208};
+								position[]={16008.627,15.445201,16860.25};
+								angles[]={0.0013372133,1.5571917,6.2685208};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop04";
 								disableSimulation=1;
 							};
 							id=825;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.002456665;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16165,6 +16222,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16182,7 +16258,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item54
@@ -16190,18 +16266,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16011.213,15.419457,16852.998};
-								angles[]={0.0013372133,1.4806256,6.2685208};
+								position[]={16011.252,15.416535,16853.125};
+								angles[]={0.0013439035,1.5377922,6.2685246};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop05";
 								disableSimulation=1;
 							};
 							id=826;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024719238;
+							atlOffset=0.00029182434;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16244,6 +16321,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16261,7 +16357,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item55
@@ -16269,18 +16365,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16011.062,15.418482,16855.361};
-								angles[]={0.0013372133,1.6026158,6.2685208};
+								position[]={16011.127,15.415697,16855.125};
+								angles[]={0.0013439035,1.5462396,6.2685246};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop06";
 								disableSimulation=1;
 							};
 							id=827;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024709702;
+							atlOffset=0.00032997131;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16323,6 +16420,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16340,7 +16456,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item56
@@ -16348,18 +16464,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16010.808,15.418353,16858.283};
-								angles[]={0.0013372133,1.5384916,6.2685208};
+								position[]={16011.127,15.411698,16858.125};
+								angles[]={0.0013439035,1.5384903,6.2685246};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop07";
 								disableSimulation=1;
 							};
 							id=828;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024557114;
+							atlOffset=0.00027275085;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16402,6 +16519,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16419,7 +16555,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item57
@@ -16427,18 +16563,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16011.036,15.41186,16860.615};
-								angles[]={0.0013372133,1.7937479,6.2685208};
+								position[]={16011.002,15.410715,16860.25};
+								angles[]={0.0013439035,1.5357851,6.2685246};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop08";
 								disableSimulation=1;
 							};
 							id=829;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024728775;
+							atlOffset=0.00032711029;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16481,6 +16618,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16498,7 +16654,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item58
@@ -16726,18 +16882,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16014.188,15.393632,16853.139};
-								angles[]={0.0013372133,1.6121607,6.2698536};
+								position[]={16014.252,15.374717,16853.25};
+								angles[]={0.0013439035,1.520426,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop09";
 								disableSimulation=1;
 							};
 							id=11573;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.01825428;
+							atlOffset=0.00033378601;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16780,6 +16937,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16797,7 +16973,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item62
@@ -16805,18 +16981,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16014.085,15.392577,16854.941};
-								angles[]={0.0013372133,1.5364349,6.2698536};
+								position[]={16014.127,15.373712,16855.25};
+								angles[]={0.0013439035,1.5370067,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop10";
 								disableSimulation=1;
 							};
 							id=11574;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.018237114;
+							atlOffset=0.00034427643;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16859,6 +17036,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16876,7 +17072,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item63
@@ -16884,18 +17080,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16013.94,15.373571,16858.801};
-								angles[]={0.0013372133,1.4553384,6.2698536};
+								position[]={16014.002,15.37137,16858.25};
+								angles[]={0.0013439035,1.5305315,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop11";
 								disableSimulation=1;
 							};
 							id=11575;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.002456665;
+							atlOffset=0.00034236908;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -16938,6 +17135,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16955,7 +17171,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item64
@@ -16963,18 +17179,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16013.883,15.366197,16860.82};
-								angles[]={0.0079935296,1.8532987,6.2698536};
+								position[]={16014.002,15.367027,16860.252};
+								angles[]={0.0079936078,1.5496081,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop12";
 								disableSimulation=1;
 							};
 							id=11576;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024461746;
+							atlOffset=0.00033283234;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17017,6 +17234,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -17034,7 +17270,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item65
@@ -17042,18 +17278,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16017.006,15.34056,16852.896};
-								angles[]={0.0013372133,1.4806256,6.2698536};
+								position[]={16017.002,15.337713,16853.5};
+								angles[]={0.0013439035,1.531666,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop13";
 								disableSimulation=1;
 							};
 							id=11577;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024213791;
+							atlOffset=0.00032711029;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17096,6 +17333,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -17113,7 +17369,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item66
@@ -17121,18 +17377,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16016.924,15.338595,16855.201};
-								angles[]={0.0013372133,1.6026158,6.2698536};
+								position[]={16016.877,15.336707,16855.5};
+								angles[]={0.0013439035,1.5816872,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop14";
 								disableSimulation=1;
 							};
 							id=11578;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.002450943;
+							atlOffset=0.00033760071;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17175,6 +17432,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -17192,7 +17468,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item67
@@ -17200,18 +17476,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16016.752,15.335863,16858.99};
-								angles[]={0.0013372133,1.5384916,6.2698536};
+								position[]={16016.877,15.332708,16858.5};
+								angles[]={0.0013439035,1.5384903,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop15";
 								disableSimulation=1;
 							};
 							id=11579;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.002456665;
+							atlOffset=0.0003156662;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17254,6 +17531,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -17271,7 +17567,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item68
@@ -17279,18 +17575,19 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16016.629,15.327456,16861.09};
-								angles[]={0.0079935296,1.7937479,6.2698536};
+								position[]={16016.752,15.32835,16860.502};
+								angles[]={0.0079936078,1.5278089,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								name="OSUTLaptop16";
 								disableSimulation=1;
 							};
 							id=11580;
 							type="Land_Laptop_unfolded_F";
-							atlOffset=0.0024471283;
+							atlOffset=0.00029182434;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17333,6 +17630,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -17350,7 +17666,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item69
@@ -17432,7 +17748,7 @@ class Mission
 						};
 					};
 					id=11492;
-					atlOffset=0.36967182;
+					atlOffset=0.37042522;
 				};
 				class Item4
 				{
@@ -18304,7 +18620,7 @@ class Mission
 				};
 			};
 			id=11400;
-			atlOffset=62.273125;
+			atlOffset=62.274521;
 		};
 		class Item8
 		{
@@ -19049,6 +19365,7 @@ class Mission
 					text=" Respawn West";
 					type="Empty";
 					id=11153;
+					atlOffset=-9.5367432e-007;
 				};
 				class Item1
 				{
@@ -42181,6 +42498,7 @@ class Mission
 			{
 				position[]={2925.1421,-0.016998291,2463.615};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15426;
 			type="ModuleCurator_F";
 			atlOffset=185.953;
@@ -42291,6 +42609,7 @@ class Mission
 			{
 				position[]={2925.625,0,2368};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15427;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -42401,6 +42720,7 @@ class Mission
 			{
 				position[]={3028.3931,-0.012008667,2467.282};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15428;
 			type="ModuleCurator_F";
 			atlOffset=185.95799;
@@ -42511,6 +42831,7 @@ class Mission
 			{
 				position[]={3025.75,0,2381};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15429;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -42621,6 +42942,7 @@ class Mission
 			{
 				position[]={3132.136,0.046005249,2465.9331};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15430;
 			type="ModuleCurator_F";
 			atlOffset=186.01601;
@@ -42731,6 +43053,7 @@ class Mission
 			{
 				position[]={3114.625,0,2381};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15431;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -42841,6 +43164,7 @@ class Mission
 			{
 				position[]={3245.3091,-0.0079956055,2467.282};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15432;
 			type="ModuleCurator_F";
 			atlOffset=185.96201;
@@ -42951,6 +43275,7 @@ class Mission
 			{
 				position[]={3244,0,2381};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15433;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -43061,6 +43386,7 @@ class Mission
 			{
 				position[]={3318.125,0,2468.625};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15434;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -43171,6 +43497,7 @@ class Mission
 			{
 				position[]={3316.8159,0.0079956055,2382.343};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15435;
 			type="ModuleCurator_F";
 			atlOffset=185.978;
@@ -43281,6 +43608,7 @@ class Mission
 			{
 				position[]={3384.125,0,2470};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15436;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -43391,6 +43719,7 @@ class Mission
 			{
 				position[]={3382.8159,0.0079956055,2383.718};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15437;
 			type="ModuleCurator_F";
 			atlOffset=185.978;
@@ -43501,6 +43830,7 @@ class Mission
 			{
 				position[]={3456.9409,0.0079956055,2471.343};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15438;
 			type="ModuleCurator_F";
 			atlOffset=185.978;
@@ -43611,6 +43941,7 @@ class Mission
 			{
 				position[]={3455.6321,0.015991211,2385.061};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15439;
 			type="ModuleCurator_F";
 			atlOffset=185.98599;
@@ -43721,6 +44052,7 @@ class Mission
 			{
 				position[]={3543.5371,0.018005371,2474.0769};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15440;
 			type="ModuleCurator_F";
 			atlOffset=185.98801;
@@ -43831,6 +44163,7 @@ class Mission
 			{
 				position[]={3542.625,0,2418.625};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15441;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -43941,6 +44274,7 @@ class Mission
 			{
 				position[]={3611.491,-0.016998291,2475.3191};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15442;
 			type="ModuleCurator_F";
 			atlOffset=185.953;
@@ -44051,6 +44385,7 @@ class Mission
 			{
 				position[]={3609.75,0,2436.875};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15443;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -44161,6 +44496,7 @@ class Mission
 			{
 				position[]={3646.366,-0.016998291,2475.9441};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15444;
 			type="ModuleCurator_F";
 			atlOffset=185.953;
@@ -44271,6 +44607,7 @@ class Mission
 			{
 				position[]={3644.625,0,2437.5};
 			};
+			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15445;
 			type="ModuleCurator_F";
 			atlOffset=185.97;
@@ -47978,7 +48315,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16014.375,15.221045,16912.375};
-				angles[]={-0,1.9510303,0};
+				angles[]={0,1.9510303,0};
 			};
 			side="Empty";
 			flags=4;
@@ -48040,7 +48377,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16015.5,15.256539,16915.125};
-				angles[]={-0,1.9976114,0};
+				angles[]={0,1.9976114,0};
 			};
 			side="Empty";
 			flags=4;
@@ -48119,7 +48456,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15299.883,18.809744,17462.25};
-				angles[]={-0,3.8824573,-0};
+				angles[]={0,3.8824573,0};
 			};
 			side="Empty";
 			class Attributes
@@ -48179,7 +48516,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15297.819,18.788008,17463.982};
-				angles[]={-0,0.75140905,-0};
+				angles[]={0,0.75140905,0};
 			};
 			side="Empty";
 			flags=4;
@@ -48240,7 +48577,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14178.001,20.373806,16269.752};
-				angles[]={-0,0.83498538,0.0012918708};
+				angles[]={0,0.83498538,0.0012918708};
 			};
 			side="Empty";
 			flags=4;
@@ -48302,7 +48639,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14183.628,20.415277,16264.256};
-				angles[]={-0,0.83498728,0};
+				angles[]={0,0.83498728,0};
 			};
 			side="Empty";
 			flags=4;
