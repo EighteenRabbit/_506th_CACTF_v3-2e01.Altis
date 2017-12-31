@@ -1,5 +1,5 @@
 //Addaction loops
-_courseArray = [screen01];
+_courseArray = [screen01,screen_s4];
 {
 _x addAction ["-------------------------------------", ""];
 _x addAction ["Activate OSUT Day 1", "scripts\Courses\OSUTDay1.sqf"];
@@ -16,21 +16,41 @@ _x addAction ["Clear OSUT Day 3", "scripts\Courses\ClearOSUTDay3.sqf"];
 _x addAction ["-------------------------------------", ""];
 } foreach _courseArray;
 
+
+_courseArray = [screen_s4];
+{
+_x addAction ["OSUT Day 1a", "scripts\Courses\OSUTDay1a.sqf"]; //Big green walls
+_x addAction ["OSUT Day 1b", "scripts\Courses\OSUTDay1b.sqf"]; //Sandbags
+_x addAction ["OSUT Day 1c", "scripts\Courses\OSUTDay1c.sqf"]; //Lights, ramps, firing positions
+_x addAction ["OSUT Day 1d", "scripts\Courses\OSUTDay1d.sqf"]; //Formations Demonstrations
+_x addAction ["OSUT Day 1e", "scripts\Courses\OSUTDay1e.sqf"]; //Popup Targets
+_x addAction ["OSUT Day 1f", "scripts\Courses\OSUTDay1f.sqf"]; //Motorpool, OP towers, aethetics
+_x addAction ["OSUT Day 2a", "scripts\Courses\OSUTDay2a.sqf"]; //Manouver Course & Start Top of live fire hill
+_x addAction ["OSUT Day 2b", "scripts\Courses\OSUTDay2b.sqf"]; //
+_x addAction ["OSUT Day 2c", "scripts\Courses\OSUTDay2c.sqf"];
+_x addAction ["OSUT Day 2d", "scripts\Courses\OSUTDay2d.sqf"];
+_x addAction ["OSUT Day 2e", "scripts\Courses\OSUTDay2e.sqf"];
+_x addAction ["OSUT Day 2f", "scripts\Courses\OSUTDay2f.sqf"];
+_x addAction ["OSUT Day 3a", "scripts\Courses\OSUTDay3a.sqf"];
+_x addAction ["OSUT Day 3b", "scripts\Courses\OSUTDay3b.sqf"];
+_x addAction ["OSUT Day 3c", "scripts\Courses\OSUTDay3c.sqf"];
+} foreach _courseArray;
+
 _courseArray2 = [AVN1_screen_01];
 {
 _x addAction ["-------------------------------------", ""];
-_x addAction ["Activate Static Range", "scripts\Courses\AVN_Ranges\AVN_Targets_01.sqf"];  
+_x addAction ["Activate Static Range", "scripts\Courses\AVN_Ranges\AVN_Targets_01.sqf"];
 
-_x addAction ["-------------------------------------", ""];  
-_x addAction ["Activate AA Range", "scripts\Courses\AVN_Ranges\AVN_AA_Spawn_01.sqf"];  
+_x addAction ["-------------------------------------", ""];
+_x addAction ["Activate AA Range", "scripts\Courses\AVN_Ranges\AVN_AA_Spawn_01.sqf"];
 
-_x addAction ["-------------------------------------", ""];  
-_x addAction ["Activate Convoy Range", "scripts\Courses\AVN_Ranges\AVN_Convoy_01.sqf"];  
+_x addAction ["-------------------------------------", ""];
+_x addAction ["Activate Convoy Range", "scripts\Courses\AVN_Ranges\AVN_Convoy_01.sqf"];
 
-_x addAction ["-------------------------------------", ""];  
-_x addAction ["Clear Range", "scripts\Courses\ClearAVN.sqf"];  
+_x addAction ["-------------------------------------", ""];
+_x addAction ["Clear Range", "scripts\Courses\ClearAVN.sqf"];
 
-_x addAction ["-------------------------------------", ""]; 
+_x addAction ["-------------------------------------", ""];
 
 } foreach _courseArray2;
 
@@ -65,13 +85,13 @@ _flagDay4Array = [flagOSUTDay4a, flagOSUTDay4b];
 {
     _x addAction ["Movement Course","TeleportScript.sqf",["MovementCourse"]];
     _x addAction ["Manuever Course","TeleportScript.sqf",["ManueverCourse"]];
-    _x addAction ["Bounding Overwatch Course","TeleportScript.sqf",["BoundingOverwatch"]]; 
-    _x addAction ["CQB Course","TeleportScript.sqf",["CQBCourse"]]; 
+    _x addAction ["Bounding Overwatch Course","TeleportScript.sqf",["BoundingOverwatch"]];
+    _x addAction ["CQB Course","TeleportScript.sqf",["CQBCourse"]];
 }forEach _flagDay2Array;
 {
-    _x addAction ["Vehicle ID","TeleportScript.sqf",["VehicleID"]]; 
+    _x addAction ["Vehicle ID","TeleportScript.sqf",["VehicleID"]];
     _x addAction ["Rotary Mounting","TeleportScript.sqf",["RotaryMounting"]];
-    _x addAction ["Motorized Mounting and Basic Convoy Course","TeleportScript.sqf",["MotorizedMounting"]]; 
+    _x addAction ["Motorized Mounting and Basic Convoy Course","TeleportScript.sqf",["MotorizedMounting"]];
 }forEach _flagDay3Array;
 {
     _x addAction ["OSUT Day 4 Range Control","TeleportScript.sqf",["FTXRangeControl"]];
@@ -102,19 +122,19 @@ _flagDay4Array = [flagOSUTDay4a, flagOSUTDay4b];
 //Start OSUT Day addAction assets
 //Day1
 d1_screen_01 setobjecttextureglobal [0, "pics\classrooms\pc_desktop.jpg"];
-d1_screen_01 addAction ["Activate Range", "scripts\Courses\OSUTDay1\rateoffirerange.sqf"]; 
+d1_screen_01 addAction ["Activate Range", "scripts\Courses\OSUTDay1\rateoffirerange.sqf"];
 d1_screen_02 setobjecttextureglobal [0, "pics\classrooms\pc_desktop.jpg"];
-d1_screen_02 addAction ["Activate Static Range", "scripts\Courses\OSUTDay1\mpstatic.sqf"]; 
-d1_screen_02 addAction ["Clear Range", "scripts\Courses\OSUTDay1\ClearMPRange.sqf"]; 
+d1_screen_02 addAction ["Activate Static Range", "scripts\Courses\OSUTDay1\mpstatic.sqf"];
+d1_screen_02 addAction ["Clear Range", "scripts\Courses\OSUTDay1\ClearMPRange.sqf"];
 d1_screen_02 addAction ["-------------------------------------", ""];
 //Day2
 CQBScreen setobjecttextureglobal [0, "pics\classrooms\pc_desktop.jpg"];
 CQBScreen addAction ["Activate Static CQB Range 1", "scripts\Courses\OSUTDay2\cqbstatic.sqf", [],6,true,true,"","_this distance _target < 3"];
-CQBScreen addAction ["Clear Static CQB Range 1", "scripts\Courses\OSUTDay2\clear_cqbstatic.sqf", [],6,true,true,"","_this distance _target < 3"]; 
+CQBScreen addAction ["Clear Static CQB Range 1", "scripts\Courses\OSUTDay2\clear_cqbstatic.sqf", [],6,true,true,"","_this distance _target < 3"];
 CQBScreen addAction ["-------------------------------------", ""];
 CQBScreen addAction ["Activate Live CQB Range 1", "scripts\Courses\OSUTDay2\cqblive1.sqf", [],6,true,true,"","_this distance _target < 3"];
 CQBScreen addAction ["Clear Live CQB Range 1", "scripts\Courses\OSUTDay2\clear_cqblive1.sqf", [],6,true,true,"","_this distance _target < 3"];
-// D2SPLY addAction ["Arsenal", "scripts\box_virtualarsenal.sqf", [],6,true,true,"","_this distance _target < 3"]; 
+// D2SPLY addAction ["Arsenal", "scripts\box_virtualarsenal.sqf", [],6,true,true,"","_this distance _target < 3"];
 // D2SPLY addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
 //Day4
 RCTP_Orange addAction ["S3 Staging Area","TeleportScript.sqf",["S3AssemblyArea"]];
@@ -123,16 +143,16 @@ RCTP_Blue addAction ["AO-02 (Convoy Course)","TeleportScript.sqf",["AO2"]];
 RCTP_Green addAction ["AO-03 (Conduct a Raid)","TeleportScript.sqf",["LZBravo"]];
 RCTP_Purple addAction ["AO-04 (Conduct an Ambush)","TeleportScript.sqf",["AO4"]];
 RCScreen setobjecttextureglobal [0, "pics\classrooms\pc_desktop.jpg"];
-RCScreen addAction ["AO-01 (Seize Airfield)", "scripts\Courses\OSUTDay4\AO_01.sqf"]; 
+RCScreen addAction ["AO-01 (Seize Airfield)", "scripts\Courses\OSUTDay4\AO_01.sqf"];
 RCScreen addAction ["Clear AO-01", "scripts\Courses\OSUTDay4\AO_01_Clear.sqf"];
 RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-02 (Motorized Convoy)", "scripts\Courses\OSUTDay4\AO_02.sqf"]; 
+RCScreen addAction ["AO-02 (Motorized Convoy)", "scripts\Courses\OSUTDay4\AO_02.sqf"];
 RCScreen addAction ["Clear AO-02", "scripts\Courses\OSUTDay4\AO_02_Clear.sqf"];
 RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-03 (Conduct a Raid)", "scripts\Courses\OSUTDay4\AO_03.sqf"]; 
+RCScreen addAction ["AO-03 (Conduct a Raid)", "scripts\Courses\OSUTDay4\AO_03.sqf"];
 RCScreen addAction ["Clear AO-03", "scripts\Courses\OSUTDay4\AO_03_Clear.sqf"];
 RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-04 (Conduct an Ambush)", "scripts\Courses\OSUTDay4\AO_04.sqf"]; 
+RCScreen addAction ["AO-04 (Conduct an Ambush)", "scripts\Courses\OSUTDay4\AO_04.sqf"];
 RCScreen addAction ["Clear AO-04", "scripts\Courses\OSUTDay4\AO_04_Clear.sqf"];
 RCScreen addAction ["-------------------------------------", ""];
 
@@ -147,10 +167,9 @@ publicVariable "isDayThree";
 publicVariable "isDayFour";
 
 //Script Powerpoint
-BRIEF_setObjectTextureGlobal = {(_this select 0) setObjectTextureGlobal (_this select 1)}; 
+BRIEF_setObjectTextureGlobal = {(_this select 0) setObjectTextureGlobal (_this select 1)};
 
 // Saving disabled without autosave.
 enableSaving [false, false];
 
 waituntil {!isnil "bis_fnc_init"};
-

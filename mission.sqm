@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=517;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=15574;
+		nextID=15578;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16105.093,20.005505,16863.895};
-		dir[]={0.29435024,-0.60737783,0.73794991};
-		up[]={0.22503269,0.79438758,0.56417114};
-		aside[]={0.92889458,-1.9345316e-007,-0.37051097};
+		pos[]={16049.615,59.436089,16900.553};
+		dir[]={-0.58783424,-0.75159913,0.29962873};
+		up[]={-0.66964114,0.65956014,0.34132504};
+		aside[]={0.45418158,-1.1958764e-006,0.89105541};
 	};
 };
 binarizationWanted=0;
@@ -12399,7 +12399,7 @@ class Mission
 					name="S3 Offices and Armory";
 					class Entities
 					{
-						items=14;
+						items=15;
 						class Item0
 						{
 							dataType="Object";
@@ -13340,9 +13340,107 @@ class Mission
 								nAttributes=2;
 							};
 						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16014.875,16.060871,16904.75};
+								angles[]={0,5.0956111,0};
+							};
+							side="Empty";
+							class Attributes
+							{
+								name="screen_s4";
+								disableSimulation=1;
+							};
+							id=15575;
+							type="Land_FlatTV_01_F";
+							atlOffset=1.319108;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ObjectTextureCustom0";
+									expression="_this setObjectTextureGlobal [0,_value]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="pics\classrooms\pc_desktop.jpg";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="ace_isMedicalFacility";
+									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
 					};
 					id=11490;
-					atlOffset=-0.053502083;
+					atlOffset=0.99943447;
 				};
 				class Item3
 				{
@@ -16669,7 +16767,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="BRIEFinit = this addAction [""<t color='#FFFFFF'>Intro to Land Nav</t>"", ""Presentations\OSUT_LandNav\BRIEFinit.sqf"", [], -1, false, false, """"];";
+								init="call{BRIEFinit = this addAction [""<t color='#FFFFFF'>Intro to Land Nav</t>"", ""Presentations\OSUT_LandNav\BRIEFinit.sqf"", [], -1, false, false, """"];" \n "" \n "BRIEFinit = this addAction [""<t color='#FFFFFF'>Weapons</t>"", ""Presentations\OSUT_Weapons\BRIEFinit.sqf"", [], -1, false, false, """"];}";
 								name="OSUTScreen01";
 								disableSimulation=1;
 							};
@@ -16718,6 +16816,25 @@ class Mission
 								};
 								class Attribute2
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute3
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -16735,7 +16852,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item59
@@ -18643,7 +18760,7 @@ class Mission
 				};
 			};
 			id=11400;
-			atlOffset=61.874153;
+			atlOffset=61.817928;
 		};
 		class Item8
 		{
