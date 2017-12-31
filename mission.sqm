@@ -8,7 +8,7 @@ class EditorData
 	toggles=517;
 	class ItemIDProvider
 	{
-		nextID=15573;
+		nextID=15574;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=15919;
+		nextID=16043;
 	};
 	class Camera
 	{
-		pos[]={16030.801,23.473679,16888.473};
-		dir[]={-0.024586486,-0.38649467,0.92201883};
-		up[]={-0.01030442,0.92226654,0.38639438};
-		aside[]={0.99969745,5.0653489e-007,0.026659843};
+		pos[]={16105.093,20.005505,16863.895};
+		dir[]={0.29435024,-0.60737783,0.73794991};
+		up[]={0.22503269,0.79438758,0.56417114};
+		aside[]={0.92889458,-1.9345316e-007,-0.37051097};
 	};
 };
 binarizationWanted=0;
@@ -12416,7 +12416,7 @@ class Mission
 							};
 							id=657;
 							type="Land_FlatTV_01_F";
-							atlOffset=1.318778;
+							atlOffset=1.3187647;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12744,7 +12744,7 @@ class Mission
 							};
 							id=1034;
 							type="Land_InfoStand_V1_F";
-							atlOffset=0.65159321;
+							atlOffset=0.65169239;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -17977,22 +17977,6 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16093.771,17.414467,16865.746};
-							};
-							side="Empty";
-							flags=5;
-							class Attributes
-							{
-							};
-							id=1022;
-							type="Flag_POWMIA_F";
-							atlOffset=-9.5367432e-007;
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
 								position[]={16093.712,17.413258,16864.838};
 							};
 							side="Empty";
@@ -18003,7 +17987,7 @@ class Mission
 							id=1024;
 							type="FlagCarrierUSArmy_EP1";
 						};
-						class Item2
+						class Item1
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18018,7 +18002,7 @@ class Mission
 							id=1023;
 							type="Flag_US_F";
 						};
-						class Item3
+						class Item2
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18058,7 +18042,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item4
+						class Item3
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18098,7 +18082,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item5
+						class Item4
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18139,7 +18123,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item6
+						class Item5
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18180,7 +18164,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item7
+						class Item6
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18221,7 +18205,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item8
+						class Item7
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18260,7 +18244,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item9
+						class Item8
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18301,7 +18285,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item10
+						class Item9
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18341,7 +18325,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item11
+						class Item10
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18381,7 +18365,7 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item12
+						class Item11
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18459,7 +18443,7 @@ class Mission
 								nAttributes=3;
 							};
 						};
-						class Item13
+						class Item12
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18536,7 +18520,7 @@ class Mission
 								nAttributes=3;
 							};
 						};
-						class Item14
+						class Item13
 						{
 							dataType="Object";
 							class PositionInfo
@@ -18614,13 +18598,52 @@ class Mission
 								nAttributes=3;
 							};
 						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={16093.771,17.414467,16865.746};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=15573;
+							type="FlagCarrierPOWMIA_EP1";
+							atlOffset=-9.5367432e-007;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
 					};
 					id=11494;
-					atlOffset=0.076395988;
+					atlOffset=0.051062584;
 				};
 			};
 			id=11400;
-			atlOffset=62.274521;
+			atlOffset=61.874153;
 		};
 		class Item8
 		{
@@ -48327,7 +48350,6 @@ class Mission
 			};
 			id=15546;
 			type="Box_NATO_AmmoVeh_F";
-			atlOffset=3.4332275e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -48388,7 +48410,6 @@ class Mission
 			};
 			id=15547;
 			type="B_CargoNet_01_ammo_F";
-			atlOffset=6.6757202e-006;
 		};
 		class Item167
 		{
@@ -48466,7 +48487,7 @@ class Mission
 			};
 			id=15557;
 			type="B_CargoNet_01_ammo_F";
-			atlOffset=0.44363976;
+			atlOffset=0.44366646;
 			class CustomAttributes
 			{
 				class Attribute0
