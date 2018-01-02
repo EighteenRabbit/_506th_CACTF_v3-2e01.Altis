@@ -31,9 +31,11 @@ _x addAction ["OSUT Day 2c", "scripts\Courses\OSUTDay2c.sqf"];
 _x addAction ["OSUT Day 2d", "scripts\Courses\OSUTDay2d.sqf"];
 _x addAction ["OSUT Day 2e", "scripts\Courses\OSUTDay2e.sqf"];
 _x addAction ["OSUT Day 2f", "scripts\Courses\OSUTDay2f.sqf"];
-_x addAction ["OSUT Day 3a", "scripts\Courses\OSUTDay3a.sqf"];
-_x addAction ["OSUT Day 3b", "scripts\Courses\OSUTDay3b.sqf"];
-_x addAction ["OSUT Day 3c", "scripts\Courses\OSUTDay3c.sqf"];
+_x addAction ["OSUT Day 3a", "scripts\Courses\OSUTDay3a.sqf"];//Military Walls
+_x addAction ["OSUT Day 3b", "scripts\Courses\OSUTDay3b.sqf"];//Military wall corners
+_x addAction ["OSUT Day 3c", "scripts\Courses\OSUTDay3c.sqf"];//Various Concrete Barriers
+_x addAction ["OSUT Day 3d", "scripts\Courses\OSUTDay3d.sqf"];//Compound 'dressing'
+_x addAction ["OSUT Day 3e", "scripts\Courses\OSUTDay3e.sqf"];//Vehicles and units
 } foreach _courseArray;
 
 _courseArray2 = [AVN1_screen_01];
