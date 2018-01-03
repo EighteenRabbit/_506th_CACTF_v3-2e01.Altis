@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16043;
+		nextID=16105;
 	};
 	class Camera
 	{
-		pos[]={16049.615,59.436089,16900.553};
-		dir[]={-0.58783424,-0.75159913,0.29962873};
-		up[]={-0.66964114,0.65956014,0.34132504};
-		aside[]={0.45418158,-1.1958764e-006,0.89105541};
+		pos[]={16082.009,18.863935,16906.783};
+		dir[]={0.8782708,-0.47734082,-0.028306041};
+		up[]={0.47709864,0.87871379,-0.015376544};
+		aside[]={-0.032213312,-3.0059709e-008,-0.99948925};
 	};
 };
 binarizationWanted=0;
@@ -6603,6 +6603,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1058;
 							type="Land_CampingChair_V1_F";
@@ -6610,6 +6611,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6628,7 +6648,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item20
@@ -6643,6 +6663,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1059;
 							type="Land_CampingChair_V1_F";
@@ -6650,6 +6671,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6668,7 +6708,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item21
@@ -6683,6 +6723,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1060;
 							type="Land_CampingChair_V1_F";
@@ -6690,6 +6731,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6708,7 +6768,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item22
@@ -6723,6 +6783,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1061;
 							type="Land_CampingChair_V1_F";
@@ -6730,6 +6791,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6748,7 +6828,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item23
@@ -6763,6 +6843,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1067;
 							type="Land_CampingChair_V1_F";
@@ -6770,6 +6851,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6788,7 +6888,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item24
@@ -6803,6 +6903,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1068;
 							type="Land_CampingChair_V1_F";
@@ -6810,6 +6911,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6828,7 +6948,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item25
@@ -6843,6 +6963,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1069;
 							type="Land_CampingChair_V1_F";
@@ -6850,6 +6971,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6868,7 +7008,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item26
@@ -6883,6 +7023,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1070;
 							type="Land_CampingChair_V1_F";
@@ -6890,6 +7031,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6908,7 +7068,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item27
@@ -6923,12 +7083,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1080;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6947,7 +7127,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item28
@@ -6962,12 +7142,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1081;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -6986,7 +7186,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item29
@@ -7001,12 +7201,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1082;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7025,7 +7245,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item30
@@ -7040,12 +7260,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1088;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7064,7 +7304,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item31
@@ -7079,12 +7319,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1089;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7103,7 +7363,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item32
@@ -7118,6 +7378,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1090;
 							type="Land_CampingChair_V1_F";
@@ -7125,6 +7386,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7143,7 +7423,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item33
@@ -7158,6 +7438,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1091;
 							type="Land_CampingChair_V1_F";
@@ -7165,6 +7446,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7183,7 +7483,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item34
@@ -7198,12 +7498,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1092;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7222,7 +7542,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item35
@@ -7237,12 +7557,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1093;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7261,7 +7601,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item36
@@ -7276,6 +7616,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1094;
 							type="Land_CampingChair_V1_F";
@@ -7283,6 +7624,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7301,7 +7661,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item37
@@ -7316,6 +7676,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1095;
 							type="Land_CampingChair_V1_F";
@@ -7323,6 +7684,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7341,7 +7721,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item38
@@ -7356,6 +7736,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1096;
 							type="Land_CampingChair_V1_F";
@@ -7363,6 +7744,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7381,7 +7781,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item39
@@ -7396,6 +7796,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=1099;
 							type="Land_CampingChair_V1_F";
@@ -7403,6 +7804,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -7421,7 +7841,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item40
@@ -9667,6 +10087,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=845;
 							type="Land_CampingChair_V1_F";
@@ -9674,6 +10095,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9692,7 +10132,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item1
@@ -9707,6 +10147,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=846;
 							type="Land_CampingChair_V1_F";
@@ -9714,6 +10155,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9732,7 +10192,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item2
@@ -9747,6 +10207,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=847;
 							type="Land_CampingChair_V1_F";
@@ -9754,6 +10215,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9772,7 +10252,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item3
@@ -9787,6 +10267,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=848;
 							type="Land_CampingChair_V1_F";
@@ -9794,6 +10275,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9812,7 +10312,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item4
@@ -9827,6 +10327,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=854;
 							type="Land_CampingChair_V1_F";
@@ -9834,6 +10335,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9852,7 +10372,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item5
@@ -9867,6 +10387,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=855;
 							type="Land_CampingChair_V1_F";
@@ -9874,6 +10395,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9892,7 +10432,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item6
@@ -9907,6 +10447,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=856;
 							type="Land_CampingChair_V1_F";
@@ -9914,6 +10455,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9932,7 +10492,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item7
@@ -9947,6 +10507,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=857;
 							type="Land_CampingChair_V1_F";
@@ -9954,6 +10515,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -9972,7 +10552,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item8
@@ -9987,12 +10567,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=858;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10011,7 +10611,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item9
@@ -10026,6 +10626,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=859;
 							type="Land_CampingChair_V1_F";
@@ -10033,6 +10634,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10051,7 +10671,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item10
@@ -10066,6 +10686,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=860;
 							type="Land_CampingChair_V1_F";
@@ -10073,6 +10694,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10091,7 +10731,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item11
@@ -10106,6 +10746,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=866;
 							type="Land_CampingChair_V1_F";
@@ -10113,6 +10754,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10131,7 +10791,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item12
@@ -10146,6 +10806,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=867;
 							type="Land_CampingChair_V1_F";
@@ -10153,6 +10814,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10171,7 +10851,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item13
@@ -10186,6 +10866,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=868;
 							type="Land_CampingChair_V1_F";
@@ -10193,6 +10874,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10211,7 +10911,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item14
@@ -10226,6 +10926,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=869;
 							type="Land_CampingChair_V1_F";
@@ -10233,6 +10934,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10251,7 +10971,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item15
@@ -10266,6 +10986,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=875;
 							type="Land_CampingChair_V1_F";
@@ -10273,6 +10994,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10291,7 +11031,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item16
@@ -10306,6 +11046,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=876;
 							type="Land_CampingChair_V1_F";
@@ -10313,6 +11054,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10331,7 +11091,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item17
@@ -10346,12 +11106,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=877;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10370,7 +11150,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item18
@@ -10385,12 +11165,32 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=878;
 							type="Land_CampingChair_V1_F";
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10409,7 +11209,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item19
@@ -10424,6 +11224,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=879;
 							type="Land_CampingChair_V1_F";
@@ -10431,6 +11232,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10449,7 +11269,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item20
@@ -10464,6 +11284,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=880;
 							type="Land_CampingChair_V1_F";
@@ -10471,6 +11292,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10489,7 +11329,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item21
@@ -10504,6 +11344,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=881;
 							type="Land_CampingChair_V1_F";
@@ -10511,6 +11352,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10529,7 +11389,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item22
@@ -10544,6 +11404,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=882;
 							type="Land_CampingChair_V1_F";
@@ -10551,6 +11412,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10569,7 +11449,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item23
@@ -10584,6 +11464,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=883;
 							type="Land_CampingChair_V1_F";
@@ -10591,6 +11472,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10609,7 +11509,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item24
@@ -10624,6 +11524,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=886;
 							type="Land_CampingChair_V1_F";
@@ -10631,6 +11532,25 @@ class Mission
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -10649,7 +11569,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item25
@@ -13461,6 +14381,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=774;
 							type="Land_CampingChair_V1_F";
@@ -13501,6 +14422,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=775;
 							type="Land_CampingChair_V1_F";
@@ -13541,6 +14463,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=776;
 							type="Land_CampingChair_V1_F";
@@ -13581,6 +14504,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=777;
 							type="Land_CampingChair_V1_F";
@@ -13621,6 +14545,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=783;
 							type="Land_CampingChair_V1_F";
@@ -13661,6 +14586,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=784;
 							type="Land_CampingChair_V1_F";
@@ -13701,6 +14627,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=785;
 							type="Land_CampingChair_V1_F";
@@ -13741,6 +14668,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=786;
 							type="Land_CampingChair_V1_F";
@@ -13781,6 +14709,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=787;
 							type="Land_CampingChair_V1_F";
@@ -13821,6 +14750,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=788;
 							type="Land_CampingChair_V1_F";
@@ -13860,6 +14790,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=789;
 							type="Land_CampingChair_V1_F";
@@ -13900,6 +14831,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=795;
 							type="Land_CampingChair_V1_F";
@@ -13933,20 +14865,40 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16017.944,14.863099,16855.533};
-								angles[]={0.0013372133,1.5137155,6.2698536};
+								position[]={16017.945,14.863031,16855.533};
+								angles[]={0.0013439035,1.5137241,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=796;
 							type="Land_CampingChair_V1_F";
-							atlOffset=0.042042732;
+							atlOffset=0.041999817;
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -13965,7 +14917,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item13
@@ -13973,20 +14925,40 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16017.702,14.855395,16860.621};
-								angles[]={0.0079935296,1.5137155,6.2698536};
+								position[]={16017.702,14.855356,16860.621};
+								angles[]={0.0079936078,1.5137241,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=797;
 							type="Land_CampingChair_V1_F";
-							atlOffset=0.042038918;
+							atlOffset=0.041999817;
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -14005,7 +14977,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item14
@@ -14013,20 +14985,40 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16017.788,14.861245,16858.498};
-								angles[]={0.0013372133,1.5137155,6.2698536};
+								position[]={16017.788,14.861178,16858.498};
+								angles[]={0.0013439035,1.5137241,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=798;
 							type="Land_CampingChair_V1_F";
-							atlOffset=0.042066574;
+							atlOffset=0.041999817;
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -14045,7 +15037,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item15
@@ -14053,20 +15045,40 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16018.044,14.864435,16853.539};
-								angles[]={0.0013372133,1.5137155,6.2698536};
+								position[]={16018.044,14.864396,16853.539};
+								angles[]={0.0013439035,1.5137241,6.2698507};
 							};
 							side="Empty";
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=804;
 							type="Land_CampingChair_V1_F";
-							atlOffset=0.042038918;
+							atlOffset=0.041999817;
 							class CustomAttributes
 							{
 								class Attribute0
+								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute1
 								{
 									property="allowDamage";
 									expression="_this allowdamage _value;";
@@ -14085,7 +15097,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								nAttributes=2;
 							};
 						};
 						class Item16
@@ -14100,6 +15112,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=805;
 							type="Land_CampingChair_V1_F";
@@ -14140,6 +15153,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=806;
 							type="Land_CampingChair_V1_F";
@@ -14179,6 +15193,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=807;
 							type="Land_CampingChair_V1_F";
@@ -14219,6 +15234,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=808;
 							type="Land_CampingChair_V1_F";
@@ -14258,6 +15274,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=809;
 							type="Land_CampingChair_V1_F";
@@ -14298,6 +15315,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=810;
 							type="Land_CampingChair_V1_F";
@@ -14337,6 +15355,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=811;
 							type="Land_CampingChair_V1_F";
@@ -14377,6 +15396,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=812;
 							type="Land_CampingChair_V1_F";
@@ -14417,6 +15437,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
+								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=817;
 							type="Land_CampingChair_V1_F";
