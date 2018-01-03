@@ -179,10 +179,38 @@ null = [Arsenal5] execVM "scripts\box_virtualarsenal.sqf";
 Arsenal5 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
 
 _newObject = createVehicle ['Box_506TH_Acc', [23866.4,19149.4,-4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23866.4,19149.4,4.0153]; [_newObject, [[0.691176,-0.722687,3.64148e-006], [-1.87519e-006,3.24538e-006,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
 _newObject = createVehicle ['Box_506TH_Acc', [23821.1,19103.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23821.1,19103.9,4.0153]; [_newObject, [[0.691175,-0.722687,-3.79783e-007], [-1.88797e-007,-7.0608e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
 _newObject = createVehicle ['Box_506TH_Acc', [23774.7,19057.5,4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23774.7,19057.5,4.0153]; [_newObject, [[0.691176,-0.722686,-5.24883e-007], [3.14706e-008,-6.96197e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
 _newObject = createVehicle ['Box_506TH_Acc', [23709.6,19028.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23709.6,19028.1,4.0153]; [_newObject, [[0.691177,-0.722685,-4.02533e-007], [-9.08807e-009,-5.65689e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
 _newObject = createVehicle ['Box_506TH_Acc', [23682.7,19063.7,-4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23682.7,19063.7,4.0153]; [_newObject, [[-0.708234,-0.705977,3.6898e-006], [3.20821e-006,2.00805e-006,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2e_vdv', [23850.8,18989.5,-0.0856729], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23850.8,18989.5,5.3085]; [_newObject, [[6.13176e-006,0.999999,0.00117799], [0.00042895,-0.00117799,0.999999]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2_vdv', [24050.2,18763.7,-0.0922427], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24050.2,18763.7,5.30193]; [_newObject, [[8.43535e-006,0.999997,0.00217139], [0.00067603,-0.0021714,0.999997]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr70_vdv', [23969.1,18834.5,-0.0182705], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23969.1,18834.5,5.17952]; [_newObject, [[5.16707e-005,0.999986,-0.00538053], [-0.000218846,0.00538054,0.999986]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr80a_vdv', [23917.5,18909.8,0.0359883], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23917.5,18909.8,4.73355]; [_newObject, [[-2.39324e-005,0.999998,0.00215689], [-0.000463293,-0.0021569,0.999998]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2e_vdv', [23895.1,19033.1,-0.0856729], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23895.1,19033.1,5.3085]; [_newObject, [[6.83821e-006,0.999999,0.00117755], [0.000428907,-0.00117755,0.999999]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2_vdv', [24094.4,18807.3,-0.0922432], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24094.4,18807.3,5.30193]; [_newObject, [[8.62515e-006,0.999998,0.00216984], [0.000675886,-0.00216985,0.999997]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr70_vdv', [24013.4,18878.1,-0.0182714], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24013.4,18878.1,5.17952]; [_newObject, [[5.31558e-005,0.999986,-0.00537984], [-0.00021885,0.00537985,0.999986]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr80a_vdv', [23961.8,18953.4,0.0359879], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23961.8,18953.4,4.73355]; [_newObject, [[-2.43799e-005,0.999998,0.00215685], [-0.000463539,-0.00215686,0.999998]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2e_vdv', [23938.2,19078.2,-0.0856729], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23938.2,19078.2,5.3085]; [_newObject, [[7.85388e-006,0.999999,0.00117858], [0.000429115,-0.00117859,0.999999]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_bmp2_vdv', [24137.5,18852.4,-0.0922427], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24137.5,18852.4,5.30193]; [_newObject, [[1.09763e-005,0.999997,0.00217129], [0.000675921,-0.00217129,0.999997]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr70_vdv', [24056.5,18923.2,-0.0184112], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24056.5,18923.2,5.17938]; [_newObject, [[6.6555e-005,0.999988,-0.00495427], [-0.000175697,0.00495428,0.999988]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+
+_newObject = createVehicle ['rhs_btr80a_vdv', [24004.8,18998.5,0.0369296], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24004.8,18998.5,4.7345]; [_newObject, [[-3.0591e-005,0.999998,0.00216207], [-0.000487419,-0.00216208,0.999998]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
 
 LB_Sign_01 = createVehicle ['Land_Billboard_F', [23858.6,19206.8,0], [], 0, 'CAN_COLLIDE']; LB_Sign_01 setPosWorld [23858.3,19206.5,4.93319]; LB_Sign_01 setVectorDirAndUp [[-0.707107,-0.707107,0], [0,0,1]]; LB_Sign_01 setobjecttextureglobal [0, "pics\range_signs\Weapons_Range_Complex.jpg"]; sleep 1;
 
