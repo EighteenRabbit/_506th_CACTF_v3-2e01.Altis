@@ -56,6 +56,8 @@ sleep 3;
 
 _newObject = createVehicle ['B_Slingload_01_Cargo_F', [24753.7,20733.7,0.00480461], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24753.7,20733.7,22.5566]; _newObject setVectorDirAndUp [[0.897401,0.440874,0.0173904], [0.00941547,-0.0585412,0.99824]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_range_supply.sqf"; sleep 1;
 
+_newObject = createVehicle ['B_Slingload_01_Cargo_F', [24268.8,20506.9,0.000909805], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24268.8,20506.9,25.5889]; _newObject setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]]; _newObject allowdamage false; null = [_newObject] execVM "scripts\box_range_supply.sqf"; sleep 1;
+
 _newObject = createVehicle ['B_Slingload_01_Medevac_F', [24286.3,20427.1,0.00690079], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24286.3,20427.1,23.297]; _newObject setVectorDirAndUp [[-0.282008,0.958184,0.0485344], [0.0200354,-0.0446949,0.9988]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_CMS.sqf"; sleep 1;
 
 _newObject = createVehicle ['B_Slingload_01_Medevac_F', [24765,20742.5,-0.0123844], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24765,20742.5,22.4938]; _newObject setVectorDirAndUp [[-0.892948,-0.449956,0.0135508], [0.0257721,-0.0210462,0.999446]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_CMS.sqf"; sleep 1;
@@ -100,11 +102,19 @@ _newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24291.4,2048
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24290,20486.2,0.00138664], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 203.283; _newUnit setDir 203.283; _newUnit setPosWorld [24290,20486.2,23.7497]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
 
+
+
 _newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24690.3,20704.6,0.00161552], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'CORPORAL'; _newUnit setFormDir 53.5624; _newUnit setDir 53.5624; _newUnit setPosWorld [24690.3,20704.6,21.7987]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
+
+
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24690.5,20705.6,0.00142479], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 161.202; _newUnit setDir 161.202; _newUnit setPosWorld [24690.5,20705.6,21.8575]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
 
+
+
+
 _newUnit = _newGroup createUnit ['rhsusf_army_ucp_arb_squadleader', [24742.2,20732.2,0.00143814], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 224.148; _newUnit setDir 224.148; _newUnit setPosWorld [24742.2,20732.2,21.6504]; _newUnit setUnitPos "UP"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
+
 
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [24730.2,20754.5,0.00156021], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.5; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 46.9849; _newUnit setDir 46.9849; _newUnit setPosWorld [24730.2,20754.5,22.6584]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
@@ -126,6 +136,11 @@ _newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [24727.2,20757.9,0
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24726.2,20759.5,0.0014267], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 330.238; _newUnit setDir 330.238; _newUnit setPosWorld [24726.2,20759.5,22.9728]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
 
+_newObject = createVehicle ['Box_506TH_Acc', [24710.5,20737,0.00354385], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24710.5,20737,23.3585]; [_newObject, [[0.865785,0.500281,-0.0115993], [0.0425907,-0.0505725,0.997812]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+Arsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [24709,20739.6,0.0331306], [], 0, 'CAN_COLLIDE']; Arsenal3 setPosWorld [24709,20739.6,23.5204]; [Arsenal3, [[0.911335,0.410991,-0.0235565], [0.0426139,-0.0372678,0.998396]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal3];
+
+null = [Arsenal3] execVM "scripts\box_virtualarsenal.sqf";
+Arsenal3 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24732,20766.3,0.00143433], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 151.694; _newUnit setDir 151.694; _newUnit setPosWorld [24732,20766.3,22.998]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
@@ -179,6 +194,7 @@ CQBScreen setPosWorld [24710.6,20726.7,23.3777]; CQBScreen setVectorDirAndUp [[0
 sleep 5;
 
 // D2SPLY setPosWorld [24740.9,20731.6,22.6507]; D2SPLY setVectorDirAndUp [[-0.904696,-0.426056,-0.000681743], [-0.192755,0.407872,0.892461]]; D2SPLY allowdamage false; D2SPLY enablesimulation false; sleep 3;
+
 
 d2sign_01 = createVehicle ['SignAd_Sponsor_F', [22728,20322.2,0.0155716], [], 0, 'CAN_COLLIDE']; d2sign_01 setPosWorld [22728,20322.2,17.319]; d2sign_01 setVectorDirAndUp [[-0.586712,-0.809796,0], [0,0,1]]; d2sign_01 allowdamage false; sleep 1; d2sign_01 setobjecttextureglobal [0, "pics\range_signs\Basic_Patrolling_Course.jpg"]; sleep 1;
 
