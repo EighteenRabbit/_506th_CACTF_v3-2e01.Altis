@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=15578;
+		nextID=15650;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16167;
+		nextID=16229;
 	};
 	class Camera
 	{
-		pos[]={16054.67,38.608612,16911.652};
-		dir[]={-0.80107605,-0.54650509,0.24417293};
-		up[]={-0.52276462,0.83745593,0.15934178};
-		aside[]={0.29156408,-1.209628e-007,0.95655847};
+		pos[]={16094.488,18.007561,16897.768};
+		dir[]={0.61642843,-0.49435475,0.61305255};
+		up[]={0.35063452,0.86915821,0.34871233};
+		aside[]={0.70524013,-9.7729207e-007,-0.70912576};
 	};
 };
 binarizationWanted=0;
@@ -741,7 +741,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=171;
+		items=243;
 		class Item0
 		{
 			dataType="Layer";
@@ -4804,7 +4804,7 @@ class Mission
 				};
 			};
 			id=5304;
-			atlOffset=-0.67693329;
+			atlOffset=-17.575104;
 		};
 		class Item3
 		{
@@ -10062,7 +10062,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=845;
 							type="Land_CampingChair_V1_F";
@@ -10122,7 +10121,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=846;
 							type="Land_CampingChair_V1_F";
@@ -10182,7 +10180,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=847;
 							type="Land_CampingChair_V1_F";
@@ -10242,7 +10239,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=848;
 							type="Land_CampingChair_V1_F";
@@ -10302,7 +10298,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=854;
 							type="Land_CampingChair_V1_F";
@@ -10362,7 +10357,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=855;
 							type="Land_CampingChair_V1_F";
@@ -10422,7 +10416,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=856;
 							type="Land_CampingChair_V1_F";
@@ -10482,7 +10475,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=857;
 							type="Land_CampingChair_V1_F";
@@ -10542,7 +10534,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=858;
 							type="Land_CampingChair_V1_F";
@@ -10601,7 +10592,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=859;
 							type="Land_CampingChair_V1_F";
@@ -10661,7 +10651,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=860;
 							type="Land_CampingChair_V1_F";
@@ -10721,7 +10710,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=866;
 							type="Land_CampingChair_V1_F";
@@ -10781,7 +10769,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=867;
 							type="Land_CampingChair_V1_F";
@@ -10841,7 +10828,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=868;
 							type="Land_CampingChair_V1_F";
@@ -10901,7 +10887,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=869;
 							type="Land_CampingChair_V1_F";
@@ -10961,7 +10946,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=875;
 							type="Land_CampingChair_V1_F";
@@ -11021,7 +11005,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=876;
 							type="Land_CampingChair_V1_F";
@@ -11081,7 +11064,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=877;
 							type="Land_CampingChair_V1_F";
@@ -11140,7 +11122,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=878;
 							type="Land_CampingChair_V1_F";
@@ -11199,7 +11180,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=879;
 							type="Land_CampingChair_V1_F";
@@ -11259,7 +11239,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=880;
 							type="Land_CampingChair_V1_F";
@@ -11319,7 +11298,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=881;
 							type="Land_CampingChair_V1_F";
@@ -11379,7 +11357,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=882;
 							type="Land_CampingChair_V1_F";
@@ -11439,7 +11416,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=883;
 							type="Land_CampingChair_V1_F";
@@ -11499,7 +11475,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=886;
 							type="Land_CampingChair_V1_F";
@@ -14356,7 +14331,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=774;
 							type="Land_CampingChair_V1_F";
@@ -14397,7 +14371,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=775;
 							type="Land_CampingChair_V1_F";
@@ -14438,7 +14411,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=776;
 							type="Land_CampingChair_V1_F";
@@ -14479,7 +14451,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=777;
 							type="Land_CampingChair_V1_F";
@@ -14520,7 +14491,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=783;
 							type="Land_CampingChair_V1_F";
@@ -14561,7 +14531,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=784;
 							type="Land_CampingChair_V1_F";
@@ -14602,7 +14571,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=785;
 							type="Land_CampingChair_V1_F";
@@ -14643,7 +14611,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=786;
 							type="Land_CampingChair_V1_F";
@@ -14684,7 +14651,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=787;
 							type="Land_CampingChair_V1_F";
@@ -14725,7 +14691,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=788;
 							type="Land_CampingChair_V1_F";
@@ -14765,7 +14730,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=789;
 							type="Land_CampingChair_V1_F";
@@ -14806,7 +14770,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=795;
 							type="Land_CampingChair_V1_F";
@@ -14847,7 +14810,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=796;
 							type="Land_CampingChair_V1_F";
@@ -14907,7 +14869,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=797;
 							type="Land_CampingChair_V1_F";
@@ -14967,7 +14928,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=798;
 							type="Land_CampingChair_V1_F";
@@ -15027,7 +14987,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=804;
 							type="Land_CampingChair_V1_F";
@@ -15087,7 +15046,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=805;
 							type="Land_CampingChair_V1_F";
@@ -15128,7 +15086,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=806;
 							type="Land_CampingChair_V1_F";
@@ -15168,7 +15125,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=807;
 							type="Land_CampingChair_V1_F";
@@ -15209,7 +15165,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=808;
 							type="Land_CampingChair_V1_F";
@@ -15249,7 +15204,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=809;
 							type="Land_CampingChair_V1_F";
@@ -15290,7 +15244,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=810;
 							type="Land_CampingChair_V1_F";
@@ -15330,7 +15283,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=811;
 							type="Land_CampingChair_V1_F";
@@ -15371,7 +15323,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=812;
 							type="Land_CampingChair_V1_F";
@@ -15412,7 +15363,6 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="call{this addAction [""Sit Down"", ""scripts\cactf_sit.sqf"",[],6,false,true];}";
 							};
 							id=817;
 							type="Land_CampingChair_V1_F";
@@ -22681,7 +22631,7 @@ class Mission
 				};
 			};
 			id=14172;
-			atlOffset=1.907106e+028;
+			atlOffset=1.9083359e+028;
 		};
 		class Item30
 		{
@@ -48855,6 +48805,1367 @@ class Mission
 			id=15566;
 			type="B_CargoNet_01_ammo_F";
 			atlOffset=-2.4795532e-005;
+		};
+		class Item171
+		{
+			dataType="Trigger";
+			position[]={16018.039,14.314732,16853.543};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15578;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item172
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1659.683,0,1964.2877};
+			};
+			id=15579;
+			type="ACEX_ModuleSitting";
+			atlOffset=185.97;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ACEX_ModuleSitting_enable";
+					expression="_this setVariable ['enable',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item173
+		{
+			dataType="Trigger";
+			position[]={16017.925,14.313601,16855.545};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15580;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item174
+		{
+			dataType="Trigger";
+			position[]={16017.769,14.311787,16858.461};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15581;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item175
+		{
+			dataType="Trigger";
+			position[]={16017.676,14.305986,16860.623};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15582;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item176
+		{
+			dataType="Trigger";
+			position[]={16021.082,14.288338,16856.992};
+			angle=4.3017364;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15583;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item177
+		{
+			dataType="Trigger";
+			position[]={16014.885,14.346108,16860.26};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15584;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item178
+		{
+			dataType="Trigger";
+			position[]={16014.969,14.349326,16858.303};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15585;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item179
+		{
+			dataType="Trigger";
+			position[]={16015.115,14.351342,16855.326};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15586;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item180
+		{
+			dataType="Trigger";
+			position[]={16015.22,14.352612,16853.33};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15587;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item181
+		{
+			dataType="Trigger";
+			position[]={16011.902,14.38842,16860.25};
+			angle=4.6493144;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15588;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item182
+		{
+			dataType="Trigger";
+			position[]={16011.992,14.389927,16858.133};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15589;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item183
+		{
+			dataType="Trigger";
+			position[]={16012.157,14.391434,16855.191};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15590;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item184
+		{
+			dataType="Trigger";
+			position[]={16012.254,14.392678,16853.189};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15591;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item185
+		{
+			dataType="Trigger";
+			position[]={16009.819,14.428472,16853.133};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15592;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item186
+		{
+			dataType="Trigger";
+			position[]={16009.708,14.427427,16855.125};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15593;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item187
+		{
+			dataType="Trigger";
+			position[]={16009.556,14.425739,16858.082};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15594;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item188
+		{
+			dataType="Trigger";
+			position[]={16009.49,14.423823,16860.225};
+			angle=-1.5288261;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15595;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item189
+		{
+			dataType="Trigger";
+			position[]={16004.069,14.465824,16863.248};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15596;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item190
+		{
+			dataType="Trigger";
+			position[]={16005.437,14.479265,16863.236};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15597;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item191
+		{
+			dataType="Trigger";
+			position[]={16007.649,14.446804,16863.252};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15598;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item192
+		{
+			dataType="Trigger";
+			position[]={16006.57,14.462651,16863.229};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15599;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item193
+		{
+			dataType="Trigger";
+			position[]={16004.268,14.48332,16849.98};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15600;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item194
+		{
+			dataType="Trigger";
+			position[]={16005.47,14.470535,16850.014};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15601;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item195
+		{
+			dataType="Trigger";
+			position[]={16006.573,14.457009,16850.143};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15602;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item196
+		{
+			dataType="Trigger";
+			position[]={16007.672,14.442437,16850.205};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15603;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item197
+		{
+			dataType="Trigger";
+			position[]={16033.016,13.466958,16942.596};
+			angle=0.22690706;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15604;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item198
+		{
+			dataType="Trigger";
+			position[]={16034.101,13.453599,16942.379};
+			angle=0.23267502;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15605;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item199
+		{
+			dataType="Trigger";
+			position[]={16035.206,13.443623,16942.186};
+			angle=0.19728011;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15606;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item200
+		{
+			dataType="Trigger";
+			position[]={16036.554,13.436698,16941.877};
+			angle=0.23469058;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15607;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item201
+		{
+			dataType="Trigger";
+			position[]={16039.137,13.465161,16955.533};
+			angle=3.2903652;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15608;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item202
+		{
+			dataType="Trigger";
+			position[]={16037.932,13.487534,16955.756};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15609;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item203
+		{
+			dataType="Trigger";
+			position[]={16036.852,13.507481,16955.939};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15610;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item204
+		{
+			dataType="Trigger";
+			position[]={16035.754,13.531895,16956.109};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15611;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item205
+		{
+			dataType="Trigger";
+			position[]={16033.207,13.55,16953.293};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15612;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item206
+		{
+			dataType="Trigger";
+			position[]={16032.765,13.553662,16951.318};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15613;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item207
+		{
+			dataType="Trigger";
+			position[]={16032.147,13.538712,16948.451};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15614;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item208
+		{
+			dataType="Trigger";
+			position[]={16031.674,13.5101,16946.371};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15615;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item209
+		{
+			dataType="Trigger";
+			position[]={16029.797,13.556736,16949.039};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15616;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item210
+		{
+			dataType="Trigger";
+			position[]={16029.316,13.539599,16946.965};
+			angle=3.290365;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15617;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item211
+		{
+			dataType="Trigger";
+			position[]={16030.429,13.560825,16951.863};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15618;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item212
+		{
+			dataType="Trigger";
+			position[]={16030.879,13.551268,16953.803};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15619;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item213
+		{
+			dataType="Trigger";
+			position[]={16027.983,13.56037,16954.424};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15620;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item214
+		{
+			dataType="Trigger";
+			position[]={16027.556,13.569966,16952.451};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15621;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item215
+		{
+			dataType="Trigger";
+			position[]={16026.886,13.582876,16949.619};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15622;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item216
+		{
+			dataType="Trigger";
+			position[]={16026.404,13.575723,16947.555};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15623;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item217
+		{
+			dataType="Trigger";
+			position[]={16023.68,13.600215,16948.061};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15624;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item218
+		{
+			dataType="Trigger";
+			position[]={16024.113,13.607799,16950.133};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15625;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item219
+		{
+			dataType="Trigger";
+			position[]={16024.763,13.615346,16953.018};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15626;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item220
+		{
+			dataType="Trigger";
+			position[]={16025.176,13.600281,16954.998};
+			angle=1.7947477;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15627;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item221
+		{
+			dataType="Trigger";
+			position[]={16021.275,13.641216,16952.141};
+			angle=1.402244;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15628;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item222
+		{
+			dataType="Trigger";
+			position[]={16089.098,13.283853,16910.85};
+			angle=2.1088941;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15629;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item223
+		{
+			dataType="Trigger";
+			position[]={16088.948,13.243287,16905.979};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15630;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item224
+		{
+			dataType="Trigger";
+			position[]={16090.308,13.270571,16907.576};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15631;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item225
+		{
+			dataType="Trigger";
+			position[]={16092.228,13.284244,16909.863};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15632;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item226
+		{
+			dataType="Trigger";
+			position[]={16093.534,13.276312,16911.41};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15633;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item227
+		{
+			dataType="Trigger";
+			position[]={16096.94,13.272017,16912.285};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15634;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item228
+		{
+			dataType="Trigger";
+			position[]={16098.562,13.270464,16910.891};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15635;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item229
+		{
+			dataType="Trigger";
+			position[]={16100.848,13.26853,16909.023};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15636;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item230
+		{
+			dataType="Trigger";
+			position[]={16102.334,13.267124,16907.754};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15637;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item231
+		{
+			dataType="Trigger";
+			position[]={16106.233,13.299817,16906.863};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15638;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item232
+		{
+			dataType="Trigger";
+			position[]={16105.586,13.291304,16905.934};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15639;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item233
+		{
+			dataType="Trigger";
+			position[]={16105.032,13.283689,16905.02};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15640;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item234
+		{
+			dataType="Trigger";
+			position[]={16104.352,13.265584,16904.023};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15641;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item235
+		{
+			dataType="Trigger";
+			position[]={16094.017,13.247556,16897.924};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15642;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item236
+		{
+			dataType="Trigger";
+			position[]={16092.444,13.241765,16899.311};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15643;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item237
+		{
+			dataType="Trigger";
+			position[]={16090.194,13.233632,16901.234};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15644;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item238
+		{
+			dataType="Trigger";
+			position[]={16088.692,13.228179,16902.529};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15645;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item239
+		{
+			dataType="Trigger";
+			position[]={16096.207,13.25147,16895.188};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15646;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item240
+		{
+			dataType="Trigger";
+			position[]={16096.998,13.25,16895.971};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15647;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item241
+		{
+			dataType="Trigger";
+			position[]={16097.793,13.25,16896.746};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15648;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item242
+		{
+			dataType="Trigger";
+			position[]={16098.547,13.25,16897.43};
+			angle=2.2639666;
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				sizeA=0.26800001;
+				sizeB=0.264;
+				sizeC=2;
+				repeatable=1;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=15649;
+			type="EmptyDetectorArea10x10";
 		};
 	};
 	class Connections
