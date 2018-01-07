@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={16043.366,27.035608,16912.416};
-		dir[]={-0.77060252,-0.55539453,0.31259924};
-		up[]={-0.51466495,0.83158427,0.20877698};
-		aside[]={0.37590703,-1.2756209e-007,0.92666382};
+		pos[]={16054.67,38.608612,16911.652};
+		dir[]={-0.80107605,-0.54650509,0.24417293};
+		up[]={-0.52276462,0.83745593,0.15934178};
+		aside[]={0.29156408,-1.209628e-007,0.95655847};
 	};
 };
 binarizationWanted=0;
@@ -9239,7 +9239,7 @@ class Mission
 							flags=4;
 							class Attributes
 							{
-								init="this setobjecttextureglobal [0, ""pics\classrooms\506thlogo.jpg""]; _act1 = this addAction [""Patient 1"", ""scripts\Courses\CMS_Courses\patient1.sqf""];  \n _act2 = this addAction [""Clear Patient 1"", ""scripts\Courses\CMS_Courses\clear_patient1.sqf""];  \n _act3 = this addAction [""---------------------------"", """"];  \n _act4 = this addAction [""Patient 2"", ""scripts\Courses\CMS_Courses\patient2.sqf""];  \n _act5 = this addAction [""Clear Patient 2"", ""scripts\Courses\CMS_Courses\clear_patient2.sqf""];  \n _act6 = this addAction [""---------------------------"", """"];  \n _act7 = this addAction [""Patient 3"", ""scripts\Courses\CMS_Courses\patient3.sqf""];  \n _act8 = this addAction [""Clear Patient 3"", ""scripts\Courses\CMS_Courses\clear_patient3.sqf""];  \n _act9 = this addAction [""---------------------------"", """"];  \n _act10 = this addAction [""Patient 4"", ""scripts\Courses\CMS_Courses\patient4.sqf""];  \n _act11 = this addAction [""Clear Patient 4"", ""scripts\Courses\CMS_Courses\clear_patient4.sqf""];";
+								init="call{this setobjecttextureglobal [0, ""pics\classrooms\506thlogo.jpg""]; _act1 = this addAction [""Patient 1"", ""scripts\Courses\CMS_Courses\patient1.sqf""];" \n "_act2 = this addAction [""Clear Patient 1"", ""scripts\Courses\CMS_Courses\clear_patient1.sqf""];" \n "_act3 = this addAction [""---------------------------"", """"];" \n "_act4 = this addAction [""Patient 2"", ""scripts\Courses\CMS_Courses\patient2.sqf""];" \n "_act5 = this addAction [""Clear Patient 2"", ""scripts\Courses\CMS_Courses\clear_patient2.sqf""];" \n "_act6 = this addAction [""---------------------------"", """"];" \n "_act7 = this addAction [""Patient 3"", ""scripts\Courses\CMS_Courses\patient3.sqf""];" \n "_act8 = this addAction [""Clear Patient 3"", ""scripts\Courses\CMS_Courses\clear_patient3.sqf""];" \n "_act9 = this addAction [""---------------------------"", """"];" \n "_act10 = this addAction [""Patient 4"", ""scripts\Courses\CMS_Courses\patient4.sqf""];" \n "_act11 = this addAction [""Clear Patient 4"", ""scripts\Courses\CMS_Courses\clear_patient4.sqf""];}";
 								disableSimulation=1;
 							};
 							id=11553;
@@ -9268,6 +9268,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="Enh_featureType";
+									expression="_this setFeatureType (parseNumber _value)";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="0";
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="ace_isMedicalFacility";
 									expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
 									class Value
@@ -9285,7 +9304,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								nAttributes=3;
 							};
 						};
 						class Item62
@@ -13373,7 +13392,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="pics\classrooms\pc_desktop.jpg";
+											value="pics\506thlogo.jpg";
 										};
 									};
 								};
@@ -14265,8 +14284,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={16014.875,16.060871,16904.75};
-								angles[]={0,5.0956111,0};
+								position[]={16014.864,16.061018,16904.799};
+								angles[]={0,5.0906758,0};
 							};
 							side="Empty";
 							class Attributes
@@ -14276,7 +14295,7 @@ class Mission
 							};
 							id=15575;
 							type="Land_FlatTV_01_F";
-							atlOffset=1.319108;
+							atlOffset=1.3192549;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -14313,7 +14332,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="pics\classrooms\pc_desktop.jpg";
+											value="pics\506thlogo.jpg";
 										};
 									};
 								};
@@ -14360,7 +14379,7 @@ class Mission
 						};
 					};
 					id=11490;
-					atlOffset=0.99943447;
+					atlOffset=0.99914742;
 				};
 				class Item3
 				{
@@ -19781,7 +19800,7 @@ class Mission
 				};
 			};
 			id=11400;
-			atlOffset=61.817928;
+			atlOffset=61.817738;
 		};
 		class Item8
 		{
@@ -22742,7 +22761,7 @@ class Mission
 				};
 			};
 			id=14172;
-			atlOffset=9.8941851e+029;
+			atlOffset=1.907106e+028;
 		};
 		class Item30
 		{
@@ -23244,7 +23263,7 @@ class Mission
 				};
 			};
 			id=14173;
-			atlOffset=1.3595938e+037;
+			atlOffset=9.7522064e+034;
 		};
 		class Item31
 		{
