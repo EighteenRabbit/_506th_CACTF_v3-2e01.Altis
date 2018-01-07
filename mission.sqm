@@ -4721,7 +4721,7 @@ class Mission
 			name="01 - OSUT Day 1";
 			class Entities
 			{
-				items=4;
+				items=2;
 				class Item0
 				{
 					dataType="Layer";
@@ -4801,50 +4801,6 @@ class Mission
 						};
 					};
 					id=1491;
-				};
-				class Item2
-				{
-					dataType="Trigger";
-					position[]={24728.756,21.363152,20724.484};
-					angle=5.9944348;
-					class Attributes
-					{
-						condition="this AND {_x iskindof ""LandVehicle"" and side _x == WEST} count thislist > 0;";
-						onActivation="d2gate2 animate [""Door_1_rot"", 1]";
-						onDeactivation="d2gate2 animate [""Door_1_rot"", 0]";
-						sizeA=3;
-						sizeB=7;
-						sizeC=0;
-						timeout[]={5,5,5};
-						repeatable=1;
-						activationBy="WEST";
-						isRectangle=1;
-					};
-					id=14117;
-					type="EmptyDetector";
-					atlOffset=0.024000168;
-				};
-				class Item3
-				{
-					dataType="Trigger";
-					position[]={24614.338,29.684319,20930.656};
-					angle=2.4400923;
-					class Attributes
-					{
-						condition="this AND {_x iskindof ""LandVehicle"" and side _x == WEST} count thislist > 0;";
-						onActivation="d2gate1 animate [""Door_1_rot"", 1]";
-						onDeactivation="d2gate1 animate [""Door_1_rot"", 0]";
-						sizeA=3;
-						sizeB=7;
-						sizeC=0;
-						timeout[]={5,5,5};
-						repeatable=1;
-						activationBy="WEST";
-						isRectangle=1;
-					};
-					id=14119;
-					type="EmptyDetector";
-					atlOffset=0.04999733;
 				};
 			};
 			id=5304;
@@ -21877,7 +21833,7 @@ class Mission
 			name="__00__Map Markers";
 			class Entities
 			{
-				items=84;
+				items=82;
 				class Item0
 				{
 					dataType="Marker";
@@ -22610,32 +22566,13 @@ class Mission
 				class Item69
 				{
 					dataType="Marker";
-					position[]={24728.92,-0.82123184,20724.068};
-					name="MOUT_Gate_01";
-					type="Empty";
-					id=14118;
-					atlOffset=-22.137344;
-				};
-				class Item70
-				{
-					dataType="Marker";
-					position[]={24614.021,0.0039997101,20930.971};
-					name="MOUT_Gate_02";
-					type="Empty";
-					angle=156.35095;
-					id=14120;
-					atlOffset=-29.654663;
-				};
-				class Item71
-				{
-					dataType="Marker";
 					position[]={22990.277,-1.2113014e-018,17424.361};
 					name="VID_Gate_01";
 					type="Empty";
 					id=9089;
 					atlOffset=-3.1574073;
 				};
-				class Item72
+				class Item70
 				{
 					dataType="Marker";
 					position[]={22990.553,3.1649976,17357.084};
@@ -22643,7 +22580,7 @@ class Mission
 					type="Empty";
 					id=9088;
 				};
-				class Item73
+				class Item71
 				{
 					dataType="Marker";
 					position[]={23870.453,-6.816932e-013,19223.184};
@@ -22652,7 +22589,7 @@ class Mission
 					id=9167;
 					atlOffset=-3.1900001;
 				};
-				class Item74
+				class Item72
 				{
 					dataType="Marker";
 					position[]={23868.189,6.5093088e+030,19210.014};
@@ -22661,7 +22598,7 @@ class Mission
 					id=9168;
 					atlOffset=6.5093088e+030;
 				};
-				class Item75
+				class Item73
 				{
 					dataType="Marker";
 					position[]={23797.059,6.5093088e+030,19171.188};
@@ -22670,7 +22607,7 @@ class Mission
 					id=9166;
 					atlOffset=6.5093088e+030;
 				};
-				class Item76
+				class Item74
 				{
 					dataType="Marker";
 					position[]={23385.539,34.008675,20719.861};
@@ -22682,7 +22619,7 @@ class Mission
 					b=0.5;
 					id=5523;
 				};
-				class Item77
+				class Item75
 				{
 					dataType="Marker";
 					position[]={23385.664,33.661171,20709.861};
@@ -22694,7 +22631,7 @@ class Mission
 					b=0.5;
 					id=5524;
 				};
-				class Item78
+				class Item76
 				{
 					dataType="Marker";
 					position[]={23436.875,36.893356,20759.375};
@@ -22703,7 +22640,7 @@ class Mission
 					type="mil_marker";
 					id=5508;
 				};
-				class Item79
+				class Item77
 				{
 					dataType="Marker";
 					position[]={9002.0195,0,9898.8252};
@@ -22716,7 +22653,7 @@ class Mission
 					id=13936;
 					atlOffset=17.963999;
 				};
-				class Item80
+				class Item78
 				{
 					dataType="Marker";
 					position[]={8099.564,88.973663,12249.743};
@@ -22728,7 +22665,7 @@ class Mission
 					b=2250;
 					id=13939;
 				};
-				class Item81
+				class Item79
 				{
 					dataType="Marker";
 					position[]={13899.086,-28.244268,12251.496};
@@ -22740,7 +22677,7 @@ class Mission
 					b=2250;
 					id=13940;
 				};
-				class Item82
+				class Item80
 				{
 					dataType="Marker";
 					position[]={23776.875,9.822751e+018,19285.875};
@@ -22750,7 +22687,7 @@ class Mission
 					id=5325;
 					atlOffset=9.822751e+018;
 				};
-				class Item83
+				class Item81
 				{
 					dataType="Marker";
 					position[]={23776.875,3.1900001,19287};
