@@ -2,8 +2,23 @@
 //Source: http://forums.bistudio.com/showthread.php?171349-Scripting-a-Power-Point-presentation-need-help
 _BRIEFinit = _this select 0;
 
-//change "slideArray" with location and name of picture jpg or paa files. You can add how many picture.
-slideArray = ["pics\506thlogo.jpg","slides\LandNav\Slide_0_LandNav.jpg","slides\LandNav\Slide_01_LandNav.jpg","slides\LandNav\Slide_02_LandNav.jpg","slides\LandNav\Slide_03_LandNav.jpg","slides\LandNav\Slide_04_LandNav.jpg","slides\LandNav\Slide_05_LandNav.jpg","slides\LandNav\Slide_06_LandNav.jpg","slides\LandNav\Slide_07_LandNav.jpg","slides\LandNav\Slide_08_LandNav.jpg","slides\LandNav\Slide_09_LandNav.jpg","slides\LandNav\Slide_10_LandNav.jpg","slides\LandNav\Slide_11_LandNav.jpg","slides\LandNav\Slide_12_LandNav.jpg","slides\LandNav\Slide_13_LandNav.jpg","slides\LandNav\Slide_0_LandNav.jpg"]; 
+slideArray = [
+    "pics\506thlogo.jpg",
+    "slides\LandNav\Slide_0_LandNav.jpg",
+    "slides\LandNav\Slide_01_LandNav.jpg",
+    "slides\LandNav\Slide_02_LandNav.jpg",
+    "slides\LandNav\Slide_03_LandNav.jpg",
+    "slides\LandNav\Slide_04_LandNav.jpg",
+    "slides\LandNav\Slide_05_LandNav.jpg",
+    "slides\LandNav\Slide_06_LandNav.jpg",
+    "slides\LandNav\Slide_07_LandNav.jpg",
+    "slides\LandNav\Slide_08_LandNav.jpg",
+    "slides\LandNav\Slide_09_LandNav.jpg",
+    "slides\LandNav\Slide_10_LandNav.jpg",
+    "slides\LandNav\Slide_11_LandNav.jpg",
+    "slides\LandNav\Slide_12_LandNav.jpg",
+    "slides\LandNav\Slide_13_LandNav.jpg",
+    "slides\LandNav\Slide_0_LandNav.jpg"];
 slideIndex = 0;
 slides = count slideArray;
 
