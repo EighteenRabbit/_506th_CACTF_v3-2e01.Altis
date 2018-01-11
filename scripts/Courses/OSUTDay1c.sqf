@@ -40,8 +40,6 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23710.3,19002.2,0], [], 0, '
 
 _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23672.3,18974.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23672.3,18974.8,2.84]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_Loudspeakers_F', [23689.2,19054.5,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23689.3,19054.6,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23682.1,18973.9,0.0029397], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23682.1,18974,4.40294]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_RampConcrete_F', [23668.8,19060,-5.00679e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23670.2,19061.1,3.49734]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
@@ -52,29 +50,17 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23676.4,18968.3,0.000329971]
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23642.1,18977.3,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23642.1,18977.4,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23688.7,19064.6,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23688.7,19064.6,9.17218]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_RampConcrete_F', [23662.3,19066.5,-5.00679e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23663.7,19067.6,3.49734]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23670.7,18962.6,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23670.7,18962.7,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_Loudspeakers_F', [23670.6,19072.5,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23670.7,19072.6,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23636.4,18971.6,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23636.4,18971.7,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23680.9,19072.4,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23680.9,19072.4,9.17218]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23665.1,18957,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23665.1,18957.1,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23729.4,19040.4,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23729.4,19040.4,9.17218]; [_newObject, [[-0.707108,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23630.8,18966,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23630.8,18966.1,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23659.4,18951.3,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23659.4,18951.4,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23730.6,19046.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23730.6,19046.3,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23732.3,19047.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23732.3,19047.8,9.17218]; [_newObject, [[0.707106,0.707108,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23625.1,18960.3,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23625.1,18960.4,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -88,55 +74,29 @@ _newObject = createVehicle ['BlockConcrete_F', [23752.1,19036.5,0], [], 0, 'CAN_
 
 _newObject = createVehicle ['Land_RampConcrete_F', [23750.7,19044.4,-5.00679e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23749.6,19045.8,3.49734]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23744.9,19060.5,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23744.9,19060.5,9.17218]; [_newObject, [[0.707106,0.707108,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23642.5,18934.3,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23642.5,18934.4,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23746.3,19061.9,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23746.3,19061.9,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23613.8,18949,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23613.8,18949.1,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['BlockConcrete_F', [23758.5,19042.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23758.5,19042.9,3.94134]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23737.8,19080.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23737.8,19080.3,9.17218]; [_newObject, [[-0.703953,0.710247,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23735.8,19083.1,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23735.8,19083.1,9.17218]; [_newObject, [[0.999504,-0.031497,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23744.8,19073.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23744.8,19073.3,9.17218]; [_newObject, [[-0.703953,0.710247,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23636.8,18928.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23636.8,18928.8,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23717.8,19100.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23717.8,19100.3,9.17218]; [_newObject, [[-0.703953,0.710247,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23608.2,18943.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23608.2,18943.5,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23716.4,19102.5,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23716.4,19102.5,9.17218]; [_newObject, [[-0.00578218,-0.999983,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23631.1,18923,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23631.1,18923.1,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23602.5,18937.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23602.5,18937.8,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23762.7,19071.5,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23762.7,19071.5,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['RoadBarrier_F', [23751.5,19087.3,-3.09944e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23751.5,19087.3,3.74662]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_Loudspeakers_F', [23766.8,19067.3,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23766.9,19067.4,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23749.6,19091.9,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23749.6,19091.9,9.17218]; [_newObject, [[0.703953,-0.710246,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23625.5,18917.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23625.5,18917.5,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23699.8,19121.7,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23699.8,19121.7,9.17218]; [_newObject, [[-0.970757,0.240062,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23756.1,19085.4,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23756.1,19085.4,9.17218]; [_newObject, [[0.703953,-0.710246,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['RoadBarrier_F', [23751.6,19092.3,-3.09944e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23751.6,19092.3,3.74662]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['RoadBarrier_F', [23756.9,19087.1,-3.09944e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23756.9,19087.1,3.74662]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23596.8,18932,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23596.8,18932.1,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23768.6,19077.1,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23768.6,19077.1,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23779.2,19059.7,-0.599999], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23779.2,19059.7,2.24]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -150,8 +110,6 @@ _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23592.6,18917.6,9.5
 
 _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23598.2,18911.9,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23598.2,18911.9,2.84]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23771.6,19096.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23771.6,19096.3,9.17218]; [_newObject, [[0.707106,0.707108,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23585.5,18920.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23585.5,18920.8,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23603.9,18906.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23603.9,18906.3,2.84]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
@@ -162,21 +120,9 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23579.9,18915.1,0], [], 0, '
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23602.9,18894.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23602.9,18894.8,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23769.1,19116.6,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23769.1,19116.6,9.17218]; [_newObject, [[0.0617673,0.998091,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23767.5,19118.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23767.5,19118.8,9.17218]; [_newObject, [[0.703953,-0.710246,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23724.9,19146.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23724.9,19146.8,9.17218]; [_newObject, [[-0.211493,-0.97738,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['BlockConcrete_F', [23797.2,19081.6,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23797.2,19081.6,3.94134]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23749.8,19135.9,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23749.8,19135.9,9.17218]; [_newObject, [[-0.993656,0.11246,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23752.3,19134.4,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23752.3,19134.4,9.17218]; [_newObject, [[0.703953,-0.710246,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_RampConcrete_F', [23795.8,19089.5,-5.00679e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23794.7,19090.9,3.49734]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_Loudspeakers_F', [23720.7,19151.8,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23720.8,19151.9,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23574.2,18909.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23574.2,18909.5,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -190,25 +136,13 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23591.5,18883.4,0], [], 0, '
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23562.9,18898.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23562.9,18898.2,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23771.9,19143,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23771.9,19143,9.17218]; [_newObject, [[1,1.02917e-006,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23585.9,18877.8,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23585.9,18877.9,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23797,19121.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23797,19121.8,9.17218]; [_newObject, [[0.707106,0.707108,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23557.2,18892.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23557.2,18892.5,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23807.8,19116.9,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23807.8,19116.9,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23739.2,19171.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23739.2,19171.8,9.17218]; [_newObject, [[-1,-9.41749e-007,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_Loudspeakers_F', [23811.9,19112.6,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23812,19112.7,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23580.2,18872.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23580.2,18872.2,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23551.6,18886.8,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23551.6,18886.9,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23813.7,19122.5,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23813.7,19122.5,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23574.6,18866.5,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23574.6,18866.6,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -227,8 +161,6 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23534.6,18869.8,0], [], 0, '
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23557.6,18849.5,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23557.6,18849.6,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['BlockConcrete_F', [23842.5,19126.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23842.5,19126.9,3.94134]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23804,19174.1,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23804,19174.1,9.17218]; [_newObject, [[-0.726404,-0.687268,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_RampConcrete_F', [23841,19134.8,-5.00679e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23839.9,19136.2,3.49734]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -254,21 +186,13 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23540.6,18832.5,0], [], 0, '
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23512,18847.2,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23512,18847.3,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23853,19162.2,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23853,19162.2,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23535,18826.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23535,18827,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_Loudspeakers_F', [23857.1,19157.7,4.76837e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23857.2,19157.8,6.69319]; [_newObject, [[0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_Concrete_SmallWall_8m_F', [23870.2,19150.7,-0.599999], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23870.2,19150.7,2.24]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23506.3,18841.5,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23506.3,18841.6,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [23858.9,19167.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23858.9,19167.8,9.17218]; [_newObject, [[-0.707106,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23529.3,18821.2,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23529.3,18821.3,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23855.1,19179.6,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23855.1,19179.6,9.17218]; [_newObject, [[0.707106,0.707108,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_HBarrier_Big_F', [23500.7,18835.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23500.7,18836,4.4]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -293,8 +217,6 @@ _newObject = createVehicle ['Land_HBarrier_Big_F', [23512.3,18804.2,0], [], 0, '
 _newObject = createVehicle ['Land_CncBarrier_F', [23855.4,19207.9,-3.33786e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23855.4,19207.9,3.57567]; [_newObject, [[1,-1.62921e-007,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_CncBarrier_F', [23859.8,19203.6,-3.33786e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23859.8,19203.6,3.57567]; [_newObject, [[-8.74228e-008,-1,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23858.1,19206.3,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23858.1,19206.3,9.17218]; [_newObject, [[-0.655858,0.754885,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['BlockConcrete_F', [23887.7,19172.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23887.7,19172.1,3.94134]; [_newObject, [[-0.707107,0.707106,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
@@ -361,14 +283,6 @@ _newObject = createVehicle ['Land_CncBarrier_stripes_F', [23869.7,19218.4,-3.337
 _newObject = createVehicle ['Land_CncBarrier_stripes_F', [23875.4,19212.8,-3.33786e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23875.4,19212.8,3.57567]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_CncBarrier_stripes_F', [23864.8,19223.4,-3.33786e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23864.8,19223.4,3.57567]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23883.1,19206.6,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23883.1,19206.6,9.17218]; [_newObject, [[-0.999259,-0.0384906,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23861.4,19228.5,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23861.4,19228.5,9.17218]; [_newObject, [[-1,1.19249e-008,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23859.1,19230.8,9.53674e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23859.1,19230.8,9.17218]; [_newObject, [[1.10467e-006,-1,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [23882.1,19209.2,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23882.1,19209.2,9.17218]; [_newObject, [[0.940894,0.3387,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 
 _newObject = createVehicle ['Land_CncBarrier_stripes_F', [23871.6,19220.4,-3.33786e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23871.6,19220.4,3.57567]; [_newObject, [[-0.707107,0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];_newObject enableSimulation false;  _newObject allowdamage false;
 

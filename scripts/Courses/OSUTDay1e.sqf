@@ -6,37 +6,37 @@ _newObject = createVehicle ['TargetPopup_ACR', [23637,19012.2,0.000659943], [], 
 
 _newObject = createVehicle ['TargetPopup_ACR', [23643.5,19005.8,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23643.5,19005.8,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23671.4,18974.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23671.4,18974.4,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target01 = createVehicle ['TargetPopup_ACR', [23671.4,18974.4,0], [], 0, 'CAN_COLLIDE']; target01 setPosWorld [23671.4,18974.4,3.19]; [target01, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target01];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23667.7,18978.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23667.7,18978.1,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target02 = createVehicle ['TargetPopup_ACR', [23667.7,18978.1,0], [], 0, 'CAN_COLLIDE']; target02 setPosWorld [23667.7,18978.1,3.19]; [target02, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target02];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23663.9,18981.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23663.9,18981.9,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target03 = createVehicle ['TargetPopup_ACR', [23663.9,18981.9,0], [], 0, 'CAN_COLLIDE']; target03 setPosWorld [23663.9,18981.9,3.19]; [target03, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target03];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23660,18985.8,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23660,18985.8,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target04 = createVehicle ['TargetPopup_ACR', [23660,18985.8,0], [], 0, 'CAN_COLLIDE']; target04 setPosWorld [23660,18985.8,3.19]; [target04, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target04];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23602.7,18905.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23602.7,18905.9,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target05 = createVehicle ['TargetPopup_ACR', [23602.7,18905.9,0], [], 0, 'CAN_COLLIDE']; target05 setPosWorld [23602.7,18905.9,3.19]; [target05, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target05];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23599,18909.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23599,18909.7,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target06 = createVehicle ['TargetPopup_ACR', [23599,18909.7,0], [], 0, 'CAN_COLLIDE']; target06 setPosWorld [23599,18909.7,3.19]; [target06, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target06];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23595.2,18913.5,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23595.2,18913.5,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target07 = createVehicle ['TargetPopup_ACR', [23595.2,18913.5,0], [], 0, 'CAN_COLLIDE']; target07 setPosWorld [23595.2,18913.5,3.19]; [target07, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target07];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23591.3,18917.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23591.3,18917.4,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target08 = createVehicle ['TargetPopup_ACR', [23591.3,18917.4,0], [], 0, 'CAN_COLLIDE']; target08 setPosWorld [23591.3,18917.4,3.19]; [target08, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target08];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23545.5,18846.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23545.5,18846.1,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target09 = createVehicle ['TargetPopup_ACR', [23545.5,18846.1,0], [], 0, 'CAN_COLLIDE']; target09 setPosWorld [23545.5,18846.1,3.19]; [target09, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target09];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23541.8,18849.8,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23541.8,18849.8,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target10 = createVehicle ['TargetPopup_ACR', [23541.8,18849.8,0], [], 0, 'CAN_COLLIDE']; target10 setPosWorld [23541.8,18849.8,3.19]; [target10, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target10];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23538.1,18853.6,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23538.1,18853.6,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target11 = createVehicle ['TargetPopup_ACR', [23538.1,18853.6,0], [], 0, 'CAN_COLLIDE']; target11 setPosWorld [23538.1,18853.6,3.19]; [target11, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target11];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23534.2,18857.5,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23534.2,18857.5,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target12 = createVehicle ['TargetPopup_ACR', [23534.2,18857.5,0], [], 0, 'CAN_COLLIDE']; target12 setPosWorld [23534.2,18857.5,3.19]; [target12, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target12];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23493.9,18795.4,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23493.9,18795.4,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target13 = createVehicle ['TargetPopup_ACR', [23493.9,18795.4,0], [], 0, 'CAN_COLLIDE']; target13 setPosWorld [23493.9,18795.4,3.19]; [target13, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target13];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23490.2,18799.2,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23490.2,18799.2,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target14 = createVehicle ['TargetPopup_ACR', [23490.2,18799.2,0], [], 0, 'CAN_COLLIDE']; target14 setPosWorld [23490.2,18799.2,3.19]; [target14, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target14];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23486.4,18803,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23486.4,18803,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target15 = createVehicle ['TargetPopup_ACR', [23486.4,18803,0], [], 0, 'CAN_COLLIDE']; target15 setPosWorld [23486.4,18803,3.19]; [target15, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target15];
 
-_newObject = createVehicle ['TargetPopup_ACR', [23482.5,18806.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23482.5,18806.9,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+target16 = createVehicle ['TargetPopup_ACR', [23482.5,18806.9,0], [], 0, 'CAN_COLLIDE']; target16 setPosWorld [23482.5,18806.9,3.19]; [target16, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, target16];
 
 _newObject = createVehicle ['TargetPopup_ACR', [23464.4,18828.7,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23464.4,18828.7,3.19]; [_newObject, [[-0.707107,-0.707107,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
 

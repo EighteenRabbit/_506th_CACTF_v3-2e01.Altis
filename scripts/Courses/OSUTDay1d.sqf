@@ -110,7 +110,7 @@ _newObject = createVehicle ['VR_3DSelector_01_default_F', [23866.1,19368.4,0.007
 
  _newObject = createVehicle ['VR_3DSelector_01_default_F', [23860.6,19380.4,0.00850487], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23860.6,19380.4,4.52798]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]];
 
-_newObject = createVehicle ['VR_3DSelector_01_default_F', [23854.6,19368.4,0.000500679], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23854.6,19368.4,4.30883]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; 
+_newObject = createVehicle ['VR_3DSelector_01_default_F', [23854.6,19368.4,0.000500679], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23854.6,19368.4,4.30883]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]];
 
 //SIGNS
 
@@ -150,7 +150,7 @@ _newObject = createVehicle ['Sign_Arrow_Direction_F', [23871.1,19374.4,-0.000157
 
 //UNITS
 
-_newGroup = createGroup west; 
+_newGroup = createGroup west;
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [23690,19339.3,0.00143886], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 215.752; _newUnit setDir 215.752; _newUnit setPosWorld [23690,19339.3,3.18571]; _newUnit setUnitPos "MIDDLE"; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; sleep 1;
 
@@ -263,16 +263,6 @@ _newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [23860.6,19379.
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [23854.7,19367.4,0.00145102], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 180.639; _newUnit setDir 180.639; _newUnit setPosWorld [23854.7,19367.4,3.24707]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; sleep 1;
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [23866.1,19367.6,0.00139976], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 95.2157; _newUnit setDir 95.2157; _newUnit setPosWorld [23866.1,19367.6,3.25016]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; sleep 1;
-
-_newGroup = createGroup west; 
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [23712.5,19107.8,0.00143886], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 248.284; _newUnit setDir 248.284; _newUnit setPosWorld [23712.5,19107.8,3.19144]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [23800.8,19174,0.00143886], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 195; _newUnit setDir 195; _newUnit setPosWorld [23800.8,19174,3.19144]; _newUnit disableAI "MOVE"; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [23863.7,19224.5,0.00143886], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 90; _newUnit setDir 90; _newUnit setPosWorld [23863.7,19224.5,3.19144]; _newUnit disableAI "MOVE"; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [23875.1,19210.3,0.00143886], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 270; _newUnit setDir 270; _newUnit setPosWorld [23875.1,19210.3,3.19144]; _newUnit disableAI "MOVE"; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1;
 
 _newGroup = createGroup west;
 
