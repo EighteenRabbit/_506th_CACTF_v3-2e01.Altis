@@ -21,7 +21,7 @@ _courseArray = [screen_s4];
 {
 _x addAction ["OSUT Day 1a", "scripts\Courses\OSUTDay1a.sqf"]; //Big green walls
 _x addAction ["OSUT Day 1b", "scripts\Courses\OSUTDay1b.sqf"]; //Sandbags
-_x addAction ["OSUT Day 1c", "scripts\Courses\OSUTDay1c.sqf"]; //Lights, ramps, firing positions
+_x addAction ["OSUT Day 1c", "scripts\Courses\OSUTDay1c.sqf"]; //Firing positions, h-barriers etc
 _x addAction ["OSUT Day 1d", "scripts\Courses\OSUTDay1d.sqf"]; //Formations Demonstrations
 _x addAction ["OSUT Day 1e", "scripts\Courses\OSUTDay1e.sqf"]; //Popup Targets
 _x addAction ["OSUT Day 1f", "scripts\Courses\OSUTDay1f.sqf"]; //Motorpool, OP towers, aethetics
@@ -144,19 +144,6 @@ RCTP_Red addAction ["AO-01 (Seize Airfield)","TeleportScript.sqf",["LZAlpha"]];
 RCTP_Blue addAction ["AO-02 (Convoy Course)","TeleportScript.sqf",["AO2"]];
 RCTP_Green addAction ["AO-03 (Conduct a Raid)","TeleportScript.sqf",["LZBravo"]];
 RCTP_Purple addAction ["AO-04 (Conduct an Ambush)","TeleportScript.sqf",["AO4"]];
-RCScreen setobjecttextureglobal [0, "pics\classrooms\pc_desktop.jpg"];
-RCScreen addAction ["AO-01 (Seize Airfield)", "scripts\Courses\OSUTDay4\AO_01.sqf"];
-RCScreen addAction ["Clear AO-01", "scripts\Courses\OSUTDay4\AO_01_Clear.sqf"];
-RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-02 (Motorized Convoy)", "scripts\Courses\OSUTDay4\AO_02.sqf"];
-RCScreen addAction ["Clear AO-02", "scripts\Courses\OSUTDay4\AO_02_Clear.sqf"];
-RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-03 (Conduct a Raid)", "scripts\Courses\OSUTDay4\AO_03.sqf"];
-RCScreen addAction ["Clear AO-03", "scripts\Courses\OSUTDay4\AO_03_Clear.sqf"];
-RCScreen addAction ["-------------------------------------", ""];
-RCScreen addAction ["AO-04 (Conduct an Ambush)", "scripts\Courses\OSUTDay4\AO_04.sqf"];
-RCScreen addAction ["Clear AO-04", "scripts\Courses\OSUTDay4\AO_04_Clear.sqf"];
-RCScreen addAction ["-------------------------------------", ""];
 
 //Global variables for preventing multiple days loading at once
 isDayOne = 0;
