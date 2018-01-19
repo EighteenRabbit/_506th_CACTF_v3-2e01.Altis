@@ -19,6 +19,7 @@ slideArray = [
     "slides\LandNav\Slide_12_LandNav.jpg",
     "slides\LandNav\Slide_13_LandNav.jpg",
     "slides\LandNav\Slide_0_LandNav.jpg"];
+
 slideIndex = 0;
 slides = count slideArray;
 

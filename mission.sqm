@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16291;
+		nextID=16539;
 	};
 	class Camera
 	{
-		pos[]={16094.488,18.007561,16897.768};
-		dir[]={0.61642843,-0.49435475,0.61305255};
-		up[]={0.35063452,0.86915821,0.34871233};
-		aside[]={0.70524013,-9.7729207e-007,-0.70912576};
+		pos[]={16011.545,18.380024,16856.717};
+		dir[]={0.57294679,-0.49809185,0.65091401};
+		up[]={0.32911101,0.86711085,0.37389672};
+		aside[]={0.75064862,3.4924597e-009,-0.66073412};
 	};
 };
 binarizationWanted=0;
@@ -49009,7 +49009,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16011.902,14.38842,16860.25};
-			angle=4.6493139;
+			angle=4.649312;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49299,7 +49299,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16033.016,13.466958,16942.596};
-			angle=0.22690704;
+			angle=0.22690696;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49318,7 +49318,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16034.101,13.453599,16942.379};
-			angle=0.232675;
+			angle=0.2326749;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49337,7 +49337,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16035.206,13.443623,16942.186};
-			angle=0.19728009;
+			angle=0.19728002;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49375,7 +49375,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16039.137,13.465161,16955.533};
-			angle=3.290365;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49394,7 +49394,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16037.932,13.487534,16955.756};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49413,7 +49413,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16036.852,13.507481,16955.939};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49432,7 +49432,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16035.754,13.531895,16956.109};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49451,7 +49451,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16033.207,13.55,16953.293};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49470,7 +49470,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16032.765,13.553662,16951.318};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49489,7 +49489,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16032.147,13.538712,16948.451};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49508,7 +49508,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16031.674,13.5101,16946.371};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49527,7 +49527,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16029.797,13.556736,16949.039};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";
@@ -49546,7 +49546,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={16029.316,13.539599,16946.965};
-			angle=3.2903647;
+			angle=3.2903636;
 			class Attributes
 			{
 				condition="call{this}";

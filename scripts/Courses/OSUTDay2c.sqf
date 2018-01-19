@@ -115,21 +115,6 @@ _newObject = createVehicle ['Land_Mound01_8m_F', [24243.6,20797.6,0.108482], [],
 _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24219.3,20627.7,0.0302715], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24219.3,20627.6,30.3504]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24211.4,20626,0.00548172], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24211.4,20626,30.2275]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]];
 _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24266.1,20638.3,-0.0043354], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24266.1,20638.3,28.765]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]]; _newObject = createVehicle ['Land_CncBarrierMedium4_F', [24258.3,20636.5,-0.0071125], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24258.4,20636.5,29.1132]; _newObject setVectorDirAndUp [[0.1929,-0.981218,0], [0,0,1]];
 
-sleep 3;
-
-_newObject = createVehicle ['RoadCone', [24260.8,20456.7,0.00689697], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24260.8,20456.7,23.635]; _newObject setVectorDirAndUp [[0,0.999608,0.0279894], [0.00133688,-0.0279893,0.999607]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['RoadCone', [24251.7,20507.4,0.00715828], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24251.7,20507.4,24.5575]; _newObject setVectorDirAndUp [[0,0.999679,0.0253248], [-0.00267442,-0.0253247,0.999676]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['RoadCone', [24254.3,20508.1,0.0071106], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24254.3,20508.1,24.5826]; _newObject setVectorDirAndUp [[0,0.999679,0.0253248], [-0.00267442,-0.0253247,0.999676]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['RoadCone', [24296.8,20471.9,0.00414848], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24296.8,20471.9,23.8735]; _newObject setVectorDirAndUp [[0,0.999712,0.0239934], [0.00800059,-0.0239926,0.99968]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['RoadCone', [24285.2,20518,0.000875473], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24285.2,20518,24.5165]; _newObject setVectorDirAndUp [[0,0.9998,0.0199975], [0.0173315,-0.0199945,0.99965]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['RoadCone', [24282.8,20517.4,0.000837326], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24282.8,20517.4,24.5446]; _newObject setVectorDirAndUp [[0,0.9998,0.0199975], [0.0173315,-0.0199945,0.99965]]; _newObject allowdamage false; sleep .5;
-
-
 
 sleep 2;
 
