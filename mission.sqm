@@ -1,18 +1,18 @@
 version=53;
 class EditorData
 {
-	moveGridStep=0.125;
+	moveGridStep=16;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1537;
+	toggles=1541;
 	class ItemIDProvider
 	{
-		nextID=15650;
+		nextID=15657;
 	};
 	class MarkerIDProvider
 	{
-		nextID=157;
+		nextID=164;
 	};
 	class LayerIndexProvider
 	{
@@ -741,7 +741,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=243;
+		items=250;
 		class Item0
 		{
 			dataType="Layer";
@@ -42686,12 +42686,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2925.1421,-0.016998291,2463.615};
+				position[]={2832,0,2256};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15426;
 			type="ModuleCurator_F";
-			atlOffset=185.953;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42797,7 +42797,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={2925.625,0,2368};
+				position[]={2896,0,2256};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15427;
@@ -42908,12 +42908,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3028.3931,-0.012008667,2467.282};
+				position[]={2832,0,2208};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15428;
 			type="ModuleCurator_F";
-			atlOffset=185.95799;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43019,7 +43019,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3025.75,0,2381};
+				position[]={2896,0,2208};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15429;
@@ -43130,12 +43130,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3132.136,0.046005249,2465.9331};
+				position[]={2896,0,2304};
 			};
+			name="mods302";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15430;
 			type="ModuleCurator_F";
-			atlOffset=186.01601;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43241,8 +43242,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3114.625,0,2381};
+				position[]={2832,0,2304};
 			};
+			name="mods301";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15431;
 			type="ModuleCurator_F";
@@ -44240,12 +44242,12 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3543.5371,0.018005371,2474.0769};
+				position[]={2832,0,2160};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15440;
 			type="ModuleCurator_F";
-			atlOffset=185.98801;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44351,7 +44353,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3542.625,0,2418.625};
+				position[]={2896,0,2160};
 			};
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15441;
@@ -44462,12 +44464,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3611.491,-0.016998291,2475.3191};
+				position[]={2832,0,2112};
 			};
+			name="modosut01";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15442;
 			type="ModuleCurator_F";
-			atlOffset=185.953;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44573,8 +44576,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3609.75,0,2436.875};
+				position[]={2960,0,2112};
 			};
+			name="modosut03";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15443;
 			type="ModuleCurator_F";
@@ -44684,12 +44688,13 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3646.366,-0.016998291,2475.9441};
+				position[]={2896,0,2112};
 			};
+			name="modosut02";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15444;
 			type="ModuleCurator_F";
-			atlOffset=185.953;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44795,8 +44800,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3644.625,0,2437.5};
+				position[]={3024,0,2112};
 			};
+			name="modosut04";
 			init="call{EH_zeus = [this] execVM ""scripts\EH_zeus.sqf"";}";
 			id=15445;
 			type="ModuleCurator_F";
@@ -44906,11 +44912,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3717.5161,-0.0079956055,2473.1709};
+				position[]={2832,0,2064};
 			};
 			id=15446;
 			type="ModuleCurator_F";
-			atlOffset=185.96201;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45016,7 +45022,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3718.125,0,2434.5};
+				position[]={2896,0,2064};
 			};
 			id=15447;
 			type="ModuleCurator_F";
@@ -45126,11 +45132,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3769.98,0.074005127,2474.4819};
+				position[]={2832,0,2016};
 			};
 			id=15448;
 			type="ModuleCurator_F";
-			atlOffset=186.04401;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45236,11 +45242,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={3768.668,0.074005127,2432.51};
+				position[]={2896,0,2016};
 			};
 			id=15449;
 			type="ModuleCurator_F";
-			atlOffset=186.04401;
+			atlOffset=185.97;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -50168,6 +50174,69 @@ class Mission
 			};
 			id=15649;
 			type="EmptyDetectorArea10x10";
+		};
+		class Item243
+		{
+			dataType="Marker";
+			position[]={2784,0,2256};
+			name="Auto-admin-zeus";
+			type="Empty";
+			id=15650;
+			atlOffset=185.97;
+		};
+		class Item244
+		{
+			dataType="Marker";
+			position[]={2784,0,2208};
+			name="Air-Assault-Zeus";
+			type="Empty";
+			id=15651;
+			atlOffset=185.97;
+		};
+		class Item245
+		{
+			dataType="Marker";
+			position[]={2784,0,2304};
+			name="S3-XXIC-Zeus";
+			type="Empty";
+			id=15652;
+			atlOffset=185.97;
+		};
+		class Item246
+		{
+			dataType="Marker";
+			position[]={2784,0,2160};
+			name="Rotary-Flight-School-Zeus";
+			type="Empty";
+			id=15653;
+			atlOffset=185.97;
+		};
+		class Item247
+		{
+			dataType="Marker";
+			position[]={2784,0,2112};
+			name="OSUT-Zeus";
+			type="Empty";
+			id=15654;
+			atlOffset=185.97;
+		};
+		class Item248
+		{
+			dataType="Marker";
+			position[]={2784,0,2064};
+			name="Fixed-Flight-School-Zeus";
+			type="Empty";
+			id=15655;
+			atlOffset=185.97;
+		};
+		class Item249
+		{
+			dataType="Marker";
+			position[]={2784,0,2016};
+			name="Combat-Medic-School-Zeus";
+			type="Empty";
+			id=15656;
+			atlOffset=185.97;
 		};
 	};
 	class Connections
