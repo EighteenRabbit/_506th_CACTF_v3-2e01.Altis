@@ -236,7 +236,6 @@ _newObject = createVehicle ['Land_i_Garage_V1_F', [24707.5,20834.7,0.167486], []
 
 _newObject = createVehicle ['Land_i_House_Small_02_V3_F', [24737.7,20769.1,-0.0500393], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24735.9,20768.5,24.0535]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
-
 _newObject = createVehicle ['Land_PartyTent_01_F', [22721.7,20316.8,0.0157642], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22721.6,20316.8,18.2819]; _newObject setVectorDirAndUp [[0.775548,-0.631128,0.0142691], [-0.0346456,-0.0199827,0.9992]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_PartyTent_01_F', [23437.1,20759.7,0.0131226], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23437.1,20759.6,39.2448]; _newObject setVectorDirAndUp [[-0.842444,-0.53836,-0.0213479], [0.00532655,-0.0479425,0.998836]]; _newObject allowdamage false; sleep .5;

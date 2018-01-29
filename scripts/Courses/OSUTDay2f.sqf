@@ -116,63 +116,35 @@ flagD2G5 setPosWorld [24277.7,20487.7,27.7713]; flagD2G5 setVectorDirAndUp [[0.7
 flagD2G6 setPosWorld [24739.8,20744.4,25.9812]; flagD2G6 setVectorDirAndUp [[0.399017,-0.916944,0], [0,0,1]]; sleep .5;
 
 d2sign_01 = createVehicle ['SignAd_Sponsor_F', [22728,20322.2,0.0155716], [], 0, 'CAN_COLLIDE']; d2sign_01 setPosWorld [22728,20322.2,17.319]; d2sign_01 setVectorDirAndUp [[-0.586712,-0.809796,0], [0,0,1]]; d2sign_01 allowdamage false; d2sign_01 setobjecttextureglobal [0, "pics\range_signs\Basic_Patrolling_Course.jpg"]; sleep 0.5;
-
 d2sign_02 = createVehicle ['SignAd_Sponsor_F', [24005.2,20906.4,0.00294113], [], 0, 'CAN_COLLIDE']; d2sign_02 setPosWorld [24005.3,20906.4,51.942]; d2sign_02 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_02 allowdamage false; d2sign_02 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_03 = createVehicle ['SignAd_Sponsor_F', [24000.7,20890.7,0.0260849], [], 0, 'CAN_COLLIDE']; d2sign_03 setPosWorld [24000.8,20890.6,51.101]; d2sign_03 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_03 allowdamage false; d2sign_03 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_04 = createVehicle ['SignAd_Sponsor_F', [23442.3,20752.6,0.0122414], [], 0, 'CAN_COLLIDE']; d2sign_04 setPosWorld [23442.3,20752.6,37.6023]; d2sign_04 setVectorDirAndUp [[-0.551253,0.834338,0], [0,0,1]]; d2sign_04 allowdamage false; d2sign_04 setobjecttextureglobal [0, "pics\range_signs\Basic_Manuever.jpg"]; sleep 0.5;
-
 d2sign_05 = createVehicle ['SignAd_Sponsor_F', [24252.9,20508,0.00721169], [], 0, 'CAN_COLLIDE']; d2sign_05 setPosWorld [24252.9,20508,25.3481]; d2sign_05 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_05 allowdamage false; d2sign_05 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_06 = createVehicle ['SignAd_Sponsor_F', [24275,20486,0.00168037], [], 0, 'CAN_COLLIDE']; d2sign_06 setPosWorld [24275,20486,24.8221]; d2sign_06 setVectorDirAndUp [[-0.296492,0.955035,0], [0,0,1]]; d2sign_06 allowdamage false; d2sign_06 setobjecttextureglobal [0, "pics\range_signs\Bounding_Overwatch_Course.jpg"]; sleep 0.5;
-
 d2sign_07 = createVehicle ['SignAd_Sponsor_F', [24283.9,20518,0.000879288], [], 0, 'CAN_COLLIDE']; d2sign_07 setPosWorld [24284,20518,25.3091]; d2sign_07 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_07 allowdamage false; d2sign_07 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_08 = createVehicle ['SignAd_Sponsor_F', [24328,20924.4,0.0415916], [], 0, 'CAN_COLLIDE']; d2sign_08 setPosWorld [24328.1,20924.3,48.1025]; d2sign_08 setVectorDirAndUp [[-0.714192,0.69995,0], [0,0,1]]; d2sign_08 allowdamage false; d2sign_08 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_09 = createVehicle ['SignAd_Sponsor_F', [24335.3,20937.1,0.00580215], [], 0, 'CAN_COLLIDE']; d2sign_09 setPosWorld [24335.4,20937,49.0102]; d2sign_09 setVectorDirAndUp [[-0.978093,0.208168,0], [0,0,1]]; d2sign_09 allowdamage false; d2sign_09 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_10 = createVehicle ['SignAd_Sponsor_F', [24618,20940.7,0.00304985], [], 0, 'CAN_COLLIDE']; d2sign_10 setPosWorld [24618.1,20940.6,30.9495]; d2sign_10 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_10 allowdamage false; d2sign_10 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
-
 d2sign_11 = createVehicle ['SignAd_Sponsor_F', [24615.4,20918.7,0.00130653], [], 0, 'CAN_COLLIDE']; d2sign_11 setPosWorld [24615.4,20918.7,30.1682]; d2sign_11 setVectorDirAndUp [[0.453615,-0.891198,0], [0,0,1]]; d2sign_11 allowdamage false; d2sign_11 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_12 = createVehicle ['SignAd_Sponsor_F', [24626.7,20923.9,-0.000440598], [], 0, 'CAN_COLLIDE']; d2sign_12 setPosWorld [24626.7,20923.9,29.9318]; d2sign_12 setVectorDirAndUp [[0.624456,-0.78106,0], [0,0,1]]; d2sign_12 allowdamage false; d2sign_12 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_13 = createVehicle ['SignAd_Sponsor_F', [24601.5,20932.3,0.0045414], [], 0, 'CAN_COLLIDE']; d2sign_13 setPosWorld [24601.5,20932.2,31.1741]; d2sign_13 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_13 allowdamage false; d2sign_13 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
-
 d2sign_14 = createVehicle ['SignAd_Sponsor_F', [24684.7,20797.9,-0.00538254], [], 0, 'CAN_COLLIDE']; d2sign_14 setPosWorld [24684.8,20797.9,26.2182]; d2sign_14 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_14 allowdamage false; d2sign_14 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_15 = createVehicle ['SignAd_Sponsor_F', [24717.9,20736.8,0.00657272], [], 0, 'CAN_COLLIDE']; d2sign_15 setPosWorld [24717.9,20736.8,23.3045]; d2sign_15 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_15 allowdamage false; d2sign_15 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_16 = createVehicle ['SignAd_Sponsor_F', [24701.1,20805.8,0.00312805], [], 0, 'CAN_COLLIDE']; d2sign_16 setPosWorld [24701.1,20805.8,25.937]; d2sign_16 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_16 allowdamage false; d2sign_16 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
-
 d2sign_18 = createVehicle ['SignAd_Sponsor_F', [24736.2,20740.2,0.000608444], [], 0, 'CAN_COLLIDE']; d2sign_18 setPosWorld [24736.2,20740.2,23.0192]; [d2sign_18, [[-0.441446,0.897288,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, d2sign_18]; d2sign_18 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
-
 d2sign_19 = createVehicle ['SignAd_Sponsor_F', [24729.3,20742.7,0.00755882], [], 0, 'CAN_COLLIDE']; d2sign_19 setPosWorld [24729.3,20742.6,23.2812]; d2sign_19 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_19 allowdamage false; d2sign_19 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [22722.6,20314.1,0.0136509], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22722.6,20314.1,15.9339]; _newObject setVectorDirAndUp [[-0.65603,-0.753787,-0.0378214], [-0.0346456,-0.0199827,0.9992]];
-
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [22743.6,20351.1,0.00448036], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22743.6,20351.1,17.0477]; _newObject setVectorDirAndUp [[0,0.999872,-0.015994], [-0.0359766,0.0159836,0.999225]];
-
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [22751.8,20365.3,0.00630951], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22751.8,20365.3,17.142]; _newObject setVectorDirAndUp [[0,0.999986,-0.00533768], [-0.0306514,0.00533517,0.999516]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [22777.6,20429.3,0.000677109], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22777.6,20429.3,18.2352]; _newObject setVectorDirAndUp [[0,0.999978,0.00666787], [0.00399666,-0.00666781,0.99997]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [22773.9,20425.4,-0.00066185], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22773.9,20425.4,18.2597]; _newObject setVectorDirAndUp [[0,0.999956,0.00932853], [0.0119949,-0.00932786,0.999885]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [23339.9,20907.2,0.0567932], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23339.9,20907.2,48.5335]; _newObject setVectorDirAndUp [[0.484665,-0.864437,-0.133598], [-0.0492736,-0.179475,0.982528]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [23323.5,20897.4,0.0564613], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23323.5,20897.4,46.0207]; _newObject setVectorDirAndUp [[0.607902,-0.788013,-0.097423], [-0.0532575,-0.162887,0.985206]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [23419.9,20782.3,0.00983047], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23419.9,20782.3,38.0809]; _newObject setVectorDirAndUp [[0,0.998913,0.0466162], [0.00800059,-0.0466147,0.998881]];
-
-_newObject = createVehicle ['ClutterCutter_EP1', [23403.5,20772.5,0.00705719], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23403.5,20772.5,37.8624]; _newObject setVectorDirAndUp [[0,0.998974,0.0452867], [0.0173315,-0.0452799,0.998824]];
-
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [23437.1,20759.5,0.0107193], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23437.1,20759.5,36.9068]; _newObject setVectorDirAndUp [[-0.510159,0.858957,0.0439491], [0.00532655,-0.0479425,0.998836]];
-
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [24272.2,20493.6,0.00836182], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24272.2,20493.6,23.8924]; _newObject setVectorDirAndUp [[-0.249853,0.967896,0.027392], [-0.00399675,-0.0293199,0.999562]];
-
+_newObject = createVehicle ['ClutterCutter_EP1', [22777.6,20429.3,0.000677109], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22777.6,20429.3,18.2352]; _newObject setVectorDirAndUp [[0,0.999978,0.00666787], [0.00399666,-0.00666781,0.99997]];
+_newObject = createVehicle ['ClutterCutter_EP1', [22773.9,20425.4,-0.00066185], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22773.9,20425.4,18.2597]; _newObject setVectorDirAndUp [[0,0.999956,0.00932853], [0.0119949,-0.00932786,0.999885]];
+_newObject = createVehicle ['ClutterCutter_EP1', [23339.9,20907.2,0.0567932], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23339.9,20907.2,48.5335]; _newObject setVectorDirAndUp [[0.484665,-0.864437,-0.133598], [-0.0492736,-0.179475,0.982528]];
+_newObject = createVehicle ['ClutterCutter_EP1', [23323.5,20897.4,0.0564613], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23323.5,20897.4,46.0207]; _newObject setVectorDirAndUp [[0.607902,-0.788013,-0.097423], [-0.0532575,-0.162887,0.985206]];
+_newObject = createVehicle ['ClutterCutter_EP1', [23419.9,20782.3,0.00983047], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23419.9,20782.3,38.0809]; _newObject setVectorDirAndUp [[0,0.998913,0.0466162], [0.00800059,-0.0466147,0.998881]];
+_newObject = createVehicle ['ClutterCutter_EP1', [23403.5,20772.5,0.00705719], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23403.5,20772.5,37.8624]; _newObject setVectorDirAndUp [[0,0.998974,0.0452867], [0.0173315,-0.0452799,0.998824]];
 
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22738.9,20357.7,0.00621223], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22738.9,20357.8,17.8482]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22751.7,20350.9,0.00383568], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22751.6,20350.9,18.3274]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;

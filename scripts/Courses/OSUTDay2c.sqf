@@ -39,8 +39,8 @@ null = [Day2CArsenal4] execVM "scripts\box_equipment.sqf";
 sleep 0.2;
 // End of Bottom of hill resupply
 
-_newObject = createVehicle ['rhsusf_rg33_usmc_d', [24291.3,20498.4,-0.107988], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24291.3,20498.4,26.0168]; [_newObject, [[0.945774,0.324513,-0.0142027], [0.0199952,-0.014522,0.999695]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.2;
-_newObject = createVehicle ['rhsusf_rg33_usmc_d', [24289.9,20503.3,-0.12595], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24289.9,20503.3,26.1314]; [_newObject, [[0.960655,0.277457,-0.0125939], [0.0193221,-0.0215286,0.999581]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.2;
+_newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24291.3,20498.4,-0.107988], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24291.3,20498.4,26.0168]; [_newObject, [[0.945774,0.324513,-0.0142027], [0.0199952,-0.014522,0.999695]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.2;
+_newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24289.9,20503.3,-0.12595], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24289.9,20503.3,26.1314]; [_newObject, [[0.960655,0.277457,-0.0125939], [0.0193221,-0.0215286,0.999581]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.2;
 
 _newObject = createVehicle ['Land_Scrap_MRAP_01_F', [24116.4,20852.3,0.107368], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24116,20852.4,42.7324]; _newObject setVectorDirAndUp [[-0.308561,-0.914197,-0.262741], [-0.154136,-0.224514,0.962204]]; _newObject allowdamage false; sleep 0.2;
 
