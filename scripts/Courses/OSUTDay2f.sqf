@@ -1,15 +1,15 @@
 
-_newObject = createVehicle ['rhs_SPG9M_MSV', [24088.8,21031.2,-0.111855], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24088.8,21031.2,79.5839]; _newObject setVectorDirAndUp [[0.0441209,-0.989086,-0.14058], [0.0100927,-0.140269,0.990062]]; _newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['rhs_SPG9M_MSV', [24088.8,21031.2,-0.111855], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24088.8,21031.2,79.5839]; _newObject setVectorDirAndUp [[0.0441209,-0.989086,-0.14058], [0.0100927,-0.140269,0.990062]]; _newObject allowdamage false; sleep 0.5;
 
-_newObject = createVehicle ['RHS_AGS30_TriPod_MSV', [24081,21048.3,2.40951], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24081,21048.3,85.6419]; _newObject setVectorDirAndUp [[0.0741852,-0.997244,2.01017e-008], [-1.90976e-007,5.9505e-009,1]];_newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['RHS_AGS30_TriPod_MSV', [24081,21048.3,2.40951], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24081,21048.3,85.6419]; _newObject setVectorDirAndUp [[0.0741852,-0.997244,2.01017e-008], [-1.90976e-007,5.9505e-009,1]];_newObject allowdamage false; sleep 0.5;
 
-_newObject = createVehicle ['rhs_KORD_high_MSV', [24090.5,21045.1,-0.106079], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24090.5,21045.1,85.5939]; _newObject setVectorDirAndUp [[-0.0258885,-0.999663,0.00196226], [-0.00253296,0.00202851,0.999995]];_newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['rhs_KORD_high_MSV', [24090.5,21045.1,-0.106079], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24090.5,21045.1,85.5939]; _newObject setVectorDirAndUp [[-0.0258885,-0.999663,0.00196226], [-0.00253296,0.00202851,0.999995]];_newObject allowdamage false; sleep 0.5;
 
-_newObject = createVehicle ['RHS_ZU23_MSV', [24146.9,21056.4,-0.0330124], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24146.9,21056.4,94.4052]; _newObject setVectorDirAndUp [[0.077592,-0.976842,0.199396], [-0.143982,0.186923,0.971766]];_newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['RHS_ZU23_MSV', [24146.9,21056.4,-0.0330124], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24146.9,21056.4,94.4052]; _newObject setVectorDirAndUp [[0.077592,-0.976842,0.199396], [-0.143982,0.186923,0.971766]];_newObject allowdamage false; sleep 0.5;
 
-_newObject = createVehicle ['rhs_Kornet_9M133_2_msv', [24136.5,21043.8,-0.020752], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24136.5,21043.8,91.2835]; _newObject setVectorDirAndUp [[0.287064,-0.937157,-0.19832], [-0.151048,-0.248728,0.956723]];_newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['rhs_Kornet_9M133_2_msv', [24136.5,21043.8,-0.020752], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24136.5,21043.8,91.2835]; _newObject setVectorDirAndUp [[0.287064,-0.937157,-0.19832], [-0.151048,-0.248728,0.956723]];_newObject allowdamage false; sleep 0.5;
 
-_newObject = createVehicle ['rhs_KORD_high_MSV', [24160.2,21055.8,-0.0866165], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24160.2,21055.8,95.2091]; _newObject setVectorDirAndUp [[0.962859,0.26948,-0.0167955], [0.017573,-0.000472801,0.999845]]; _newObject allowdamage false; sleep 1;
+_newObject = createVehicle ['rhs_KORD_high_MSV', [24160.2,21055.8,-0.0866165], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24160.2,21055.8,95.2091]; _newObject setVectorDirAndUp [[0.962859,0.26948,-0.0167955], [0.017573,-0.000472801,0.999845]]; _newObject allowdamage false; sleep 0.5;
 
 
 _newObject = createVehicle ['C_Truck_02_covered_F', [24617.3,20841.2,0.0450592], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24617.3,20841.2,29.7638]; _newObject setVectorDirAndUp [[-0.423084,0.906041,0.00948524], [0.0210364,-0.000643433,0.999778]]; _newObject allowdamage false; sleep .5;
@@ -26,121 +26,52 @@ _newObject = createVehicle ['C_Truck_02_transport_F', [24670.2,20903.5,-0.010208
 
 _newObject = createVehicle ['C_Offroad_01_F', [24700.1,20832.7,-0.0317192], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24700.1,20832.7,26.9723]; _newObject setVectorDirAndUp [[0.704986,-0.708533,-0.031256], [0.0242132,-0.0199999,0.999507]]; _newObject allowdamage false; sleep .5;
 
-
-_newObject = createVehicle ['rhsusf_m113_usarmy_medical', [24762.3,20756,-0.639729], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24762.3,20756,24.2703]; _newObject setVectorDirAndUp [[0.99916,-0.0103241,-0.0396516], [0.0394018,-0.0233681,0.99895]]; sleep 1;
-
-_newObject = createVehicle ['rhsusf_m113_usarmy_medical', [24296.6,20430.2,-0.637085], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24296.6,20430.2,24.5807]; _newObject setVectorDirAndUp [[-0.25882,0.964795,0.0467264], [0.0139809,-0.0446279,0.998906]]; sleep 1;
-
-_newObject = createVehicle ['rhsusf_m998_w_4dr_halftop', [24730.5,20739.4,-0.00242233], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24730.5,20739.4,22.0875]; _newObject setVectorDirAndUp [[0.233864,0.971889,0.027209], [0.0233474,-0.0335906,0.999163]]; sleep 1;
-
-_newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24622.5,20930,0.00581932], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24622.5,20930,31.15]; _newObject setVectorDirAndUp [[-0.713785,0.698734,0.0477722], [0.0355774,-0.0319478,0.998856]]; sleep 1;
-
-_newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24313.7,20514.1,-0.00496483], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24313.7,20514.1,25.5068]; _newObject setVectorDirAndUp [[0.322472,0.946577,-0.00184469], [0.0229187,-0.00585949,0.99972]]; sleep 1;
-
-_newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24310.2,20521.8,-0.00294495], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24310.2,20521.8,25.6704]; _newObject setVectorDirAndUp [[0.32247,0.946579,-0.00144249], [0.0241111,-0.00669048,0.999687]]; sleep 1;
-
-
-Arsenal1 = createVehicle ['B_Truck_01_box_F', [24288.3,20488.5,-0.122099], [], 0, 'CAN_COLLIDE']; Arsenal1 setPosWorld [24288.3,20488.5,25.8376]; Arsenal1 setVectorDirAndUp [[0.966168,-0.257741,-0.00940982], [0.0100942,0.0013323,0.999948]]; Arsenal1 allowdamage false; sleep 3;
-
-Arsenal2 = createVehicle ['B_Truck_01_box_F', [24687.6,20708,-0.0796986], [], 0, 'CAN_COLLIDE']; Arsenal2 setPosWorld [24687.6,20708,24.2045]; Arsenal2 setVectorDirAndUp [[0.321906,-0.943613,-0.077277], [0.0357008,-0.0694656,0.996945]]; Arsenal2 allowdamage false; sleep 3;
-
-null = [Arsenal1] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal1 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-
-sleep 3;
-
-null = [Arsenal2] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal2 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-
-sleep 3;
-
-_newObject = createVehicle ['B_Slingload_01_Cargo_F', [24753.7,20733.7,0.00480461], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24753.7,20733.7,22.5566]; _newObject setVectorDirAndUp [[0.897401,0.440874,0.0173904], [0.00941547,-0.0585412,0.99824]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_range_supply.sqf"; sleep 1;
-
-_newObject = createVehicle ['B_Slingload_01_Cargo_F', [24268.8,20506.9,0.000909805], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24268.8,20506.9,25.5889]; _newObject setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]]; _newObject allowdamage false; null = [_newObject] execVM "scripts\box_range_supply.sqf"; sleep 1;
-
-_newObject = createVehicle ['B_Slingload_01_Medevac_F', [24286.3,20427.1,0.00690079], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24286.3,20427.1,23.297]; _newObject setVectorDirAndUp [[-0.282008,0.958184,0.0485344], [0.0200354,-0.0446949,0.9988]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_CMS.sqf"; sleep 1;
-
-_newObject = createVehicle ['B_Slingload_01_Medevac_F', [24765,20742.5,-0.0123844], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24765,20742.5,22.4938]; _newObject setVectorDirAndUp [[-0.892948,-0.449956,0.0135508], [0.0257721,-0.0210462,0.999446]]; _newObject allowdamage false; null= [_newObject] execVM "scripts\box_CMS.sqf"; sleep 1;
-
-sleep 3;
-
 _newGroup = createGroup west;
 
+// Danger Crossing
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [22743.8,20368.2,0.00145721], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 301.91; _newUnit setDir 301.91; _newUnit setPosWorld [22743.8,20368.2,16.9015]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [22752.4,20350.6,0.00138855], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 119.25; _newUnit setDir 119.25; _newUnit setPosWorld [22752.4,20350.6,17.3003]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [22758.1,20359,0.00140953], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 119.614; _newUnit setDir 119.614; _newUnit setPosWorld [22758.1,20359,17.4093]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [22738,20358,0.00146866], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 301.146; _newUnit setDir 301.146; _newUnit setPosWorld [22738,20358,16.7662]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
-
-
+//Halt
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [22769.6,20434.3,0.00141907], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 305.323; _newUnit setDir 305.323; _newUnit setPosWorld [22769.6,20434.3,18.3605]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [22773,20434.9,0.00137711], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 14.975; _newUnit setDir 14.975; _newUnit setPosWorld [22773,20434.9,18.3436]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [22764.6,20427.8,0.00145912], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 299.457; _newUnit setDir 299.457; _newUnit setPosWorld [22764.6,20427.8,18.1459]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [22765.6,20424.6,0.00154686], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 231.931; _newUnit setDir 231.931; _newUnit setPosWorld [22765.6,20424.6,18.1825]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [22775.8,20418.2,0.00143051], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 194.385; _newUnit setDir 194.385; _newUnit setPosWorld [22775.8,20418.2,18.2636]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [22779.1,20418.8,0.00139809], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 124.733; _newUnit setDir 124.733; _newUnit setPosWorld [22779.1,20418.8,18.2075]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [22782.6,20423.7,0.00148964], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 120.047; _newUnit setDir 120.047; _newUnit setPosWorld [22782.6,20423.7,18.179]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [22782.2,20427.6,0.00144768], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 52.521; _newUnit setDir 52.521; _newUnit setPosWorld [22782.2,20427.6,18.2032]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
+_newUnit = _newGroup createUnit ['rhsusf_army_ocp_arb_medic', [22773.5,20423.4,0.00142097], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 196.474; _newUnit setDir 196.474; _newUnit setPosWorld [22773.5,20423.4,18.2478]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_arb_squadleader', [22774.2,20426.3,0.00149345], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 29.057; _newUnit setDir 29.057; _newUnit setPosWorld [22774.2,20426.3,18.2649]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [22769.6,20434.3,0.00141907], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 305.323; _newUnit setDir 305.323; _newUnit setPosWorld [22769.6,20434.3,18.3605]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [22773,20434.9,0.00137711], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 14.975; _newUnit setDir 14.975; _newUnit setPosWorld [22773,20434.9,18.3436]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [22764.6,20427.8,0.00145912], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 299.457; _newUnit setDir 299.457; _newUnit setPosWorld [22764.6,20427.8,18.1459]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [22765.6,20424.6,0.00154686], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 231.931; _newUnit setDir 231.931; _newUnit setPosWorld [22765.6,20424.6,18.1825]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [22775.8,20418.2,0.00143051], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 194.385; _newUnit setDir 194.385; _newUnit setPosWorld [22775.8,20418.2,18.2636]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [22779.1,20418.8,0.00139809], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 124.733; _newUnit setDir 124.733; _newUnit setPosWorld [22779.1,20418.8,18.2075]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [22782.6,20423.7,0.00148964], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 120.047; _newUnit setDir 120.047; _newUnit setPosWorld [22782.6,20423.7,18.179]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [22782.2,20427.6,0.00144768], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 52.521; _newUnit setDir 52.521; _newUnit setPosWorld [22782.2,20427.6,18.2032]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ocp_arb_medic', [22773.5,20423.4,0.00142097], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 196.474; _newUnit setDir 196.474; _newUnit setPosWorld [22773.5,20423.4,18.2478]; _newUnit setUnitPos "DOWN"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
-
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24291.4,20486,0.00141907], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 179.908; _newUnit setDir 179.908; _newUnit setPosWorld [24291.4,20486,23.7368]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24290,20486.2,0.00138664], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 203.283; _newUnit setDir 203.283; _newUnit setPosWorld [24290,20486.2,23.7497]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
-
-
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24690.3,20704.6,0.00161552], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'CORPORAL'; _newUnit setFormDir 53.5624; _newUnit setDir 53.5624; _newUnit setPosWorld [24690.3,20704.6,21.7987]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
-
-
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_rifleman_101st', [24690.5,20705.6,0.00142479], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 161.202; _newUnit setDir 161.202; _newUnit setPosWorld [24690.5,20705.6,21.8575]; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
-
-
-
-
-_newUnit = _newGroup createUnit ['rhsusf_army_ucp_arb_squadleader', [24742.2,20732.2,0.00143814], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.2; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 224.148; _newUnit setDir 224.148; _newUnit setPosWorld [24742.2,20732.2,21.6504]; _newUnit setUnitPos "UP"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; removeallweapons _newUnit; removeHeadgear _newUnit; _newUnit addHeadgear "rhsusf_patrolcap_ucp"; sleep 1.5;
-
-
-
+//MOUT (Pre-breach)
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [24730.2,20754.5,0.00156021], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.5; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 46.9849; _newUnit setDir 46.9849; _newUnit setPosWorld [24730.2,20754.5,22.6584]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [24728.7,20757.8,0.00156021], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 32.8052; _newUnit setDir 32.8052; _newUnit setPosWorld [24728.7,20757.8,22.8312]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24721.3,20772.6,0.00163078], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 91.4159; _newUnit setDir 91.4159; _newUnit setPosWorld [24721.3,20772.6,23.6002]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [24722.9,20769.1,0.00156784], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 67.6201; _newUnit setDir 67.6201; _newUnit setPosWorld [24722.9,20769.1,23.4177]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
-
-
+//MOUT (Post-breach)
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_teamleader', [24726.8,20758.5,0.00130272], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.5; _newUnit setRank 'SERGEANT'; _newUnit setFormDir 292.285; _newUnit setDir 292.285; _newUnit setPosWorld [24726.8,20758.5,22.9172]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_autorifleman', [24727.5,20757.3,0.00144386], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 158.696; _newUnit setDir 158.696; _newUnit setPosWorld [24727.5,20757.3,22.8487]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_grenadier', [24727.2,20757.9,0.0012455], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 238.847; _newUnit setDir 238.847; _newUnit setPosWorld [24727.2,20757.9,22.8823]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
-
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24726.2,20759.5,0.0014267], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 330.238; _newUnit setDir 330.238; _newUnit setPosWorld [24726.2,20759.5,22.9728]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
+Day2FArsenal1 = createVehicle ['B_CargoNet_01_ammo_F', [24734.8,20742.1,0.00391388], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24734.8,20742.1,22.9019]; [_newObject, [[0.866189,0.499708,-0.00285619], [0.0241082,-0.0360786,0.999058]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+Day2FArsenal2 = createVehicle ['Box_NATO_AmmoVeh_F', [24733.5,20744.2,0.0326939], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24733.5,20744.2,23.0058]; [_newObject, [[0.911664,0.410814,-0.0100363], [0.0269669,-0.0354379,0.999008]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
 
-_newObject = createVehicle ['Box_506TH_Acc', [24710.5,20737,0.00354385], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24710.5,20737,23.3585]; [_newObject, [[0.865785,0.500281,-0.0115993], [0.0425907,-0.0505725,0.997812]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
-Arsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [24709,20739.6,0.0331306], [], 0, 'CAN_COLLIDE']; Arsenal3 setPosWorld [24709,20739.6,23.5204]; [Arsenal3, [[0.911335,0.410991,-0.0235565], [0.0426139,-0.0372678,0.998396]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal3];
+Day2FArsenal3 = createVehicle ['B_CargoNet_01_ammo_F', [24758.9,20730.8,0.00239563], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24758.9,20730.8,21.7742]; [_newObject, [[-0.46459,0.884654,0.0392855], [0.0172352,-0.035322,0.999227]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
+Day2FArsenal4 = createVehicle ['Box_NATO_AmmoVeh_F', [24757.5,20730,0.0373344], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24757.5,20730,21.7675]; [_newObject, [[-0.438674,0.898017,0.0336208], [0.014901,-0.0301388,0.999435]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject];
 
-null = [Arsenal3] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal3 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+null = [Day2FArsenal2] execVM "scripts\box_virtualarsenal.sqf";
+Day2FArsenal2 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+
+null = [Day2FArsenal4] execVM "scripts\box_virtualarsenal.sqf";
+Day2FArsenal4 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+
+null = [Day2FArsenal1] execVM "scripts\box_equipment.sqf";
+null = [Day2FArsenal3] execVM "scripts\box_equipment.sqf";
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24732,20766.3,0.00143433], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 151.694; _newUnit setDir 151.694; _newUnit setPosWorld [24732,20766.3,22.998]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 1.5;
 
@@ -177,8 +108,6 @@ flagD2B4 setPosWorld [24147.9,20898.2,52.2953]; flagD2B4 setVectorDirAndUp [[-0.
 flagD2B5 setPosWorld [24275.6,20487.3,27.9825]; flagD2B5 setVectorDirAndUp [[-0.723594,0.690226,0], [0,0,1]]; sleep .5;
 flagD2B6 setPosWorld [24740.7,20744.8,25.9633]; flagD2B6 setVectorDirAndUp [[0.399017,-0.916944,0], [0,0,1]]; sleep .5;
 
-sleep 5;
-
 flagD2G1 setPosWorld [22724.8,20323.2,20.1498]; flagD2G1 setVectorDirAndUp [[-0.0717748,-0.997421,0], [0,0,1]]; sleep .5;
 flagD2G2 setPosWorld [23320.2,20839,43.8213]; flagD2G2 setVectorDirAndUp [[-0.48113,-0.876649,0], [0,0,1]]; sleep .5;
 flagD2G3 setPosWorld [23443.8,20755.4,40.6706]; flagD2G3 setVectorDirAndUp [[-0.91875,0.39484,0], [0,0,1]]; sleep .5;
@@ -186,66 +115,41 @@ flagD2G4 setPosWorld [24150.3,20898.5,52.35]; flagD2G4 setVectorDirAndUp [[0,1,0
 flagD2G5 setPosWorld [24277.7,20487.7,27.7713]; flagD2G5 setVectorDirAndUp [[0.7026,-0.711585,0], [0,0,1]]; sleep .5;
 flagD2G6 setPosWorld [24739.8,20744.4,25.9812]; flagD2G6 setVectorDirAndUp [[0.399017,-0.916944,0], [0,0,1]]; sleep .5;
 
+d2sign_01 = createVehicle ['SignAd_Sponsor_F', [22728,20322.2,0.0155716], [], 0, 'CAN_COLLIDE']; d2sign_01 setPosWorld [22728,20322.2,17.319]; d2sign_01 setVectorDirAndUp [[-0.586712,-0.809796,0], [0,0,1]]; d2sign_01 allowdamage false; d2sign_01 setobjecttextureglobal [0, "pics\range_signs\Basic_Patrolling_Course.jpg"]; sleep 0.5;
 
-BRScreen = createVehicle ['Land_TripodScreen_01_large_F', [24271.3,20497.2,0.00128555], [], 0, 'CAN_COLLIDE']; BRScreen setPosWorld [24271.3,20497.2,25.0208]; BRScreen setVectorDirAndUp [[0.30648,-0.951638,-0.021356], [0.00699779,-0.0201826,0.999772]]; BRScreen allowdamage false; sleep 3;
+d2sign_02 = createVehicle ['SignAd_Sponsor_F', [24005.2,20906.4,0.00294113], [], 0, 'CAN_COLLIDE']; d2sign_02 setPosWorld [24005.3,20906.4,51.942]; d2sign_02 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_02 allowdamage false; d2sign_02 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-CQBScreen setPosWorld [24710.6,20726.7,23.3777]; CQBScreen setVectorDirAndUp [[0.460903,-0.887451,0.00016136], [-0.00010773,0.000125874,1]]; CQBScreen allowdamage false;
+d2sign_03 = createVehicle ['SignAd_Sponsor_F', [24000.7,20890.7,0.0260849], [], 0, 'CAN_COLLIDE']; d2sign_03 setPosWorld [24000.8,20890.6,51.101]; d2sign_03 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_03 allowdamage false; d2sign_03 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-sleep 5;
+d2sign_04 = createVehicle ['SignAd_Sponsor_F', [23442.3,20752.6,0.0122414], [], 0, 'CAN_COLLIDE']; d2sign_04 setPosWorld [23442.3,20752.6,37.6023]; d2sign_04 setVectorDirAndUp [[-0.551253,0.834338,0], [0,0,1]]; d2sign_04 allowdamage false; d2sign_04 setobjecttextureglobal [0, "pics\range_signs\Basic_Manuever.jpg"]; sleep 0.5;
 
-// D2SPLY setPosWorld [24740.9,20731.6,22.6507]; D2SPLY setVectorDirAndUp [[-0.904696,-0.426056,-0.000681743], [-0.192755,0.407872,0.892461]]; D2SPLY allowdamage false; D2SPLY enablesimulation false; sleep 3;
+d2sign_05 = createVehicle ['SignAd_Sponsor_F', [24252.9,20508,0.00721169], [], 0, 'CAN_COLLIDE']; d2sign_05 setPosWorld [24252.9,20508,25.3481]; d2sign_05 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_05 allowdamage false; d2sign_05 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
+d2sign_06 = createVehicle ['SignAd_Sponsor_F', [24275,20486,0.00168037], [], 0, 'CAN_COLLIDE']; d2sign_06 setPosWorld [24275,20486,24.8221]; d2sign_06 setVectorDirAndUp [[-0.296492,0.955035,0], [0,0,1]]; d2sign_06 allowdamage false; d2sign_06 setobjecttextureglobal [0, "pics\range_signs\Bounding_Overwatch_Course.jpg"]; sleep 0.5;
 
-d2sign_01 = createVehicle ['SignAd_Sponsor_F', [22728,20322.2,0.0155716], [], 0, 'CAN_COLLIDE']; d2sign_01 setPosWorld [22728,20322.2,17.319]; d2sign_01 setVectorDirAndUp [[-0.586712,-0.809796,0], [0,0,1]]; d2sign_01 allowdamage false; sleep 1; d2sign_01 setobjecttextureglobal [0, "pics\range_signs\Basic_Patrolling_Course.jpg"]; sleep 1;
+d2sign_07 = createVehicle ['SignAd_Sponsor_F', [24283.9,20518,0.000879288], [], 0, 'CAN_COLLIDE']; d2sign_07 setPosWorld [24284,20518,25.3091]; d2sign_07 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_07 allowdamage false; d2sign_07 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_02 = createVehicle ['SignAd_Sponsor_F', [24005.2,20906.4,0.00294113], [], 0, 'CAN_COLLIDE']; d2sign_02 setPosWorld [24005.3,20906.4,51.942]; d2sign_02 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_02 allowdamage false; sleep 1; d2sign_02 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_08 = createVehicle ['SignAd_Sponsor_F', [24328,20924.4,0.0415916], [], 0, 'CAN_COLLIDE']; d2sign_08 setPosWorld [24328.1,20924.3,48.1025]; d2sign_08 setVectorDirAndUp [[-0.714192,0.69995,0], [0,0,1]]; d2sign_08 allowdamage false; d2sign_08 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_03 = createVehicle ['SignAd_Sponsor_F', [24000.7,20890.7,0.0260849], [], 0, 'CAN_COLLIDE']; d2sign_03 setPosWorld [24000.8,20890.6,51.101]; d2sign_03 setVectorDirAndUp [[0.961329,-0.275402,0], [0,0,1]]; d2sign_03 allowdamage false; sleep 1; d2sign_03 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_09 = createVehicle ['SignAd_Sponsor_F', [24335.3,20937.1,0.00580215], [], 0, 'CAN_COLLIDE']; d2sign_09 setPosWorld [24335.4,20937,49.0102]; d2sign_09 setVectorDirAndUp [[-0.978093,0.208168,0], [0,0,1]]; d2sign_09 allowdamage false; d2sign_09 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_04 = createVehicle ['SignAd_Sponsor_F', [23442.3,20752.6,0.0122414], [], 0, 'CAN_COLLIDE']; d2sign_04 setPosWorld [23442.3,20752.6,37.6023]; d2sign_04 setVectorDirAndUp [[-0.551253,0.834338,0], [0,0,1]]; d2sign_04 allowdamage false; sleep 1; d2sign_04 setobjecttextureglobal [0, "pics\range_signs\Basic_Manuever.jpg"]; sleep 1;
+d2sign_10 = createVehicle ['SignAd_Sponsor_F', [24618,20940.7,0.00304985], [], 0, 'CAN_COLLIDE']; d2sign_10 setPosWorld [24618.1,20940.6,30.9495]; d2sign_10 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_10 allowdamage false; d2sign_10 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
 
-d2sign_05 = createVehicle ['SignAd_Sponsor_F', [24252.9,20508,0.00721169], [], 0, 'CAN_COLLIDE']; d2sign_05 setPosWorld [24252.9,20508,25.3481]; d2sign_05 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_05 allowdamage false; sleep 1; d2sign_05 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_11 = createVehicle ['SignAd_Sponsor_F', [24615.4,20918.7,0.00130653], [], 0, 'CAN_COLLIDE']; d2sign_11 setPosWorld [24615.4,20918.7,30.1682]; d2sign_11 setVectorDirAndUp [[0.453615,-0.891198,0], [0,0,1]]; d2sign_11 allowdamage false; d2sign_11 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_06 = createVehicle ['SignAd_Sponsor_F', [24275,20486,0.00168037], [], 0, 'CAN_COLLIDE']; d2sign_06 setPosWorld [24275,20486,24.8221]; d2sign_06 setVectorDirAndUp [[-0.296492,0.955035,0], [0,0,1]]; d2sign_06 allowdamage false; sleep 1; d2sign_06 setobjecttextureglobal [0, "pics\range_signs\Bounding_Overwatch_Course.jpg"]; sleep 1;
+d2sign_12 = createVehicle ['SignAd_Sponsor_F', [24626.7,20923.9,-0.000440598], [], 0, 'CAN_COLLIDE']; d2sign_12 setPosWorld [24626.7,20923.9,29.9318]; d2sign_12 setVectorDirAndUp [[0.624456,-0.78106,0], [0,0,1]]; d2sign_12 allowdamage false; d2sign_12 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_07 = createVehicle ['SignAd_Sponsor_F', [24283.9,20518,0.000879288], [], 0, 'CAN_COLLIDE']; d2sign_07 setPosWorld [24284,20518,25.3091]; d2sign_07 setVectorDirAndUp [[-0.289801,0.957087,0], [0,0,1]]; d2sign_07 allowdamage false; sleep 1; d2sign_07 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_13 = createVehicle ['SignAd_Sponsor_F', [24601.5,20932.3,0.0045414], [], 0, 'CAN_COLLIDE']; d2sign_13 setPosWorld [24601.5,20932.2,31.1741]; d2sign_13 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_13 allowdamage false; d2sign_13 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
 
-d2sign_08 = createVehicle ['SignAd_Sponsor_F', [24328,20924.4,0.0415916], [], 0, 'CAN_COLLIDE']; d2sign_08 setPosWorld [24328.1,20924.3,48.1025]; d2sign_08 setVectorDirAndUp [[-0.714192,0.69995,0], [0,0,1]]; d2sign_08 allowdamage false; sleep 1; d2sign_08 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_14 = createVehicle ['SignAd_Sponsor_F', [24684.7,20797.9,-0.00538254], [], 0, 'CAN_COLLIDE']; d2sign_14 setPosWorld [24684.8,20797.9,26.2182]; d2sign_14 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_14 allowdamage false; d2sign_14 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_09 = createVehicle ['SignAd_Sponsor_F', [24335.3,20937.1,0.00580215], [], 0, 'CAN_COLLIDE']; d2sign_09 setPosWorld [24335.4,20937,49.0102]; d2sign_09 setVectorDirAndUp [[-0.978093,0.208168,0], [0,0,1]]; d2sign_09 allowdamage false; sleep 1; d2sign_09 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_15 = createVehicle ['SignAd_Sponsor_F', [24717.9,20736.8,0.00657272], [], 0, 'CAN_COLLIDE']; d2sign_15 setPosWorld [24717.9,20736.8,23.3045]; d2sign_15 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_15 allowdamage false; d2sign_15 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_10 = createVehicle ['SignAd_Sponsor_F', [24618,20940.7,0.00304985], [], 0, 'CAN_COLLIDE']; d2sign_10 setPosWorld [24618.1,20940.6,30.9495]; d2sign_10 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_10 allowdamage false; sleep 1; d2sign_10 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 1;
+d2sign_16 = createVehicle ['SignAd_Sponsor_F', [24701.1,20805.8,0.00312805], [], 0, 'CAN_COLLIDE']; d2sign_16 setPosWorld [24701.1,20805.8,25.937]; d2sign_16 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_16 allowdamage false; d2sign_16 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
-d2sign_11 = createVehicle ['SignAd_Sponsor_F', [24615.4,20918.7,0.00130653], [], 0, 'CAN_COLLIDE']; d2sign_11 setPosWorld [24615.4,20918.7,30.1682]; d2sign_11 setVectorDirAndUp [[0.453615,-0.891198,0], [0,0,1]]; d2sign_11 allowdamage false; sleep 1; d2sign_11 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
+d2sign_18 = createVehicle ['SignAd_Sponsor_F', [24736.2,20740.2,0.000608444], [], 0, 'CAN_COLLIDE']; d2sign_18 setPosWorld [24736.2,20740.2,23.0192]; [d2sign_18, [[-0.441446,0.897288,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, d2sign_18]; d2sign_18 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 0.5;
 
-d2sign_12 = createVehicle ['SignAd_Sponsor_F', [24626.7,20923.9,-0.000440598], [], 0, 'CAN_COLLIDE']; d2sign_12 setPosWorld [24626.7,20923.9,29.9318]; d2sign_12 setVectorDirAndUp [[0.624456,-0.78106,0], [0,0,1]]; d2sign_12 allowdamage false; sleep 1; d2sign_12 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
-
-d2sign_13 = createVehicle ['SignAd_Sponsor_F', [24601.5,20932.3,0.0045414], [], 0, 'CAN_COLLIDE']; d2sign_13 setPosWorld [24601.5,20932.2,31.1741]; d2sign_13 setVectorDirAndUp [[0.448624,-0.893721,0], [0,0,1]]; d2sign_13 allowdamage false; sleep 1; d2sign_13 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 1;
-
-d2sign_14 = createVehicle ['SignAd_Sponsor_F', [24684.7,20797.9,-0.00538254], [], 0, 'CAN_COLLIDE']; d2sign_14 setPosWorld [24684.8,20797.9,26.2182]; d2sign_14 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_14 allowdamage false; sleep 1; d2sign_14 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
-
-d2sign_15 = createVehicle ['SignAd_Sponsor_F', [24717.9,20736.8,0.00657272], [], 0, 'CAN_COLLIDE']; d2sign_15 setPosWorld [24717.9,20736.8,23.3045]; d2sign_15 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_15 allowdamage false; sleep 1; d2sign_15 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
-
-d2sign_16 = createVehicle ['SignAd_Sponsor_F', [24701.1,20805.8,0.00312805], [], 0, 'CAN_COLLIDE']; d2sign_16 setPosWorld [24701.1,20805.8,25.937]; d2sign_16 setVectorDirAndUp [[-0.458096,0.888903,0], [0,0,1]]; d2sign_16 allowdamage false; sleep 1; d2sign_16 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
-
-d2sign_17 = createVehicle ['SignAd_Sponsor_F', [24722.2,20703.2,-0.000999451], [], 0, 'CAN_COLLIDE']; d2sign_17 setPosWorld [24722.2,20703.2,21.8914]; d2sign_17 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_17 allowdamage false; sleep 1; d2sign_17 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 1;
-
-d2sign_18 = createVehicle ['SignAd_Sponsor_F', [24742.9,20730.3,-0.0103741], [], 0, 'CAN_COLLIDE']; d2sign_18 setPosWorld [24742.9,20730.3,22.5799]; d2sign_18 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_18 allowdamage false; sleep 1; d2sign_18 setobjecttextureglobal [0, "pics\range_signs\CQB_Range.jpg"]; sleep 1;
-
-d2sign_19 = createVehicle ['SignAd_Sponsor_F', [24729.3,20742.7,0.00755882], [], 0, 'CAN_COLLIDE']; d2sign_19 setPosWorld [24729.3,20742.6,23.2812]; d2sign_19 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_19 allowdamage false; sleep 1; d2sign_19 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 1;
-
-NoticeB_01 = createVehicle ['Land_Noticeboard_F', [24591,20919.8,0.000200272], [], 0, 'CAN_COLLIDE']; NoticeB_01 setPosWorld [24591,20919.8,30.7245]; NoticeB_01 setVectorDirAndUp [[0.344761,0.938516,0.0180742], [0.0346456,-0.0319638,0.998888]]; sleep 1; NoticeB_01 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_01 allowdamage false; sleep 1;
-
-NoticeB_02 = createVehicle ['Land_Noticeboard_F', [24594.2,20913.4,0.00156212], [], 0, 'CAN_COLLIDE']; NoticeB_02 setPosWorld [24594.2,20913.3,30.4192]; NoticeB_02 setVectorDirAndUp [[0.964172,-0.262728,-0.0367058], [0.0293221,-0.0319711,0.999059]]; sleep 1; NoticeB_02 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_02 allowdamage false; sleep 1;
-
-NoticeB_03 = createVehicle ['Land_Noticeboard_F', [24643.3,20937.3,-0.00857544], [], 0, 'CAN_COLLIDE']; NoticeB_03 setPosWorld [24643.4,20937.3,29.2442]; NoticeB_03 setVectorDirAndUp [[-0.400967,-0.91608,0.00490223], [0.0638697,-0.0226166,0.997702]]; sleep 1; NoticeB_03 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_03 allowdamage false; sleep 1;
-
-NoticeB_04 = createVehicle ['Land_Noticeboard_F', [24640,20944.1,-0.00630569], [], 0, 'CAN_COLLIDE']; NoticeB_04 setPosWorld [24640,20944,29.6502]; NoticeB_04 setVectorDirAndUp [[-0.944695,0.32023,0.0707386], [0.0638687,-0.0319196,0.997448]]; sleep 1; NoticeB_04 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_04 allowdamage false; sleep 1;
-
-NoticeB_05 = createVehicle ['Land_Noticeboard_F', [24726,20712.9,-0.0044651], [], 0, 'CAN_COLLIDE']; NoticeB_05 setPosWorld [24726,20712.9,21.6607]; NoticeB_05 setVectorDirAndUp [[-0.322236,-0.946656,0.00268102], [0.0239934,-0.00533598,0.999698]]; sleep 1; NoticeB_05 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_05 allowdamage false; sleep 1;
-
-NoticeB_06 = createVehicle ['Land_Noticeboard_F', [24723.1,20718.7,0.00728798], [], 0, 'CAN_COLLIDE']; NoticeB_06 setPosWorld [24723.2,20718.7,21.9341]; NoticeB_06 setVectorDirAndUp [[-0.946355,0.320818,0.0385675], [0.0239934,-0.0492592,0.998498]]; sleep 1; NoticeB_06 setobjecttextureglobal [0, "pics\restricted_area.jpg"]; NoticeB_06 allowdamage false; sleep 1;
-
+d2sign_19 = createVehicle ['SignAd_Sponsor_F', [24729.3,20742.7,0.00755882], [], 0, 'CAN_COLLIDE']; d2sign_19 setPosWorld [24729.3,20742.6,23.2812]; d2sign_19 setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; d2sign_19 allowdamage false; d2sign_19 setobjecttextureglobal [0, "pics\range_signs\Range_Warning.jpg"]; sleep 0.5;
 
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [22722.6,20314.1,0.0136509], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22722.6,20314.1,15.9339]; _newObject setVectorDirAndUp [[-0.65603,-0.753787,-0.0378214], [-0.0346456,-0.0199827,0.9992]];
 
@@ -269,7 +173,6 @@ _newObject = createVehicle ['Land_ClutterCutter_large_F', [23437.1,20759.5,0.010
 
 _newObject = createVehicle ['Land_ClutterCutter_large_F', [24272.2,20493.6,0.00836182], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24272.2,20493.6,23.8924]; _newObject setVectorDirAndUp [[-0.249853,0.967896,0.027392], [-0.00399675,-0.0293199,0.999562]];
 
-sleep 5;
 
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22738.9,20357.7,0.00621223], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22738.9,20357.8,17.8482]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22751.7,20350.9,0.00383568], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22751.6,20350.9,18.3274]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;
@@ -286,7 +189,6 @@ _newObject = createVehicle ['VR_3DSelector_01_default_F', [22778.6,20419.4,-0.00
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22773.1,20433.8,-0.00222206], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22773.1,20433.8,19.3708]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;
 _newObject = createVehicle ['VR_3DSelector_01_default_F', [22770.4,20433.8,-0.00222397], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22770.4,20433.8,19.4112]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; sleep .5;
 
-sleep 5;
 
 _newObject = createVehicle ['Sign_Arrow_Direction_F', [22742.5,20348.3,0.00115204], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22742.5,20348.4,17.1053]; _newObject setVectorDirAndUp [[0.454597,0.890695,0.00211995], [-0.0359766,0.0159836,0.999225]]; sleep .5;
 
@@ -334,8 +236,6 @@ _newObject = createVehicle ['Sign_arrow_down_large_EP1', [23412.5,21067.8,-6.866
 
 _newObject = createVehicle ['Sign_arrow_down_large_EP1', [23435,20548.5,0.00877571], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23435,20548.5,25.8954]; _newObject setVectorDirAndUp [[-0.229982,-0.972475,-0.0374343], [0.0119949,-0.0412949,0.999075]]; sleep .5;
 
-sleep 5;
-
 _newObject = createVehicle ['FlagChecked_F', [22823.7,20445.3,0.00970078], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [22823.8,20445.8,19.0593]; _newObject setVectorDirAndUp [[0,0.999892,0.0146682], [-0.0239937,-0.014664,0.999605]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['FlagChecked_F', [23290.5,20656.6,0.00298691], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23290.5,20657,34.4456]; _newObject setVectorDirAndUp [[0,0.999928,0.0119996], [0,-0.0119996,0.999928]]; _newObject allowdamage false; sleep .5;
@@ -343,8 +243,6 @@ _newObject = createVehicle ['FlagChecked_F', [23290.5,20656.6,0.00298691], [], 0
 _newObject = createVehicle ['FlagChecked_F', [23384.1,20728.7,-0.0554504], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23384.1,20729.1,35.3776]; _newObject setVectorDirAndUp [[0,0.99957,0.0293221], [0.244361,-0.0284331,0.969267]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['FlagChecked_F', [23448.5,20734.2,0.0160522], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23448.5,20734.6,36.5407]; _newObject setVectorDirAndUp [[0,0.997958,0.0638687], [0,-0.0638687,0.997958]]; _newObject allowdamage false; sleep .5;
-
-sleep 5;
 
 _newObject = createVehicle ['TargetEpopup', [23335,20908.5,0.119934], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23335.2,20908.1,49.0944]; _newObject setVectorDirAndUp [[0.516961,-0.846284,-0.128663], [-0.0492736,-0.179475,0.982528]]; sleep .5;
 
@@ -362,8 +260,6 @@ _newObject = createVehicle ['TargetEpopup', [23342.6,20912.5,0.122314], [], 0, '
 
 _newObject = createVehicle ['TargetEpopup', [23346.3,20914.3,0.122307], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23346.5,20913.9,50.7021]; _newObject setVectorDirAndUp [[0.517119,-0.84462,-0.13858], [-0.0426276,-0.187122,0.981411]]; sleep .5;
 
-sleep 5;
-
 flagOSUTDay2a setDir (getDir TP_White);
 flagOSUTDay2a setPos (getPos TP_White);
 flagOSUTDay2b setDir (getDir TP_White_1);
@@ -376,5 +272,3 @@ _marker1 setMarkerShape "ICON";
 _marker1 setMarkerColor "ColorRed";
 _marker1 setMarkerType "mil_warning";
 _marker1 setMarkerText "OSUT DAY 2 ACTIVATED";
-
-sleep 10;

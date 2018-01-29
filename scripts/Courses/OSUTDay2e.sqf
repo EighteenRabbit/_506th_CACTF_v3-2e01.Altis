@@ -1,5 +1,3 @@
-
-
 _newObject = createVehicle ['Land_City_8m_F', [24596.4,20872.3,0.000112534], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24596.4,20872.3,29.0342]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
 _newObject = createVehicle ['Land_City_8m_F', [24618.3,20846.9,-0.0038414], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24618.3,20846.9,28.1572]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]];
 _newObject = createVehicle ['Land_City_8m_F', [24621.4,20840.6,-0.00407791], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24621.4,20840.7,28.0191]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]];
@@ -71,100 +69,29 @@ _newObject = createVehicle ['Land_City_8m_F', [24693.1,20858.5,-0.0118752], [], 
 
 sleep 5;
 
-_newObject = createVehicle ['Land_SolarPanel_2_F', [24612,20902.7,-0.0238209], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24611.8,20903.3,30.2278]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]]; _newObject = createVehicle ['Land_SolarPanel_2_F', [24608.4,20901,-0.0224648], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24608.2,20901.5,30.2911]; _newObject setVectorDirAndUp [[-0.441238,0.896657,0.0362511], [0.0306533,-0.0253129,0.99921]]; _newObject = createVehicle ['Land_SolarPanel_2_F', [24607.1,20904.5,-0.0238781], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24606.8,20905.1,30.4294]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]]; _newObject = createVehicle ['Land_SolarPanel_2_F', [24605.3,20908.1,-0.0237675], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24605.1,20908.6,30.584]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]]; _newObject = createVehicle ['Land_SolarPanel_2_F', [24610.7,20906.3,-0.0241108], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24610.4,20906.8,30.3684]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]]; _newObject = createVehicle ['Land_SolarPanel_2_F', [24608.9,20909.9,-0.0256176], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24608.7,20910.4,30.5242]; _newObject setVectorDirAndUp [[-0.44122,0.896377,0.0428095], [0.031983,-0.0319666,0.998977]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24612,20902.7,-0.0238209], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24611.8,20903.3,30.2278]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24608.4,20901,-0.0224648], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24608.2,20901.5,30.2911]; _newObject setVectorDirAndUp [[-0.441238,0.896657,0.0362511], [0.0306533,-0.0253129,0.99921]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24607.1,20904.5,-0.0238781], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24606.8,20905.1,30.4294]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24605.3,20908.1,-0.0237675], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24605.1,20908.6,30.584]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24610.7,20906.3,-0.0241108], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24610.4,20906.8,30.3684]; _newObject setVectorDirAndUp [[-0.441238,0.896558,0.0386401], [0.0306514,-0.0279762,0.999139]];
+_newObject = createVehicle ['Land_SolarPanel_2_F', [24608.9,20909.9,-0.0256176], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24608.7,20910.4,30.5242]; _newObject setVectorDirAndUp [[-0.44122,0.896377,0.0428095], [0.031983,-0.0319666,0.998977]];
 
 sleep 5;
 
-_newObject = createVehicle ['Land_LampHalogen_F', [24604.8,20930.9,0.00273132], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24604.8,20930.9,35.95]; _newObject setVectorDirAndUp [[0.441446,-0.897288,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24629,20927.3,-0.0030098], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24629,20927.3,34.9017]; _newObject setVectorDirAndUp [[-0.461787,0.886991,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24623,20939.9,-0.00213242], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24623,20939.9,35.6431]; _newObject setVectorDirAndUp [[-0.461787,0.886991,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24603,20931.2,0.00273514], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24603,20931.2,36.025]; _newObject setVectorDirAndUp [[0.904188,0.427135,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24610.9,20918.5,0.000331879], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24610.9,20918.4,35.26]; _newObject setVectorDirAndUp [[0.441446,-0.897288,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24623.5,20941.6,-0.000915527], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24623.5,20941.6,35.693]; _newObject setVectorDirAndUp [[0.904188,0.427135,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24688.1,20718.1,0.0038929], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24688,20718.1,28.7641]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24673.7,20711.1,0.0152283], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24673.7,20711.1,28.7838]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24700.6,20724.3,-1.90735e-006], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24700.6,20724.3,28.4599]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24715,20731.4,0.00431824], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24715,20731.4,28.0642]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24714.3,20732.7,0.00425529], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24714.3,20732.7,28.1545]; _newObject setVectorDirAndUp [[0.441446,-0.897288,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24734.5,20742.6,0.00194168], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24734.5,20742.7,28.0865]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24735.2,20741.3,0.00328064], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24735.2,20741.3,28.0243]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24754.9,20751,-0.000940323], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24754.9,20751,27.6747]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false;
-
-_newObject = createVehicle ['Land_LampHalogen_F', [24755.7,20752.6,-0.000608444], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24755.7,20752.6,27.6933]; _newObject setVectorDirAndUp [[0.438961,-0.898506,0], [0,0,1]]; _newObject allowdamage false;
-
-sleep 5;
-
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24618.2,20941.4,0.0018692], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24618.2,20941.4,30.3242]; _newObject setVectorDirAndUp [[0.454169,-0.890915,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24615.7,20940.2,0.00187492], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24615.7,20940.1,30.372]; _newObject setVectorDirAndUp [[0.454169,-0.890915,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24596.9,20915.6,0.00141335], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24596.9,20915.6,30.0047]; _newObject setVectorDirAndUp [[0.441689,-0.897168,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24594.4,20920.5,0.0013504], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24594.4,20920.4,30.2353]; _newObject setVectorDirAndUp [[0.441689,-0.897168,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24608.3,20932.6,0.00256538], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24608.3,20932.6,30.3141]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24611.8,20926.1,0.00208855], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24611.8,20926.1,29.912]; _newObject setVectorDirAndUp [[-0.695255,0.718763,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24603.1,20933.8,0.00441551], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24603.1,20933.7,30.536]; _newObject setVectorDirAndUp [[0.420665,-0.907216,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24626.1,20922.1,-0.00146103], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24626.1,20922.1,29.2453]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24614,20938.1,0.00216103], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24614,20938.1,30.3493]; _newObject setVectorDirAndUp [[-0.95621,0.292681,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24618.6,20933.1,0.00184441], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24618.7,20933.1,29.9542]; _newObject setVectorDirAndUp [[0.545411,-0.838169,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24626,20924.1,-0.00110245], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24626,20924.1,29.3107]; _newObject setVectorDirAndUp [[0.593931,-0.804516,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24612.2,20928,0.00256348], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24612.2,20928,29.9819]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24600.6,20932.6,0.00435829], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24600.6,20932.6,30.5641]; _newObject setVectorDirAndUp [[0.420665,-0.907216,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24610.4,20930.2,0.00250244], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24610.4,20930.2,30.1367]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24616.5,20933.1,0.0012722], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24616.6,20933.1,30.04]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24619.5,20917.8,-0.000137329], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24619.5,20917.8,29.327]; _newObject setVectorDirAndUp [[-0.556773,0.830665,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24614.6,20935.4,0.00257683], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24614.6,20935.4,30.2157]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24619.4,20919.6,0.000225067], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24619.4,20919.6,29.3966]; _newObject setVectorDirAndUp [[0.763095,0.646286,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24617.3,20920.5,0.000558853], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24617.3,20920.5,29.5055]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24614.8,20919.3,0.000959396], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24614.8,20919.3,29.557]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24628.1,20921.7,-0.00122261], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24628.1,20921.7,29.1563]; _newObject setVectorDirAndUp [[0.611607,-0.791162,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24605.7,20934.1,0.00343513], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24605.7,20934.1,30.4653]; _newObject setVectorDirAndUp [[-0.229612,-0.973282,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24640.1,20936.8,-0.00667572], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24640.1,20936.8,29.0339]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24637.6,20941.7,-0.00748253], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24637.6,20941.7,29.3256]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24684,20802.5,-0.00555611], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24684,20802.5,25.6456]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24685.5,20799.5,-0.00555611], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24685.5,20799.5,25.5556]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24679.5,20808.2,-0.00332642], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24679.5,20808.2,25.8698]; _newObject setVectorDirAndUp [[-0.516076,0.856543,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24682.4,20805.8,-0.00529099], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24682.4,20805.8,25.7452]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24684.9,20797.5,-0.00596809], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24684.9,20797.5,25.5528]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24697.8,20809.3,0.00306892], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24697.8,20809.3,25.3877]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24696.2,20812.6,0.00272751], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24696.2,20812.6,25.4716]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24699.3,20806.2,0.00312614], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24699.3,20806.2,25.3063]; _newObject setVectorDirAndUp [[0.897288,0.441446,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24701.4,20805.5,0.00293541], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24701.4,20805.5,25.273]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24696.1,20816.1,0.00259972], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24696.1,20816.1,25.5438]; _newObject setVectorDirAndUp [[-0.516076,0.856543,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24739.1,20727.8,0.0176296], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24739.1,20727.8,21.8448]; _newObject setVectorDirAndUp [[0.808778,-0.588115,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24737.4,20725.6,0.0100365], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24737.4,20725.6,21.7214]; _newObject setVectorDirAndUp [[0.808778,-0.588115,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24725.8,20722.6,0.0100613], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24725.8,20722.5,21.6732]; _newObject setVectorDirAndUp [[0.948558,0.316605,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24733,20722.8,0.0129948], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24733,20722.8,21.6223]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24731.4,20723.9,0.0125103], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24731.4,20723.9,21.6909]; _newObject setVectorDirAndUp [[0.948558,0.316605,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24723.2,20712,-0.00465012], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24723.2,20712,21.3178]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24720.7,20716.9,0.00651169], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24720.7,20716.9,21.5002]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24724.9,20725.2,0.00748634], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24724.9,20725.2,21.8426]; _newObject setVectorDirAndUp [[0.948558,0.316605,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24733.7,20729.6,0.0149784], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24733.7,20729.6,22.0063]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24725.2,20720.4,0.00864029], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24725.3,20720.4,21.5718]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24730.6,20726.4,0.0124054], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24730.6,20726.4,21.8307]; _newObject setVectorDirAndUp [[0.948558,0.316605,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24731.1,20728.4,0.0150871], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24731.1,20728.4,21.9434]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24735.4,20723.9,0.0102234], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24735.4,20723.9,21.667]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24723.3,20726.2,0.0104866], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24723.3,20726.1,21.938]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24729.5,20742.1,0.00748444], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24729.5,20742.1,22.5998]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-_newObject = createVehicle ['Land_CncBarrier_stripes_F', [24718,20736.3,0.0062027], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24718,20736.3,22.6202]; _newObject setVectorDirAndUp [[0.428893,-0.903355,0], [0,0,1]];
-
-sleep 5;
-
-_newObject = createVehicle ['Land_CncWall1_F', [24618,20919.3,-0.0101776], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24618,20919.5,30.8242]; _newObject setVectorDirAndUp [[-0.441634,0.897195,0], [0,0,1]]; _newObject = createVehicle ['Land_CncWall1_F', [24627.6,20924,0.0126858], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24627.7,20923.7,30.6109]; _newObject setVectorDirAndUp [[0.626075,-0.779763,0], [0,0,1]]; _newObject = createVehicle ['Land_CncWall1_F', [24626.5,20923.1,0.0126152], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24626.7,20922.8,30.6242]; _newObject setVectorDirAndUp [[0.626075,-0.779763,0], [0,0,1]]; _newObject = createVehicle ['Land_CncWall4_F', [24729,20743.3,-0.00710869], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24728.9,20743.4,24.0449]; _newObject setVectorDirAndUp [[-0.455841,0.890061,0], [0,0,1]]; _newObject = createVehicle ['Land_CncWall4_F', [24717.6,20737.4,-0.00893402], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24717.5,20737.6,24.0806]; _newObject setVectorDirAndUp [[-0.455841,0.890061,0], [0,0,1]];
-
-sleep 5;
-
-_newObject = createVehicle ['Land_Grave_V3_F', [24634.5,20833.9,-0.00413895], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24634.6,20833.9,27.8805]; _newObject setVectorDirAndUp [[0.441304,-0.89717,-0.018358], [0.0253248,-0.00799803,0.999647]]; _newObject = createVehicle ['Land_Grave_V2_F', [24631.7,20832.5,-0.00476837], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24631.8,20832.5,27.5775]; _newObject setVectorDirAndUp [[0.441289,-0.89719,-0.0177417], [0.0266547,-0.00665692,0.999623]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24652.3,20843.4,-0.00119591], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24652.4,20843.3,26.7884]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24654.8,20842.3,-0.00120926], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24654.9,20842.1,26.7024]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24645.3,20839.8,-0.000501633], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24645.4,20839.7,26.9721]; _newObject setVectorDirAndUp [[0.896902,0.441672,-0.0221894], [0.0293202,-0.00932452,0.999527]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24647.8,20838.7,-0.000432968], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24647.9,20838.5,26.888]; _newObject setVectorDirAndUp [[0.896902,0.441672,-0.0221894], [0.0293202,-0.00932452,0.999527]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24648.8,20841.5,-0.00113869], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24648.9,20841.4,26.8818]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24651.3,20840.4,-0.00119591], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24651.4,20840.2,26.7958]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24653.4,20846,-0.00121307], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24653.5,20845.9,26.7763]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24649.8,20844.1,-0.00115585], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24649.9,20844,26.8697]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_soldier_F', [24646.4,20842.4,-0.00114059], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24646.5,20842.3,26.9626]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]]; _newObject = createVehicle ['Land_Grave_memorial_F', [24641.1,20836.1,-0.00682068], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24641.1,20836.3,27.1186]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject = createVehicle ['Land_Grave_obelisk_F', [24639.3,20839.5,-0.00380707], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24639.4,20839.5,30.0647]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject = createVehicle ['Land_Grave_V1_F', [24629,20831.2,-0.00463676], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24629,20831.2,27.082]; _newObject setVectorDirAndUp [[0.441304,-0.897193,-0.0171623], [0.0253248,-0.00666573,0.999657]];
+_newObject = createVehicle ['Land_Grave_V3_F', [24634.5,20833.9,-0.00413895], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24634.6,20833.9,27.8805]; _newObject setVectorDirAndUp [[0.441304,-0.89717,-0.018358], [0.0253248,-0.00799803,0.999647]];
+_newObject = createVehicle ['Land_Grave_V2_F', [24631.7,20832.5,-0.00476837], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24631.8,20832.5,27.5775]; _newObject setVectorDirAndUp [[0.441289,-0.89719,-0.0177417], [0.0266547,-0.00665692,0.999623]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24652.3,20843.4,-0.00119591], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24652.4,20843.3,26.7884]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24654.8,20842.3,-0.00120926], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24654.9,20842.1,26.7024]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24645.3,20839.8,-0.000501633], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24645.4,20839.7,26.9721]; _newObject setVectorDirAndUp [[0.896902,0.441672,-0.0221894], [0.0293202,-0.00932452,0.999527]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24647.8,20838.7,-0.000432968], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24647.9,20838.5,26.888]; _newObject setVectorDirAndUp [[0.896902,0.441672,-0.0221894], [0.0293202,-0.00932452,0.999527]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24648.8,20841.5,-0.00113869], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24648.9,20841.4,26.8818]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24651.3,20840.4,-0.00119591], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24651.4,20840.2,26.7958]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24653.4,20846,-0.00121307], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24653.5,20845.9,26.7763]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24649.8,20844.1,-0.00115585], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24649.9,20844,26.8697]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_soldier_F', [24646.4,20842.4,-0.00114059], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24646.5,20842.3,26.9626]; _newObject setVectorDirAndUp [[0.896866,0.441652,-0.0239704], [0.0306514,-0.00799683,0.999498]];
+_newObject = createVehicle ['Land_Grave_memorial_F', [24641.1,20836.1,-0.00682068], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24641.1,20836.3,27.1186]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
+_newObject = createVehicle ['Land_Grave_obelisk_F', [24639.3,20839.5,-0.00380707], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24639.4,20839.5,30.0647]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]];
+_newObject = createVehicle ['Land_Grave_V1_F', [24629,20831.2,-0.00463676], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24629,20831.2,27.082]; _newObject setVectorDirAndUp [[0.441304,-0.897193,-0.0171623], [0.0253248,-0.00666573,0.999657]];
 
 sleep 5;
 
@@ -287,8 +214,6 @@ _newObject = createVehicle ['Land_Wreck_UAZ_F', [24656.4,20881.8,0.0730743], [],
 
 _newObject = createVehicle ['Land_i_House_Small_03_V1_F', [24658.1,20930.6,-0.00931168], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24658.2,20930.5,27.7017]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
-_newObject = createVehicle ['Land_Shed_Big_F', [24690.2,20692.3,-0.719463], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24685.9,20701,25.0905]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
 _newObject = createVehicle ['Land_i_Stone_HouseSmall_V2_F', [24664.3,20756.6,0.0102348], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24665.7,20757.3,30.195]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_Wreck_HMMWV_F', [24682.5,20820.8,-0.00520706], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24682.4,20821,26.3281]; _newObject setVectorDirAndUp [[0.829862,-0.55698,-0.0332068], [0.0373061,-0.00399388,0.999296]]; _newObject allowdamage false; sleep .5;
@@ -305,13 +230,9 @@ _newObject = createVehicle ['Land_i_Shop_02_V3_F', [24682.8,20882.4,-0.028492], 
 
 _newObject = createVehicle ['Land_Metal_Shed_F', [24670.3,20913,-0.0494289], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24669.7,20914.3,27.9677]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
-_newObject = createVehicle ['Land_PortableGenerator_01_F', [24712.1,20727.4,-0.0250111], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24712.1,20727.4,22.7101]; _newObject setVectorDirAndUp [[-0.422842,0.906204,2.43275e-006], [-1.73092e-005,-1.07612e-005,1]]; _newObject allowdamage false; sleep .5;
-
 _newObject = createVehicle ['Land_i_Shop_01_V3_F', [24698.7,20852.1,0.00580215], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24699.8,20849.9,28.5621]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_i_Garage_V1_F', [24707.5,20834.7,0.167486], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24708.3,20834.9,25.7469]; _newObject setVectorDirAndUp [[-0.427087,0.904211,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_i_Shed_Ind_F', [24747.9,20737.6,0.233704], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24747,20734.9,23.0601]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_i_House_Small_02_V3_F', [24737.7,20769.1,-0.0500393], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24735.9,20768.5,24.0535]; _newObject setVectorDirAndUp [[-0.441446,0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
@@ -322,8 +243,6 @@ _newObject = createVehicle ['Land_PartyTent_01_F', [23437.1,20759.7,0.0131226], 
 
 _newObject = createVehicle ['Land_PartyTent_01_F', [24272.3,20493.8,0.0092411], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24272.3,20493.7,26.2275]; _newObject setVectorDirAndUp [[-0.959338,-0.282001,-0.0121078], [-0.00399675,-0.0293199,0.999562]]; _newObject allowdamage false; sleep .5;
 
-_newObject = createVehicle ['Land_FieldToilet_F', [23445.5,20759.4,0.0179367], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23445.5,20759.4,38.1094]; _newObject setVectorDirAndUp [[-0.0295222,0.995398,0.0911639], [-0.0175024,-0.0917045,0.995632]]; _newObject allowdamage false; sleep .5;
-
 _newObject = createVehicle ['Land_BagBunker_Small_F', [24160.5,21056.4,-0.0151367], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24160,21056.3,94.5594]; _newObject setVectorDirAndUp [[-0.976878,-0.212992,0.0185191], [0.0186626,0.00133698,0.999825]]; _newObject enablesimulation false; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_BagBunker_Tower_F', [24090.7,21046.3,0.0146484], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24090.7,21046.3,83.4378]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
@@ -331,61 +250,3 @@ _newObject = createVehicle ['Land_BagBunker_Tower_F', [24090.7,21046.3,0.0146484
 _newObject = createVehicle ['Land_BagBunker_Tower_F', [24082.7,21048.2,0.00185394], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24082.9,21048.1,83.9052]; _newObject setVectorDirAndUp [[-0.999613,-0.0278098,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
 
 _newObject = createVehicle ['Land_BagBunker_Tower_F', [24090.7,21046.3,0.0146484], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24090.7,21046.3,83.4378]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Cargo_Patrol_V1_F', [24120.5,21048.1,0.0498352], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24120.3,21049.3,90.6803]; _newObject setVectorDirAndUp [[-0.15202,0.988377,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Cargo_Patrol_V1_F', [24627.1,20934.1,-0.00334549], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24628.3,20934.6,34.1126]; _newObject setVectorDirAndUp [[0.902334,0.431037,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Cargo_Patrol_V1_F', [24606.7,20923.6,0.00133896], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24605.6,20923.1,34.5272]; _newObject setVectorDirAndUp [[-0.902709,-0.430252,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Medevac_house_V1_F', [24291.9,20429.1,0.00594139], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24291.7,20430.1,22.6745]; _newObject setVectorDirAndUp [[0.258819,-0.965926,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Cargo_Tower_V1_F', [24693.8,20712.7,0.00509644], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24695.4,20713.1,35.013]; _newObject setVectorDirAndUp [[-0.897288,-0.441446,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Cargo_HQ_V1_F', [24711.6,20719.7,-0.0017662], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24712,20720.7,25.5127]; _newObject setVectorDirAndUp [[0.441446,-0.897288,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_GuardShed', [24616.2,20935.6,0.00282478], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24616.9,20936.2,30.3775]; _newObject setVectorDirAndUp [[0.763876,0.645355,-0.00304797], [0.0399682,-0.0425935,0.998293]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_GuardShed', [24609,20929.2,0.056179], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24609.7,20928.4,30.3059]; _newObject setVectorDirAndUp [[0.651532,-0.756633,-0.0548896], [0.0346456,-0.042602,0.998491]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_GuardShed', [24733,20725,-0.0358849], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24732.6,20725.9,22.0152]; _newObject setVectorDirAndUp [[-0.394219,0.91748,0.0531293], [0.00133688,-0.0572385,0.99836]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_GuardShed', [24724.1,20721.5,-0.0451851], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24723.7,20722.3,21.924]; _newObject setVectorDirAndUp [[-0.440812,0.895851,0.0560003], [0.0213271,-0.051918,0.998424]]; _newObject allowdamage false; sleep .5;
-
-
-_newObject = createVehicle ['Land_PortableLight_double_F', [24278.1,20425.6,0.00128937], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24278.1,20425.6,23.1292]; _newObject setVectorDirAndUp [[-0.258819,-0.965926,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24290.9,20453.1,0.00030899], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24290.9,20453.1,23.1256]; _newObject setVectorDirAndUp [[-0.000682895,0.999052,0.0435264], [0.012166,-0.0435149,0.998979]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24279.7,20450,0.000291824], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24279.7,20450,23.1074]; _newObject setVectorDirAndUp [[-0.000675751,0.999167,0.0408043], [0.0108114,-0.0407946,0.999109]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24294,20441.9,0.000434875], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24294,20441.9,22.5901]; _newObject setVectorDirAndUp [[-0.000704369,0.998929,0.0462615], [0.0135364,-0.0462477,0.998838]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24282.7,20438.8,0.00025177], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24282.7,20438.8,22.6077]; _newObject setVectorDirAndUp [[-0.000399899,0.999166,0.0408167], [0.0148877,-0.0408062,0.999056]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_HelipadRescue_F', [24286.8,20445.9,0.00735855], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24286.8,20445.9,22.7624]; _newObject setVectorDirAndUp [[-0.258796,0.964901,0.0446224], [0.0133313,-0.0426238,0.999002]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_PortableGenerator_01_F', [24271.7,20498.5,0.000205994], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24271.7,20498.5,24.3777]; _newObject setVectorDirAndUp [[-0.98915,-0.146877,0.00306503], [0.00666558,-0.0240281,0.999689]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_PortableLight_double_F', [24304.4,20434.1,0.00615692], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24304.3,20434.2,23.0667]; _newObject setVectorDirAndUp [[0.866025,-0.5,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24775.8,20757.2,0.000377655], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24775.8,20757.2,21.2918]; _newObject setVectorDirAndUp [[0.180828,-0.983219,-0.0241253], [0.0300488,-0.0189952,0.999368]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_PortableLight_double_F', [24758.6,20749.1,0.00245857], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24758.8,20749.2,22.5986]; _newObject setVectorDirAndUp [[-0.887455,-0.460894,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_PortableLight_double_F', [24763.5,20739.7,0.00474739], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24763.7,20739.6,22.1936]; _newObject setVectorDirAndUp [[-0.816186,0.577789,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_Medevac_house_V1_F', [24763.7,20746.8,-0.00199127], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24764.6,20747.2,21.9773]; _newObject setVectorDirAndUp [[-0.893099,-0.44986,0], [0,0,1]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24780.8,20746.7,0.000185013], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24780.8,20746.7,20.9639]; _newObject setVectorDirAndUp [[0.180477,-0.983353,-0.0210816], [0.0205574,-0.0176577,0.999633]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24791.3,20751.7,0.000150681], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24791.3,20751.7,20.8258]; _newObject setVectorDirAndUp [[0.180558,-0.983416,-0.0170909], [0.0205382,-0.0136029,0.999696]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['Land_HelipadRescue_F', [24783.6,20754.4,-0.00103569], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24783.6,20754.4,20.9246]; _newObject setVectorDirAndUp [[0.427843,-0.903462,-0.026563], [0.02266,-0.0186578,0.999569]]; _newObject allowdamage false; sleep .5;
-
-_newObject = createVehicle ['PortableHelipadLight_01_blue_F', [24786.4,20762.2,0.000343323], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24786.4,20762.2,21.1192]; _newObject setVectorDirAndUp [[0.180901,-0.983171,-0.0254741], [0.0300574,-0.0203625,0.999341]]; _newObject allowdamage false; sleep .5;
-
-
-_newObject = createVehicle ['Land_CampingTable_small_F', [24740.7,20732.4,0.000219345], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24740.7,20732.4,22.0787]; _newObject setVectorDirAndUp [[0.901592,0.432501,-0.00857832], [0.0206814,-0.0232878,0.999515]]; _newObject enablesimulation false; _newObject allowdamage false; sleep 3;
-
-_newObject = createVehicle ['Land_CampingTable_F', [24741.4,20731.1,0.00144577], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24741.4,20731.1,22.0569]; _newObject setVectorDirAndUp [[0.899937,0.436002,0.00396102], [-0.00322402,-0.00243021,0.999992]]; _newObject enablesimulation false; _newObject allowdamage false; sleep 3;
