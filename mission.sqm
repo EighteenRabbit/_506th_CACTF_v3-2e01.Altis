@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16973;
+		nextID=17035;
 	};
 	class Camera
 	{
-		pos[]={16042.284,23.622454,16911.822};
-		dir[]={-0.81497335,-0.41341299,0.40615678};
-		up[]={-0.37002665,0.91053069,0.18440893};
-		aside[]={0.44605619,2.3454777e-007,0.89503628};
+		pos[]={16021.189,23.622454,16860.625};
+		dir[]={-0.75347728,-0.47860491,-0.45085356};
+		up[]={-0.41071087,0.8780179,-0.24575508};
+		aside[]={-0.51347989,1.8253922e-007,0.8581382};
 	};
 };
 binarizationWanted=0;
@@ -48506,7 +48506,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48558,7 +48558,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48577,7 +48577,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48595,7 +48595,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48614,7 +48614,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48632,7 +48632,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48650,7 +48650,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48668,7 +48668,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48686,7 +48686,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48706,7 +48706,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48724,7 +48724,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48742,7 +48742,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48760,7 +48760,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48778,7 +48778,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48796,7 +48796,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48814,7 +48814,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48833,7 +48833,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48851,7 +48851,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48869,7 +48869,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48887,7 +48887,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48905,7 +48905,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48923,7 +48923,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48941,7 +48941,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48959,7 +48959,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48977,7 +48977,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -48996,7 +48996,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49015,7 +49015,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49034,7 +49034,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49053,7 +49053,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49072,7 +49072,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49091,7 +49091,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49110,7 +49110,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49129,7 +49129,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49148,7 +49148,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49167,7 +49167,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49186,7 +49186,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49205,7 +49205,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49224,7 +49224,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49243,7 +49243,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49262,7 +49262,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49281,7 +49281,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49300,7 +49300,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49319,7 +49319,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49338,7 +49338,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49357,7 +49357,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49376,7 +49376,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49395,7 +49395,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49414,7 +49414,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49433,7 +49433,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49452,7 +49452,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49471,7 +49471,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49490,7 +49490,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49509,7 +49509,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49528,7 +49528,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49547,7 +49547,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49566,7 +49566,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49585,7 +49585,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49604,7 +49604,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49623,7 +49623,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49642,7 +49642,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49661,7 +49661,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49680,7 +49680,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49699,7 +49699,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49718,7 +49718,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49737,7 +49737,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49756,7 +49756,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49775,7 +49775,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49794,7 +49794,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49813,7 +49813,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49832,7 +49832,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
@@ -49851,7 +49851,7 @@ class Mission
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{{ if(isplayer _x) then {_pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; } } foreach thisList}";
+				onActivation="call{{ if(isplayer _x) then {_x allowDamage false; _pp = getPosASL _x; x = _pp select 0; y = _pp select 1; z = (_pp select 2) - 10; _x setPosASL [x,y,z]; sleep 3; _x allowDamage true; } } foreach thisList}";
 				sizeA=0.26800001;
 				sizeB=0.264;
 				sizeC=2;
