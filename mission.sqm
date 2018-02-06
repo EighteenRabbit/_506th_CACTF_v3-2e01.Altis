@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=15665;
+		nextID=15670;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17162;
+		nextID=17186;
 	};
 	class Camera
 	{
-		pos[]={16043.473,28.813496,16913.02};
-		dir[]={-0.80076516,-0.4940699,0.33867964};
-		up[]={-0.45505241,0.86941546,0.19246191};
-		aside[]={0.38954371,2.7357601e-009,0.92102325};
+		pos[]={16062.436,43.87851,16892.619};
+		dir[]={-0.80754387,-0.57596469,0.12775743};
+		up[]={-0.56893468,0.81743366,0.090007879};
+		aside[]={0.15627566,-5.6508725e-008,0.98779726};
 	};
 };
 binarizationWanted=0;
@@ -734,7 +734,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=166;
+		items=168;
 		class Item0
 		{
 			dataType="Layer";
@@ -18228,7 +18228,7 @@ class Mission
 						};
 					};
 					id=11493;
-					atlOffset=97.594406;
+					atlOffset=-0.012840271;
 				};
 				class Item5
 				{
@@ -18908,7 +18908,7 @@ class Mission
 				};
 			};
 			id=11400;
-			atlOffset=56.47007;
+			atlOffset=-0.79148102;
 		};
 		class Item3
 		{
@@ -54709,7 +54709,87 @@ class Mission
 				};
 			};
 			id=15661;
-			atlOffset=1.3695667e+027;
+			atlOffset=1.1756002e+027;
+		};
+		class Item166
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16010.91,14.439201,16953.307};
+				angles[]={6.2685208,3.9311669,6.2671871};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="null=[this] execVM ""scripts\box_equipment.sqf"";";
+			};
+			id=15666;
+			type="B_CargoNet_01_ammo_F";
+		};
+		class Item167
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={16007.639,14.53756,16950.029};
+				angles[]={0.0013372133,0.78957224,6.2511969};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="this addAction [""Clear Loadout"", ""scripts\clear_loadout.sqf"", [],6,true,true,"""",""_this distance _target < 5""]; null = [this] execVM ""scripts\box_virtualarsenal.sqf"";";
+				name="arsenal_5";
+			};
+			id=15667;
+			type="Box_NATO_AmmoVeh_F";
+			atlOffset=0.052352905;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 	};
 	class Connections
