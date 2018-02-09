@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17258;
+		nextID=17282;
 	};
 	class Camera
 	{
@@ -647,7 +647,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="_506_CACTF_v3";
+		briefingName="_506_CACTF_v3.1";
 		timeOfChanges=1800.0002;
 		startWeather=0;
 		startWind=0.1;
@@ -763,7 +763,7 @@ class Mission
 							};
 							id=11478;
 							type="rhsusf_M977A4_AMMO_BKIT_usarmy_wd";
-							atlOffset=0.43827629;
+							atlOffset=0.40827751;
 						};
 						class Item1
 						{
@@ -779,7 +779,7 @@ class Mission
 							};
 							id=11479;
 							type="rhsusf_M977A4_REPAIR_BKIT_usarmy_wd";
-							atlOffset=0.4185791;
+							atlOffset=0.38856888;
 						};
 						class Item2
 						{
@@ -795,7 +795,7 @@ class Mission
 							};
 							id=11480;
 							type="rhsusf_M978A4_usarmy_wd";
-							atlOffset=0.47283363;
+							atlOffset=0.44283485;
 						};
 						class Item3
 						{
@@ -811,7 +811,7 @@ class Mission
 							};
 							id=41;
 							type="rhsusf_M977A4_AMMO_BKIT_usarmy_wd";
-							atlOffset=0.37409782;
+							atlOffset=0.34409904;
 						};
 						class Item4
 						{
@@ -827,7 +827,7 @@ class Mission
 							};
 							id=40;
 							type="rhsusf_M977A4_REPAIR_BKIT_usarmy_wd";
-							atlOffset=0.37190056;
+							atlOffset=0.34190178;
 						};
 						class Item5
 						{
@@ -843,11 +843,11 @@ class Mission
 							};
 							id=39;
 							type="rhsusf_M978A4_usarmy_wd";
-							atlOffset=0.43451118;
+							atlOffset=0.40451241;
 						};
 					};
 					id=12077;
-					atlOffset=0.4595108;
+					atlOffset=0.42951202;
 				};
 				class Item1
 				{
@@ -4699,7 +4699,7 @@ class Mission
 				};
 			};
 			id=1494;
-			atlOffset=0.073068619;
+			atlOffset=0.069318771;
 		};
 		class Item1
 		{
@@ -18958,7 +18958,7 @@ class Mission
 							};
 							id=11475;
 							type="RHS_UH60M";
-							atlOffset=0.035533905;
+							atlOffset=0.005771637;
 						};
 						class Item1
 						{
@@ -18975,7 +18975,7 @@ class Mission
 							};
 							id=11472;
 							type="RHS_UH60M";
-							atlOffset=0.035493851;
+							atlOffset=0.0057144165;
 						};
 						class Item2
 						{
@@ -19147,7 +19147,7 @@ class Mission
 							};
 							id=11474;
 							type="RHS_CH_47F";
-							atlOffset=5.1498413e-005;
+							atlOffset=-0.015882492;
 						};
 						class Item5
 						{
@@ -19164,7 +19164,7 @@ class Mission
 							};
 							id=11471;
 							type="RHS_CH_47F";
-							atlOffset=-0.0016956329;
+							atlOffset=-0.017663956;
 						};
 						class Item6
 						{
@@ -19300,7 +19300,7 @@ class Mission
 						};
 					};
 					id=12073;
-					atlOffset=-0.23522377;
+					atlOffset=-0.23866653;
 				};
 				class Item1
 				{
@@ -19711,7 +19711,7 @@ class Mission
 				};
 			};
 			id=11469;
-			atlOffset=-0.11915398;
+			atlOffset=-0.11958504;
 		};
 		class Item4
 		{
@@ -52528,7 +52528,7 @@ class Mission
 			};
 			id=15539;
 			type="RHS_A10_AT_74th";
-			atlOffset=0.00012969971;
+			atlOffset=-0.05478096;
 		};
 		class Item154
 		{

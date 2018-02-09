@@ -3,12 +3,12 @@ null=[this] execVM "scripts\box_equipment.sqf";
 */
 if (isServer) then {
 	_crate = _this select 0;
-	 
-	clearMagazineCargoGlobal _crate;  
+
+	clearMagazineCargoGlobal _crate;
 	clearBackpackCargoGlobal _crate;
-	clearWeaponCargoGlobal _crate;    
+	clearWeaponCargoGlobal _crate;
 	clearItemCargoGlobal _crate;
-	 
+
 	_crate addItemCargoGlobal ["ACE_Vector",50];
 	_crate addItemCargoGlobal ["ACE_MX2A",50];
 	_crate addItemCargoGlobal ["rhsusf_opscore_mc_cover_pelt",1];
@@ -22,6 +22,6 @@ if (isServer) then {
 	_crate addMagazineCargoGlobal["rhsusf_100Rnd_762x51_m80a1epr", 3];
 	_crate addMagazineCargoGlobal["rhsusf_100Rnd_762x51_m993", 3];
 	_crate addMagazineCargoGlobal["rhs_fgm148_magazine_AT", 1];
-	_crate addMagazineCargoGlobal["tf47_m3maaws_HEAT", 2];
+	_crate addMagazineCargoGlobal["rhs_mag_maaws_HEAT", 2];
 	_crate addMagazineCargoGlobal["Laserbatteries", 10];
 };
