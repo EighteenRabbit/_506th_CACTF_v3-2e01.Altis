@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=17306;
+		nextID=17329;
 	};
 	class Camera
 	{
-		pos[]={16048.813,33.36898,16908.979};
-		dir[]={-0.73195618,-0.60044301,0.32210648};
-		up[]={-0.5496009,0.79965079,0.24185801};
-		aside[]={0.40279415,6.3663174e-007,0.91531461};
+		pos[]={16047.669,22.780558,16910.047};
+		dir[]={-0.84807235,-0.38334215,0.36596137};
+		up[]={-0.35203335,0.92357188,0.15191031};
+		aside[]={0.39622733,5.7587749e-007,0.91820943};
 	};
 };
 binarizationWanted=0;
@@ -12471,7 +12471,7 @@ class Mission
 							};
 							id=657;
 							type="Land_FlatTV_01_F";
-							atlOffset=1.3187647;
+							atlOffset=1.3187637;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -12508,7 +12508,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="pics\classrooms\laptop_desktop.jpg";
+											value="pics\classrooms\pc_desktop.jpg";
 										};
 									};
 								};
@@ -13411,7 +13411,7 @@ class Mission
 							};
 							id=15575;
 							type="Land_FlatTV_01_F";
-							atlOffset=1.3192759;
+							atlOffset=1.3192749;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -13448,7 +13448,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="pics\classrooms\laptop_desktop.jpg";
+											value="pics\classrooms\pc_desktop.jpg";
 										};
 									};
 								};
@@ -13495,7 +13495,7 @@ class Mission
 						};
 					};
 					id=11490;
-					atlOffset=0.99915886;
+					atlOffset=0.99915791;
 				};
 				class Item3
 				{
@@ -18927,7 +18927,7 @@ class Mission
 				};
 			};
 			id=11400;
-			atlOffset=-0.79148102;
+			atlOffset=-0.79148197;
 		};
 		class Item3
 		{
