@@ -1,4 +1,5 @@
 // this addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 5"];
+// Last Modified 20FEB18
 
 _unit = _this select 1;
 
