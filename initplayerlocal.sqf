@@ -1,7 +1,7 @@
 waituntil {! isnull player};
 
 //Remove all gear from player and add what is needed
-if (player == player) then { 
+if (player == player) then {
     removeallweapons player;
     removeallassigneditems player;
     removevest player;
@@ -9,8 +9,8 @@ if (player == player) then {
     removeheadgear player;
     removegoggles player;
 	removeUniform player;
-	player forceAddUniform "rhs_uniform_cu_ucp_101st";
-	player addHeadgear "rhsusf_patrolcap_ucp";
+	player forceAddUniform "rhs_uniform_cu_ocp_101st";
+	player addHeadgear "rhsusf_patrolcap_ocp";
 	player additem "ItemMap";
 	player assignItem "ItemMap";
  view = player addAction ["Settings", "scripts\Viewdistance.sqf", [],-98,false,false];
