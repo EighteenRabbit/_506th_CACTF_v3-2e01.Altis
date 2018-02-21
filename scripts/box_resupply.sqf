@@ -23,6 +23,7 @@ _box addMagazineCargoGlobal ["rhs_mag_M433_HEDP", 12];
 _box addMagazineCargoGlobal ["rhs_mag_M441_HE", 12];
 _box addMagazineCargoGlobal ["rhsusf_20Rnd_762x51_m118_special_Mag", 6];
 
+
 // Equipment
 _box addMagazineCargoGlobal ["SmokeShell", 20];
 _box addMagazineCargoGlobal ["SmokeShellYellow", 20];

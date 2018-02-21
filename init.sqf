@@ -162,3 +162,11 @@ BRIEF_setObjectTextureGlobal = {(_this select 0) setObjectTextureGlobal (_this s
 enableSaving [false, false];
 
 waituntil {!isnil "bis_fnc_init"};
+
+// Wait until postInit has run because the TFAR settings don't work before then
+waitUntil {time > 2};
+// The set TFAR Options that are ignored in description.ext and the ACE/CBA options
+// No automatic long range radio
+["TF_no_auto_long_range_radio", true, true, "mission"] call CBA_settings_fnc_set;
+// No personal radios
+["TF_give_personal_radio_to_regular_soldier", false, true, "mission"] call CBA_settings_fnc_set;
