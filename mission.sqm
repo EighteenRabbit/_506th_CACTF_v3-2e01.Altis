@@ -8,11 +8,11 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=15698;
+		nextID=15699;
 	};
 	class MarkerIDProvider
 	{
-		nextID=166;
+		nextID=167;
 	};
 	class LayerIndexProvider
 	{
@@ -65128,7 +65128,7 @@ class Mission
 			state=3;
 			class Entities
 			{
-				items=29;
+				items=30;
 				class Item0
 				{
 					dataType="Marker";
@@ -65409,9 +65409,18 @@ class Mission
 					id=15697;
 					atlOffset=-0.00015735626;
 				};
+				class Item29
+				{
+					dataType="Marker";
+					position[]={11647.5,9.835,13106.4};
+					name="avn_convoy_ao";
+					type="Empty";
+					id=15698;
+					atlOffset=0.00021457672;
+				};
 			};
 			id=15661;
-			atlOffset=2.9390006e+026;
+			atlOffset=1.4695003e+026;
 		};
 		class Item165
 		{
