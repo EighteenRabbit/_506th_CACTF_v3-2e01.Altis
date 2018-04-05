@@ -6,37 +6,18 @@ _newObject = createVehicle ['Land_CncWall4_F', [24100.1,21070.9,-0.298729], [], 
 _newObject = createVehicle ['Land_CncWall4_F', [24097.9,21062.9,-0.260338], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24098,21063.2,82.4653]; _newObject setVectorDirAndUp [[0,1,0], [0,0,1]]; _newObject allowdamage false;sleep 0.2;
 
 // Start of Top of hill resupply
-Day2CArsenal1 = createVehicle ['Box_NATO_AmmoVeh_F', [24098.7,21064.9,0.000816345], [], 0, 'CAN_COLLIDE'];
-Day2CArsenal1 setPosWorld [24098.7,21064.9,81.3299];
-Day2CArsenal1 setVectorDirAndUp [[-0.0998323,-0.0371112,0.044216], [0.0439522,0.0133702,0.994944]];
-Day2CArsenal1 allowdamage false;
-null = [Day2CArsenal1] execVM "scripts\box_virtualarsenal.sqf";
-Day2CArsenal1 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-sleep 0.2;
-
-Day2CArsenal2 = createVehicle ['B_CargoNet_01_ammo_F', [24098.5,21067,0.00808716], [], 0, 'CAN_COLLIDE'];
-Day2CArsenal2 setPosWorld [24098.5,21067.5,81.6809];
-Day2CArsenal2 setVectorDirAndUp [[-0.995755,-0.0399038,-0.0829412], [0.080925,0.0497375,0.995479]];
-Day2CArsenal2 allowdamage false;
-null = [Day2CArsenal2] execVM "scripts\box_equipment.sqf";
-sleep 0.2;
+Day2CArsenal1 = createVehicle ['Box_NATO_AmmoVeh_F', [24098.7,21064.9,0.000816345], [], 0, 'CAN_COLLIDE'];Day2CArsenal1 setPosWorld [24098.7,21064.9,81.3299];Day2CArsenal1 setVectorDirAndUp [[-0.0998323,-0.0371112,0.044216], [0.0439522,0.0133702,0.994944]];Day2CArsenal1 allowdamage false;sleep 0.2;
+Day2CArsenal2 = createVehicle ['B_CargoNet_01_ammo_F', [24098.5,21067,0.00808716], [], 0, 'CAN_COLLIDE'];Day2CArsenal2 setPosWorld [24098.5,21067.5,81.6809];Day2CArsenal2 setVectorDirAndUp [[-0.995755,-0.0399038,-0.0829412], [0.080925,0.0497375,0.995479]];Day2CArsenal2 allowdamage false;sleep 0.2;
+[Day2CArsenal2] execVM "scripts\proxy_equipment.sqf";
+[Day2CArsenal1] execVM "scripts\proxy_arsenal.sqf";
 // End of Top of hill resupply
 
 // Start of Bottom of hill resupply
-Day2CArsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [24272.6,20500.9,0.0310268], [], 0, 'CAN_COLLIDE'];
-Day2CArsenal3 setPosWorld [24272.6,20500.9,24.875];
-Day2CArsenal3 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];
-Day2CArsenal3 allowdamage false;
-null = [Day2CArsenal3] execVM "scripts\box_virtualarsenal.sqf";
-Day2CArsenal3 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-sleep 0.2;
+Day2CArsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [24272.6,20500.9,0.0310268], [], 0, 'CAN_COLLIDE'];Day2CArsenal3 setPosWorld [24272.6,20500.9,24.875];Day2CArsenal3 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];Day2CArsenal3 allowdamage false;sleep 0.2;
+Day2CArsenal4 = createVehicle ['B_CargoNet_01_ammo_F', [24267.3,20499.3,0.000583649], [], 0, 'CAN_COLLIDE'];Day2CArsenal4 setPosWorld [24267.3,20499.3,24.8738];Day2CArsenal4 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];Day2CArsenal4 allowdamage false;sleep 0.2;
 
-Day2CArsenal4 = createVehicle ['B_CargoNet_01_ammo_F', [24267.3,20499.3,0.000583649], [], 0, 'CAN_COLLIDE'];
-Day2CArsenal4 setPosWorld [24267.3,20499.3,24.8738];
-Day2CArsenal4 setVectorDirAndUp [[0.959373,0.282141,0.000742287], [0.00667648,-0.0253323,0.999657]];
-Day2CArsenal4 allowdamage false;
-null = [Day2CArsenal4] execVM "scripts\box_equipment.sqf";
-sleep 0.2;
+[Day2CArsenal4] execVM "scripts\proxy_equipment.sqf";
+[Day2CArsenal3] execVM "scripts\proxy_arsenal.sqf";
 // End of Bottom of hill resupply
 
 _newObject = createVehicle ['rhsusf_m998_w_2dr_halftop', [24291.3,20498.4,-0.107988], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [24291.3,20498.4,26.0168]; [_newObject, [[0.945774,0.324513,-0.0142027], [0.0199952,-0.014522,0.999695]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.2;

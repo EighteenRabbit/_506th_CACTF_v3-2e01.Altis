@@ -63,14 +63,10 @@ Day2FArsenal2 = createVehicle ['Box_NATO_AmmoVeh_F', [24733.5,20744.2,0.0326939]
 Day2FArsenal3 = createVehicle ['B_CargoNet_01_ammo_F', [24758.9,20730.8,0.00239563], [], 0, 'CAN_COLLIDE']; Day2FArsenal3 setPosWorld [24758.9,20730.8,21.7742]; [Day2FArsenal3, [[-0.46459,0.884654,0.0392855], [0.0172352,-0.035322,0.999227]]] remoteExecCall ["setVectorDirAndUp", 0, Day2FArsenal3];
 Day2FArsenal4 = createVehicle ['Box_NATO_AmmoVeh_F', [24757.5,20730,0.0373344], [], 0, 'CAN_COLLIDE']; Day2FArsenal4 setPosWorld [24757.5,20730,21.7675]; [Day2FArsenal4, [[-0.438674,0.898017,0.0336208], [0.014901,-0.0301388,0.999435]]] remoteExecCall ["setVectorDirAndUp", 0, Day2FArsenal4];
 
-null = [Day2FArsenal2] execVM "scripts\box_virtualarsenal.sqf";
-Day2FArsenal2 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-
-null = [Day2FArsenal4] execVM "scripts\box_virtualarsenal.sqf";
-Day2FArsenal4 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
-
-null = [Day2FArsenal1] execVM "scripts\box_equipment.sqf";
-null = [Day2FArsenal3] execVM "scripts\box_equipment.sqf";
+[Day2FArsenal1] execVM "scripts\proxy_equipment.sqf";
+[Day2FArsenal2] execVM "scripts\proxy_arsenal.sqf";
+[Day2FArsenal3] execVM "scripts\proxy_equipment.sqf";
+[Day2FArsenal4] execVM "scripts\proxy_arsenal.sqf";
 
 _newUnit = _newGroup createUnit ['rhsusf_army_ocp_riflemanat', [24732,20766.3,0.00143433], [], 0, 'CAN_COLLIDE']; _newUnit setSkill 0.4; _newUnit setRank 'PRIVATE'; _newUnit setFormDir 151.694; _newUnit setDir 151.694; _newUnit setPosWorld [24732,20766.3,22.998]; _newUnit setUnitPos "MIDDLE"; _newUnit disableAI "MOVE"; _newUnit setCaptive true; sleep 0.5;
 

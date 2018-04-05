@@ -32,30 +32,34 @@ _newObject = createVehicle ['SignAd_Sponsor_F', [23685.7,19109.4,-3.33786e-006],
 _newObject = createVehicle ['SignAd_Sponsor_F', [23729.8,19093.2,0.603629], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23729.2,19092.6,4.63665]; [_newObject, [[0.702056,0.712121,0], [0,0,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; _newObject enableSimulationGlobal true; _newObject setobjecttextureglobal [0, "pics\range_signs\Grenade_Range.jpg"]; sleep 0.1;
 
 Arsenal1 = createVehicle ['Box_NATO_AmmoVeh_F', [23680.4,19065.5,0.0305436], [], 0, 'CAN_COLLIDE']; Arsenal1 setPosWorld [23680.4,19065.5,4.01035]; [Arsenal1, [[-0.700584,-0.71357,2.93327e-006], [3.20115e-006,9.67798e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal1]; Arsenal1 allowdamage false; sleep 0.1;
-null = [Arsenal1] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal1 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+[Arsenal1] execVM "scripts\proxy_arsenal.sqf";
 
 Arsenal2 = createVehicle ['Box_NATO_AmmoVeh_F', [23715.4,19022.9,0.0305417], [], 0, 'CAN_COLLIDE']; Arsenal2 setPosWorld [23715.4,19022.9,4.01035]; [Arsenal2, [[-0.700567,-0.713587,-1.34053e-007], [-1.88931e-007,-2.37446e-009,1]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal2]; Arsenal2 allowdamage false; sleep 0.1;
-null = [Arsenal2] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal2 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+[Arsenal2] execVM "scripts\proxy_arsenal.sqf";
 
 Arsenal3 = createVehicle ['Box_NATO_AmmoVeh_F', [23782.3,19065.4,0.0305421], [], 0, 'CAN_COLLIDE']; Arsenal3 setPosWorld [23782.3,19065.4,4.01035]; [Arsenal3, [[-0.700575,-0.713579,4.79229e-008], [1.17608e-008,5.5612e-008,1]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal3]; Arsenal3 allowdamage false; sleep 0.1;
-null = [Arsenal3] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal3 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+[Arsenal3] execVM "scripts\proxy_arsenal.sqf";
 
 Arsenal4 = createVehicle ['Box_NATO_AmmoVeh_F', [23827.4,19111.1,0.0305421], [], 0, 'CAN_COLLIDE']; Arsenal4 setPosWorld [23827.4,19111.1,4.01035]; [Arsenal4, [[-0.700575,-0.713578,7.60834e-009], [-2.32717e-008,3.35099e-008,1]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal4]; Arsenal4 allowdamage false; sleep 0.1;
-null = [Arsenal4] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal4 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+[Arsenal4] execVM "scripts\proxy_arsenal.sqf";
 
 Arsenal5 = createVehicle ['Box_NATO_AmmoVeh_F', [23872.4,19155.7,0.0305421], [], 0, 'CAN_COLLIDE']; Arsenal5 setPosWorld [23872.4,19155.7,4.01035]; [Arsenal5, [[-0.700576,-0.713578,-1.34233e-008], [-1.50846e-009,-1.73303e-008,1]]] remoteExecCall ["setVectorDirAndUp", 0, Arsenal5]; Arsenal5 allowdamage false; sleep 0.1;
-null = [Arsenal5] execVM "scripts\box_virtualarsenal.sqf";
-Arsenal5 addAction ["Clear Loadout", "scripts\clear_loadout.sqf", [],6,true,true,"","_this distance _target < 3"];
+[Arsenal5] execVM "scripts\proxy_arsenal.sqf";
 
 _newObject = createVehicle ['Box_506TH_Acc', [23866.4,19149.4,-4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23866.4,19149.4,4.0153]; [_newObject, [[0.691176,-0.722687,3.64148e-006], [-1.87519e-006,3.24538e-006,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.1;
+[_newObject] execVM "scripts\proxy_equipment.sqf";
+
 _newObject = createVehicle ['Box_506TH_Acc', [23821.1,19103.9,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23821.1,19103.9,4.0153]; [_newObject, [[0.691175,-0.722687,-3.79783e-007], [-1.88797e-007,-7.0608e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.1;
+[_newObject] execVM "scripts\proxy_equipment.sqf";
+
 _newObject = createVehicle ['Box_506TH_Acc', [23774.7,19057.5,4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23774.7,19057.5,4.0153]; [_newObject, [[0.691176,-0.722686,-5.24883e-007], [3.14706e-008,-6.96197e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.1;
+[_newObject] execVM "scripts\proxy_equipment.sqf";
+
 _newObject = createVehicle ['Box_506TH_Acc', [23709.6,19028.1,0], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23709.6,19028.1,4.0153]; [_newObject, [[0.691177,-0.722685,-4.02533e-007], [-9.08807e-009,-5.65689e-007,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.1;
+[_newObject] execVM "scripts\proxy_equipment.sqf";
+
 _newObject = createVehicle ['Box_506TH_Acc', [23682.7,19063.7,-4.76837e-007], [], 0, 'CAN_COLLIDE']; _newObject setPosWorld [23682.7,19063.7,4.0153]; [_newObject, [[-0.708234,-0.705977,3.6898e-006], [3.20821e-006,2.00805e-006,1]]] remoteExecCall ["setVectorDirAndUp", 0, _newObject]; sleep 0.1;
+[_newObject] execVM "scripts\proxy_equipment.sqf";
 
 flagOSUTDay1a setDir (getDir TP_Red);
 flagOSUTDay1a setPos (getPos TP_Red);
